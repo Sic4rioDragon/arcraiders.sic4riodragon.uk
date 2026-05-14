@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARC Raiders | Sic4rioDragon</title>
+  <link rel="icon" type="image/png" href="https://sic4riodragon.uk/assets/favicon.png" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body data-page="home">
+  <div class="bg"></div>
+
+  <header class="topbar">
+    <a class="brand" href="/">
+      <span class="brand-mark">ARC</span>
+      <span>
+        <strong>ARC Raiders</strong>
+        <small>quest tracker</small>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a class="active" href="/">Overview</a>
+      <a href="/quests/">Quests</a>
+      <a href="/logbook/">Logbook</a>
+      <a href="/achievements/">Achievements</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero card">
+      <div>
+        <p class="eyebrow">Sic4rioDragon.uk</p>
+        <h1>ARC Raiders Tracker</h1>
+        <p class="lead">
+          Personal quest, logbook, resource and achievement tracker for ARC Raiders.
+        </p>
+      </div>
+
+      <div class="hero-stats">
+        <div>
+          <strong id="stat-active">0</strong>
+          <span>active quests</span>
+        </div>
+        <div>
+          <strong id="stat-completed">0</strong>
+          <span>completed quests</span>
+        </div>
+        <div>
+          <strong id="stat-achievements">0%</strong>
+          <span>achievements</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid two">
+      <div class="panel">
+        <div class="section-title">
+          <h2>Tracked quests</h2>
+          <a href="/quests/">View all</a>
+        </div>
+        <div id="home-quests" class="quest-list compact"></div>
+      </div>
+
+      <div class="panel">
+        <div class="section-title">
+          <h2>Tracked resources</h2>
+          <span>manual list</span>
+        </div>
+        <div id="home-resources" class="resource-list"></div>
+      </div>
+    </section>
+
+    <section class="grid two">
+      <a class="big-link card" href="/logbook/">
+        <span>LOGBOOK</span>
+        <strong>Open the in-game style logbook</strong>
+        <small>quests, resources and notes in one place</small>
+      </a>
+
+      <a class="big-link card" href="/achievements/">
+        <span>ACHIEVEMENTS</span>
+        <strong>View Steam achievement progress</strong>
+        <small>hidden achievements are shown, not censored</small>
+      </a>
+    </section>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

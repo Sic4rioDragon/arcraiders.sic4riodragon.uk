@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Logbook | ARC Raiders</title>
+  <link rel="icon" type="image/png" href="https://sic4riodragon.uk/assets/favicon.png" />
+  <link rel="stylesheet" href="../assets/css/site.css" />
+</head>
+<body data-page="logbook">
+  <div class="bg"></div>
+
+  <header class="topbar">
+    <a class="brand" href="/">
+      <span class="brand-mark">ARC</span>
+      <span>
+        <strong>ARC Raiders</strong>
+        <small>quest tracker</small>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a href="/">Overview</a>
+      <a href="/quests/">Quests</a>
+      <a class="active" href="/logbook/">Logbook</a>
+      <a href="/achievements/">Achievements</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="page-head">
+      <p class="eyebrow">In-game style</p>
+      <h1>Logbook</h1>
+      <p>Quick overview of quests, tracked resources, station upgrades and personal notes.</p>
+    </section>
+
+    <section class="logbook-layout">
+      <div class="panel">
+        <div class="section-title">
+          <h2>Quests</h2>
+          <span id="logbook-quest-count">0 active</span>
+        </div>
+        <div id="logbook-quests" class="quest-list logbook"></div>
+      </div>
+
+      <div class="panel">
+        <div class="section-title">
+          <h2>Tracked resources</h2>
+          <span>resources + stations</span>
+        </div>
+        <div id="logbook-resources"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

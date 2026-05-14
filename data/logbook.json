@@ -1,0 +1,63 @@
+{
+  "resources": [
+    {
+      "name": "Industrial Battery",
+      "current": 0,
+      "needed": 3
+    },
+    {
+      "name": "Advanced Electrical Components",
+      "current": 5,
+      "needed": 5
+    },
+    {
+      "name": "Bastion Cell",
+      "current": 4,
+      "needed": 6
+    }
+  ],
+  "stations": [
+    {
+      "name": "Explosives Station III",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Laboratory Reagents",
+          "current": 0,
+          "needed": 3
+        },
+        {
+          "name": "Explosive Compound",
+          "current": 9,
+          "needed": 5
+        },
+        {
+          "name": "Rocketeer Driver",
+          "current": 2,
+          "needed": 3
+        }
+      ]
+    },
+    {
+      "name": "Refiner III",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Motor",
+          "current": 1,
+          "needed": 3
+        },
+        {
+          "name": "ARC Circuitry",
+          "current": 10,
+          "needed": 10
+        },
+        {
+          "name": "Bombardier Cell",
+          "current": 2,
+          "needed": 6
+        }
+      ]
+    }
+  ]
+}

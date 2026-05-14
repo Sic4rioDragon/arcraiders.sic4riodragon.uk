@@ -1,0 +1,192 @@
+[
+  {
+    "id": "a-first-foothold",
+    "title": "A First Foothold",
+    "area": "The Blue Gate",
+    "slug": "a-first-foothold",
+    "image": "assets/quests/a-first-foothold.webp",
+    "description": "We’ve only just finished expanding the Tube network towards the Blue Gate, and we’re still laboring away at the rest.",
+    "objectives": [
+      { "text": "Stabilize the observation deck near the Ridgeline", "done": false },
+      { "text": "Enable the comms terminal near the Olive Grove", "done": false },
+      { "text": "Rotate the satellite dishes on the church roof, north of the Data Vault", "done": false },
+      { "text": "Nail down the roof plates on the Raider structure near Trapper's Glade", "done": false }
+    ],
+    "grantedItems": [
+      { "name": "Granted item", "amount": 2 }
+    ],
+    "rewards": [
+      { "name": "Reward", "amount": 3 },
+      { "name": "Reward", "amount": 3 },
+      { "name": "Reward", "amount": 3 }
+    ],
+    "status": "active",
+    "notes": ""
+  },
+  {
+    "id": "battering-down",
+    "title": "Battering Down",
+    "area": "Riven Tides",
+    "slug": "battering-down",
+    "image": "assets/quests/battering-down.webp",
+    "description": "The seawalls at Riven Tides were supposed to protect the coast, but the place still needs work.",
+    "objectives": [
+      { "text": "Photograph the cracks forming in the seawall", "done": false },
+      { "text": "Sample the shoreline near the hotel beach", "done": false },
+      { "text": "Fix the leaking oil pipe in the northeast", "done": false }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      { "name": "Reward", "amount": 1 },
+      { "name": "Reward", "amount": 3 }
+    ],
+    "status": "active",
+    "notes": ""
+  },
+  {
+    "id": "wakening-the-grid",
+    "title": "Waking the Grid",
+    "area": "Spaceport",
+    "slug": "wakening-the-grid",
+    "image": "assets/quests/wakening-the-grid.webp",
+    "description": "There's a problem with the sensor coverage at the Spaceport. The security grid is old, but getting it running again would help.",
+    "objectives": [
+      { "text": "Activate the security sensors in one of the Guard Towers", "done": false }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      { "name": "Reward", "amount": 1 },
+      { "name": "Reward", "amount": 3 },
+      { "name": "Reward", "amount": 5 }
+    ],
+    "status": "active",
+    "notes": ""
+  },
+  {
+    "id": "shoring-up-defenses",
+    "title": "Shoring Up Defenses",
+    "area": "Riven Tides",
+    "slug": "shoring-up-defenses",
+    "image": "assets/quests/shoring-up-defenses.webp",
+    "description": "The coastline is wide open, so cover and old defenses need to be reinforced.",
+    "objectives": [
+      { "text": "Destroy 5 Wasps", "done": false, "progress": { "current": 0, "total": 5 } },
+      { "text": "Destroy 3 Fireflies", "done": false, "progress": { "current": 0, "total": 3 } },
+      { "text": "Use 1 ARC Alloy to reinforce the Raider structure on top of any Stacking Yard crane", "done": false },
+      { "text": "Board up shuttered windows in the hotel", "done": false }
+    ],
+    "grantedItems": [
+      { "name": "Granted item", "amount": 1 }
+    ],
+    "rewards": [
+      { "name": "Reward", "amount": 3 },
+      { "name": "Reward", "amount": 3 },
+      { "name": "Reward", "amount": 6 }
+    ],
+    "status": "active",
+    "notes": ""
+  },
+  {
+    "id": "cold-storage",
+    "title": "Cold Storage",
+    "area": "Stella Montis",
+    "slug": "cold-storage",
+    "image": "assets/quests/cold-storage.webp",
+    "description": "Reports about Stella Montis keep coming in. There may be records or relics from the past in there.",
+    "objectives": [
+      { "text": "In one round: Search any J Kozma Ventures container", "done": false }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      { "name": "Reward", "amount": 3 },
+      { "name": "Reward", "amount": 1 }
+    ],
+    "status": "active",
+    "notes": ""
+  },
+  {
+    "id": "medical-merchandise",
+    "title": "Medical Merchandise",
+    "area": "Multiple Destinations",
+    "slug": "medical-merchandise",
+    "image": "assets/quests/medical-merchandise.webp",
+    "description": "Medical goods are needed, and the best places to search are exam rooms and medical rooms across several maps.",
+    "objectives": [
+      { "text": "On Spaceport, search 2 containers in the Departure Building's exam rooms", "done": false, "progress": { "current": 0, "total": 2 } },
+      { "text": "Search 3 containers in the Hospital in Buried City", "done": false, "progress": { "current": 0, "total": 3 } },
+      { "text": "On Dam Battlegrounds, search 2 containers in the Research & Administration building's medical room", "done": false, "progress": { "current": 0, "total": 2 } }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      { "name": "Reward", "amount": 1 },
+      { "name": "Reward", "amount": 3 },
+      { "name": "Reward", "amount": 2 }
+    ],
+    "status": "active",
+    "notes": ""
+  },
+  {
+    "id": "clamoring-for-attention",
+    "title": "Clamoring For Attention",
+    "area": "The Blue Gate",
+    "slug": "clamoring-for-attention",
+    "image": "assets/quests/clamoring-for-attention.webp",
+    "description": "Use distractions and noise around the Blue Gate to pull ARC machines out of position.",
+    "objectives": [
+      { "text": "Use 3 Wires to repair and sound the emergency siren by the Warehouse Complex", "done": false },
+      { "text": "Use a Battery to start the boom box in the Village", "done": false },
+      { "text": "Sound any bus horn by the Checkpoint", "done": false }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      { "name": "Reward", "amount": 5 },
+      { "name": "Reward", "amount": 5 },
+      { "name": "Reward", "amount": 3 }
+    ],
+    "status": "active",
+    "notes": ""
+  },
+  {
+    "id": "mixed-signals",
+    "title": "Mixed Signals",
+    "area": "Multiple Destinations",
+    "slug": "mixed-signals",
+    "image": "assets/quests/mixed-signals.webp",
+    "description": "Surveyors seem to be transmitting data back into orbit. Break one open and recover the vault.",
+    "objectives": [
+      { "text": "Destroy an ARC Surveyor", "done": false },
+      { "text": "Obtain 1 Surveyor Vault", "done": false }
+    ],
+    "grantedItems": [
+      { "name": "Granted item", "amount": 3 },
+      { "name": "Granted item", "amount": 2 }
+    ],
+    "rewards": [
+      { "name": "Reward", "amount": 1 },
+      { "name": "Reward", "amount": 1 }
+    ],
+    "status": "active",
+    "notes": ""
+  },
+  {
+    "id": "what-we-left-behind",
+    "title": "What We Left Behind",
+    "area": "Multiple Destinations",
+    "slug": "what-we-left-behind",
+    "image": "assets/quests/what-we-left-behind.webp",
+    "description": "Track down old scrap and records from Raider camps and hideouts across several locations.",
+    "objectives": [
+      { "text": "On Buried City, search 2 containers in the Raider Camp beneath the Parking Garage", "done": false, "progress": { "current": 0, "total": 2 } },
+      { "text": "On Dam Battlegrounds, search for anything significant in the South Swamp Outpost", "done": false },
+      { "text": "On Spaceport, search for anything significant in Bilguun's Hideout, next to the Container Storage", "done": false }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      { "name": "Reward", "amount": 1 },
+      { "name": "Reward", "amount": 1 },
+      { "name": "Reward", "amount": 1 }
+    ],
+    "status": "active",
+    "notes": ""
+  }
+]

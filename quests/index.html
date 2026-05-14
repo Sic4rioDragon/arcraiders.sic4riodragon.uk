@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quests | ARC Raiders</title>
+  <link rel="icon" type="image/png" href="https://sic4riodragon.uk/assets/favicon.png" />
+  <link rel="stylesheet" href="../assets/css/site.css" />
+</head>
+<body data-page="quests">
+  <div class="bg"></div>
+
+  <header class="topbar">
+    <a class="brand" href="/">
+      <span class="brand-mark">ARC</span>
+      <span>
+        <strong>ARC Raiders</strong>
+        <small>quest tracker</small>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a href="/">Overview</a>
+      <a class="active" href="/quests/">Quests</a>
+      <a href="/logbook/">Logbook</a>
+      <a href="/achievements/">Achievements</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="page-head">
+      <p class="eyebrow">Logbook</p>
+      <h1>Quests</h1>
+      <p>Overview of every tracked ARC Raiders quest. Each card links to its own quest page.</p>
+    </section>
+
+    <section class="tools card">
+      <input id="quest-search" type="search" placeholder="Search quests, maps or objectives..." />
+      <select id="quest-filter">
+        <option value="all">All areas</option>
+      </select>
+      <select id="status-filter">
+        <option value="all">All statuses</option>
+        <option value="active">Active</option>
+        <option value="completed">Completed</option>
+        <option value="planned">Planned</option>
+      </select>
+    </section>
+
+    <section id="quest-grid" class="quest-grid"></section>
+  </main>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

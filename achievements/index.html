@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Achievements | ARC Raiders</title>
+  <link rel="icon" type="image/png" href="https://sic4riodragon.uk/assets/favicon.png" />
+  <link rel="stylesheet" href="../assets/css/site.css" />
+</head>
+<body data-page="achievements">
+  <div class="bg"></div>
+
+  <header class="topbar">
+    <a class="brand" href="/">
+      <span class="brand-mark">ARC</span>
+      <span>
+        <strong>ARC Raiders</strong>
+        <small>quest tracker</small>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a href="/">Overview</a>
+      <a href="/quests/">Quests</a>
+      <a href="/logbook/">Logbook</a>
+      <a class="active" href="/achievements/">Achievements</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="page-head">
+      <p class="eyebrow">Steam progress</p>
+      <h1>Achievements</h1>
+      <p>Hidden achievements are displayed directly instead of being censored.</p>
+    </section>
+
+    <section class="achievement-summary card">
+      <div>
+        <h2 id="ach-summary-title">0 / 0</h2>
+        <p id="ach-summary-text">Loading achievements...</p>
+      </div>
+      <div class="progress-shell">
+        <div id="ach-progress" class="progress-fill"></div>
+      </div>
+    </section>
+
+    <section class="tools card">
+      <input id="achievement-search" type="search" placeholder="Search achievements..." />
+      <select id="achievement-filter">
+        <option value="all">All achievements</option>
+        <option value="earned">Earned</option>
+        <option value="locked">Locked</option>
+      </select>
+    </section>
+
+    <section id="achievement-list" class="achievement-list"></section>
+  </main>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
