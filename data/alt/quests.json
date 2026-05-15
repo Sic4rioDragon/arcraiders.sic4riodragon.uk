@@ -1,21 +1,19 @@
 {
   "quests": [
     {
-      "id": "a-first-foothold",
+      "id": "the-clean-dream",
       "status": "active",
-      "objectives": [false, false, false, false],
-      "notes": ""
-    },
-    {
-      "id": "a-better-use",
-      "status": "active",
-      "objectives": [false, false],
-      "notes": ""
-    },
-    {
-      "id": "what-goes-around",
-      "status": "active",
-      "objectives": [false],
+      "objectives": [
+        {
+          "done": true,
+          "progress": {
+            "current": 4,
+            "total": 4
+          }
+        },
+        true,
+        false
+      ],
       "notes": ""
     },
     {
@@ -42,57 +40,71 @@
       "notes": ""
     },
     {
-      "id": "collision-course",
+      "id": "doctors-orders",
       "status": "active",
-      "objectives": [false, false],
+      "objectives": [
+        false,
+        {
+          "done": false,
+          "progress": {
+            "current": 0,
+            "total": 2
+          }
+        },
+        false,
+        false
+      ],
       "notes": ""
     },
     {
-      "id": "the-trifecta",
+      "id": "clamoring-for-attention",
+      "status": "active",
+      "objectives": [
+        false,
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "dust-on-the-wires",
+      "status": "active",
+      "objectives": [
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "in-my-image",
+      "status": "active",
+      "objectives": [
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mixed-signals",
+      "status": "active",
+      "objectives": [
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "what-we-left-behind",
       "status": "active",
       "objectives": [
         {
           "done": false,
           "progress": {
-            "current": 1,
-            "total": 2
-          }
-        },
-        {
-          "done": false,
-          "progress": {
-            "current": 1,
-            "total": 2
-          }
-        },
-        {
-          "done": false,
-          "progress": {
             "current": 0,
             "total": 2
           }
         },
-        {
-          "done": false,
-          "progress": {
-            "current": 0,
-            "total": 2
-          }
-        },
-        {
-          "done": true,
-          "progress": {
-            "current": 2,
-            "total": 2
-          }
-        },
-        {
-          "done": true,
-          "progress": {
-            "current": 3,
-            "total": 2
-          }
-        }
+        false,
+        false
       ],
       "notes": ""
     }
