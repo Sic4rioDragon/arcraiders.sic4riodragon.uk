@@ -38,7 +38,7 @@
         {
           "done": true,
           "progress": {
-            "current": 38,
+            "current": 42,
             "total": 2
           }
         },
@@ -64,24 +64,6 @@
       "notes": ""
     },
     {
-      "id": "keeping-an-eye-out",
-      "status": "active",
-      "objectives": [
-        false
-      ],
-      "notes": ""
-    },
-    {
-      "id": "clamoring-for-attention",
-      "status": "active",
-      "objectives": [
-        false,
-        false,
-        false
-      ],
-      "notes": ""
-    },
-    {
       "id": "dust-on-the-wires",
       "status": "active",
       "objectives": [
@@ -94,14 +76,6 @@
       "status": "active",
       "objectives": [
         false,
-        false
-      ],
-      "notes": ""
-    },
-    {
-      "id": "outstanding-balance",
-      "status": "active",
-      "objectives": [
         false
       ],
       "notes": ""
