@@ -1,0 +1,100 @@
+{
+  "quests": [
+    {
+      "id": "a-first-foothold",
+      "status": "active",
+      "objectives": [false, false, false, false],
+      "notes": ""
+    },
+    {
+      "id": "a-better-use",
+      "status": "active",
+      "objectives": [false, false],
+      "notes": ""
+    },
+    {
+      "id": "what-goes-around",
+      "status": "active",
+      "objectives": [false],
+      "notes": ""
+    },
+    {
+      "id": "shoring-up-defenses",
+      "status": "active",
+      "objectives": [
+        {
+          "done": false,
+          "progress": {
+            "current": 2,
+            "total": 5
+          }
+        },
+        {
+          "done": false,
+          "progress": {
+            "current": 0,
+            "total": 3
+          }
+        },
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "collision-course",
+      "status": "active",
+      "objectives": [false, false],
+      "notes": ""
+    },
+    {
+      "id": "the-trifecta",
+      "status": "active",
+      "objectives": [
+        {
+          "done": false,
+          "progress": {
+            "current": 1,
+            "total": 2
+          }
+        },
+        {
+          "done": false,
+          "progress": {
+            "current": 1,
+            "total": 2
+          }
+        },
+        {
+          "done": false,
+          "progress": {
+            "current": 0,
+            "total": 2
+          }
+        },
+        {
+          "done": false,
+          "progress": {
+            "current": 0,
+            "total": 2
+          }
+        },
+        {
+          "done": true,
+          "progress": {
+            "current": 2,
+            "total": 2
+          }
+        },
+        {
+          "done": true,
+          "progress": {
+            "current": 3,
+            "total": 2
+          }
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

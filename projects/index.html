@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quests | ARC Raiders</title>
+  <title>Projects | ARC Raiders</title>
   <link rel="icon" type="image/png" href="https://sic4riodragon.uk/assets/favicon.png" />
   <link rel="stylesheet" href="/assets/css/site.css" />
 </head>
-<body data-page="quests" data-account="main">
+<body data-page="projects" data-account="main">
   <div class="bg"></div>
 
   <header class="topbar">
@@ -18,36 +18,23 @@
 
     <nav class="nav">
       <a href="/">Overview</a>
-      <a class="active" href="/quests/">Quests</a>
+      <a href="/quests/">Quests</a>
       <a href="/logbook/">Logbook</a>
-      <a href="/projects/">Projects</a>
+      <a class="active" href="/projects/">Projects</a>
       <a href="/achievements/">Achievements</a>
     </nav>
   </header>
 
   <main class="wrap">
-    <section id="quest-detail"></section>
+    <section id="project-detail"></section>
 
-    <section id="quest-list-wrap">
+    <section id="project-list-wrap">
       <section class="page-head">
         <p class="eyebrow">Main</p>
-        <h1>Quests</h1>
+        <h1>Projects</h1>
       </section>
 
-      <section class="tools card">
-        <input id="quest-search" type="search" placeholder="Search quests, maps or objectives..." />
-        <select id="quest-filter">
-          <option value="all">All areas</option>
-        </select>
-        <select id="status-filter">
-          <option value="all">All statuses</option>
-          <option value="active">Active</option>
-          <option value="completed">Completed</option>
-          <option value="planned">Planned</option>
-        </select>
-      </section>
-
-      <section id="quest-grid" class="quest-grid"></section>
+      <section id="project-grid" class="project-grid"></section>
     </section>
   </main>
 

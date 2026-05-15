@@ -1,0 +1,157 @@
+{
+  "resources": [],
+  "stations": [
+    {
+      "name": "Trophy Display",
+      "status": "project",
+      "resources": [
+        {
+          "name": "Rusted Bolts",
+          "current": 0,
+          "needed": 1
+        },
+        {
+          "name": "Pop Trigger",
+          "current": 0,
+          "needed": 11
+        },
+        {
+          "name": "Tick Pod",
+          "current": 0,
+          "needed": 9
+        },
+        {
+          "name": "Surveyor Vault",
+          "current": 0,
+          "needed": 5
+        }
+      ]
+    },
+    {
+      "name": "Scrappy IV",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Prickly Pear",
+          "current": 0,
+          "needed": 6
+        },
+        {
+          "name": "Olives",
+          "current": 0,
+          "needed": 6
+        },
+        {
+          "name": "Cat Bed",
+          "current": 0,
+          "needed": 1
+        }
+      ]
+    },
+    {
+      "name": "Medical Lab II",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Cracked Bioscanner",
+          "current": 0,
+          "needed": 2
+        },
+        {
+          "name": "Durable Cloth",
+          "current": 13,
+          "needed": 5
+        },
+        {
+          "name": "Tick Pod",
+          "current": 0,
+          "needed": 8
+        }
+      ]
+    },
+    {
+      "name": "Gear Bench II",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Power Cable",
+          "current": 0,
+          "needed": 3
+        },
+        {
+          "name": "Electrical Components",
+          "current": 6,
+          "needed": 5
+        },
+        {
+          "name": "Hornet Driver",
+          "current": 4,
+          "needed": 5
+        }
+      ]
+    },
+    {
+      "name": "Explosives Station II",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Synthesized Fuel",
+          "current": 1,
+          "needed": 3
+        },
+        {
+          "name": "Crude Explosives",
+          "current": 25,
+          "needed": 5
+        },
+        {
+          "name": "Pop Trigger",
+          "current": 0,
+          "needed": 5
+        }
+      ]
+    },
+    {
+      "name": "Refiner II",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Toaster",
+          "current": 3,
+          "needed": 3
+        },
+        {
+          "name": "ARC Motion Core",
+          "current": 14,
+          "needed": 5
+        },
+        {
+          "name": "Fireball Burner",
+          "current": 2,
+          "needed": 8
+        }
+      ]
+    },
+    {
+      "name": "Utility Station II",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Damaged Heat Sink",
+          "current": 1,
+          "needed": 2
+        },
+        {
+          "name": "Electrical Components",
+          "current": 6,
+          "needed": 5
+        },
+        {
+          "name": "Snitch Scanner",
+          "current": 1,
+          "needed": 6
+        }
+      ]
+    }
+  ]
+}

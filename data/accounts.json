@@ -1,0 +1,23 @@
+{
+  "main": {
+    "label": "Main",
+    "title": "ARC Raiders Tracker",
+    "subtitle": "Red and Black Dragon",
+    "basePath": "",
+    "hasAchievements": true
+  },
+  "alt": {
+    "label": "Alt",
+    "title": "Alt Tracker",
+    "subtitle": "storage, money runs and backup items",
+    "basePath": "/alt",
+    "hasAchievements": false
+  },
+  "dusk": {
+    "label": "Dusk",
+    "title": "Dusk Tracker",
+    "subtitle": "DuskwolfTTV",
+    "basePath": "/dusk",
+    "hasAchievements": true
+  }
+}

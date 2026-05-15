@@ -1,0 +1,57 @@
+{
+  "quests": [
+    {
+      "id": "a-first-foothold",
+      "status": "active",
+      "objectives": [false, false, false, false],
+      "notes": ""
+    },
+    {
+      "id": "battening-down",
+      "status": "active",
+      "objectives": [false, false, false],
+      "notes": ""
+    },
+    {
+      "id": "wakening-the-grid",
+      "status": "active",
+      "objectives": [false],
+      "notes": ""
+    },
+    {
+      "id": "shoring-up-defenses",
+      "status": "active",
+      "objectives": [
+        {
+          "done": true,
+          "progress": {
+            "current": 5,
+            "total": 5
+          }
+        },
+        {
+          "done": true,
+          "progress": {
+            "current": 3,
+            "total": 3
+          }
+        },
+        false,
+        true
+      ],
+      "notes": ""
+    },
+    {
+      "id": "greasing-her-palms",
+      "status": "active",
+      "objectives": [false, true, true],
+      "notes": ""
+    },
+    {
+      "id": "the-league",
+      "status": "active",
+      "objectives": [false, false, false, false],
+      "notes": ""
+    }
+  ]
+}

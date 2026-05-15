@@ -1,0 +1,569 @@
+[
+  {
+    "id": "avian-alarm",
+    "slug": "avian-alarm",
+    "title": "Avian Alarm",
+    "description": "Bird trap and signal project around Riven Tides.",
+    "locked": false,
+    "stages": [
+      {
+        "title": "Initial Flock Intake",
+        "locked": false,
+        "requirements": [
+          {
+            "name": "Lay a bird trap next to the buoys along the Seabed in Riven Tides",
+            "current": 1,
+            "needed": 1
+          }
+        ],
+        "rewards": [
+          {
+            "name": "ARC Alloy",
+            "amount": 1
+          },
+          {
+            "name": "Raider Tokens",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "title": "Preliminary Signal Birds",
+        "locked": false,
+        "requirements": [
+          {
+            "name": "Tick Pod",
+            "current": 0,
+            "needed": 7
+          },
+          {
+            "name": "Canister",
+            "current": 20,
+            "needed": 20
+          },
+          {
+            "name": "Moss",
+            "current": 0,
+            "needed": 12
+          },
+          {
+            "name": "\"Twilight Compass\" Ship Model",
+            "current": 0,
+            "needed": 5
+          }
+        ],
+        "rewards": [
+          {
+            "name": "Reward",
+            "amount": "?"
+          },
+          {
+            "name": "Reward",
+            "amount": 3
+          },
+          {
+            "name": "Raider Tokens",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "title": "Secondary Validation Birds",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "Comet Igniter",
+            "current": 0,
+            "needed": 3
+          },
+          {
+            "name": "Fertilizer",
+            "current": 0,
+            "needed": 10
+          },
+          {
+            "name": "Rusted Tools",
+            "current": 0,
+            "needed": 8
+          },
+          {
+            "name": "\"Velocity\" Ship Model",
+            "current": 0,
+            "needed": 5
+          }
+        ],
+        "rewards": [
+          {
+            "name": "Reward",
+            "amount": "?"
+          },
+          {
+            "name": "Reward",
+            "amount": "?"
+          },
+          {
+            "name": "Raider Tokens",
+            "amount": 50
+          }
+        ]
+      },
+      {
+        "title": "Heightened Alert Birds",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "Vaporizer Regulator",
+            "current": 0,
+            "needed": 1
+          },
+          {
+            "name": "Water Filter",
+            "current": 0,
+            "needed": 3
+          },
+          {
+            "name": "Agave",
+            "current": 0,
+            "needed": 8
+          },
+          {
+            "name": "\"Sirena Dorata\" Ship Model",
+            "current": 0,
+            "needed": 5
+          }
+        ],
+        "rewards": [
+          {
+            "name": "Reward",
+            "amount": "?"
+          },
+          {
+            "name": "Reward",
+            "amount": "?"
+          },
+          {
+            "name": "Raider Tokens",
+            "amount": 50
+          }
+        ]
+      },
+      {
+        "title": "Critical Warning Birds",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "Turbine Compressor",
+            "current": 0,
+            "needed": 2
+          },
+          {
+            "name": "Red Coral Jewelry",
+            "current": 0,
+            "needed": 3
+          },
+          {
+            "name": "Roots",
+            "current": 0,
+            "needed": 4
+          },
+          {
+            "name": "\"Leviathan's Crown\" Ship Model",
+            "current": 0,
+            "needed": 1
+          }
+        ],
+        "rewards": [
+          {
+            "name": "Reward",
+            "amount": "?"
+          },
+          {
+            "name": "Reward",
+            "amount": "?"
+          },
+          {
+            "name": "Reward",
+            "amount": "?"
+          },
+          {
+            "name": "Raider Tokens",
+            "amount": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "expedition",
+    "slug": "expedition",
+    "title": "Expedition",
+    "description": "Preparation project for expedition progress.",
+    "locked": false,
+    "stages": [
+      {
+        "title": "Foundation",
+        "locked": false,
+        "requirements": [
+          {
+            "name": "Metal Parts",
+            "current": 150,
+            "needed": 150
+          },
+          {
+            "name": "Rubber Parts",
+            "current": 200,
+            "needed": 200
+          },
+          {
+            "name": "ARC Alloy",
+            "current": 80,
+            "needed": 80
+          },
+          {
+            "name": "Steel Spring",
+            "current": 13,
+            "needed": 15
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Core Systems",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "Durable Cloth",
+            "current": 0,
+            "needed": 35
+          },
+          {
+            "name": "Wires",
+            "current": 0,
+            "needed": 30
+          },
+          {
+            "name": "Electrical Components",
+            "current": 0,
+            "needed": 30
+          },
+          {
+            "name": "Cooling Fan",
+            "current": 0,
+            "needed": 5
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Framework",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "Light Bulb",
+            "current": 0,
+            "needed": 5
+          },
+          {
+            "name": "Battery",
+            "current": 0,
+            "needed": 30
+          },
+          {
+            "name": "Sensors",
+            "current": 0,
+            "needed": 20
+          },
+          {
+            "name": "Exodus Modules",
+            "current": 0,
+            "needed": 1
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Outfitting",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "Humidifier",
+            "current": 0,
+            "needed": 5
+          },
+          {
+            "name": "Advanced Electrical Components",
+            "current": 0,
+            "needed": 5
+          },
+          {
+            "name": "Magnetic Accelerator",
+            "current": 0,
+            "needed": 3
+          },
+          {
+            "name": "Leaper Pulse Unit",
+            "current": 0,
+            "needed": 3
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Load Stage",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "Combat Items",
+            "current": 0,
+            "needed": 250000
+          },
+          {
+            "name": "Survival Items",
+            "current": 0,
+            "needed": 100000
+          },
+          {
+            "name": "Provisions",
+            "current": 0,
+            "needed": 180000
+          },
+          {
+            "name": "Materials",
+            "current": 0,
+            "needed": 300000
+          }
+        ],
+        "rewards": []
+      }
+    ]
+  },
+  {
+    "id": "trophy-display",
+    "slug": "trophy-display",
+    "title": "Trophy Display",
+    "description": "Trophy and rare ARC component collection.",
+    "locked": false,
+    "stages": [
+      {
+        "title": "Roaming Threats",
+        "locked": false,
+        "requirements": [
+          {
+            "name": "Rusted Bolts",
+            "current": 3,
+            "needed": 3
+          },
+          {
+            "name": "Pop Trigger",
+            "current": 6,
+            "needed": 15
+          },
+          {
+            "name": "Tick Pod",
+            "current": 7,
+            "needed": 15
+          },
+          {
+            "name": "Surveyor Vault",
+            "current": 0,
+            "needed": 5
+          }
+        ],
+        "rewards": [
+          {
+            "name": "Reward",
+            "amount": 10
+          },
+          {
+            "name": "Reward",
+            "amount": 3
+          },
+          {
+            "name": "Raider Tokens",
+            "amount": 10
+          },
+          {
+            "name": "Reward",
+            "amount": "?"
+          }
+        ]
+      },
+      {
+        "title": "Soaring Menaces",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "Spotter Relay",
+            "current": 0,
+            "needed": 10
+          },
+          {
+            "name": "Expired Respirator",
+            "current": 0,
+            "needed": 3
+          },
+          {
+            "name": "Wasp Driver",
+            "current": 0,
+            "needed": 20
+          },
+          {
+            "name": "Hornet Driver",
+            "current": 0,
+            "needed": 15
+          }
+        ],
+        "rewards": [
+          {
+            "name": "Reward",
+            "amount": 3
+          },
+          {
+            "name": "Reward",
+            "amount": 3
+          },
+          {
+            "name": "Raider Tokens",
+            "amount": 20
+          },
+          {
+            "name": "Reward",
+            "amount": "?"
+          }
+        ]
+      },
+      {
+        "title": "Ferocious Foes",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "ARC Performance Steel",
+            "current": 0,
+            "needed": 10
+          },
+          {
+            "name": "Shredder Gyro",
+            "current": 0,
+            "needed": 5
+          },
+          {
+            "name": "Leaper Pulse Unit",
+            "current": 0,
+            "needed": 10
+          },
+          {
+            "name": "Bastion Cell",
+            "current": 0,
+            "needed": 5
+          }
+        ],
+        "rewards": [
+          {
+            "name": "Reward",
+            "amount": "?"
+          },
+          {
+            "name": "Reward",
+            "amount": 3
+          },
+          {
+            "name": "Raider Tokens",
+            "amount": 30
+          },
+          {
+            "name": "Reward",
+            "amount": "?"
+          }
+        ]
+      },
+      {
+        "title": "Dominant Dangers",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "ARC Synthetic Resin",
+            "current": 0,
+            "needed": 10
+          },
+          {
+            "name": "Magnetic Accelerator",
+            "current": 0,
+            "needed": 10
+          },
+          {
+            "name": "Rocketeer Driver",
+            "current": 0,
+            "needed": 8
+          },
+          {
+            "name": "Queen Reactor",
+            "current": 0,
+            "needed": 3
+          }
+        ],
+        "rewards": [
+          {
+            "name": "Reward",
+            "amount": "?"
+          },
+          {
+            "name": "Reward",
+            "amount": 5
+          },
+          {
+            "name": "Raider Tokens",
+            "amount": 40
+          },
+          {
+            "name": "Reward",
+            "amount": "?"
+          }
+        ]
+      },
+      {
+        "title": "Imposing Behemoths",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "Exodus Modules",
+            "current": 0,
+            "needed": 5
+          },
+          {
+            "name": "Geiger Counter",
+            "current": 0,
+            "needed": 3
+          },
+          {
+            "name": "Bombardier Cell",
+            "current": 0,
+            "needed": 8
+          },
+          {
+            "name": "Matriarch Reactor",
+            "current": 0,
+            "needed": 3
+          }
+        ],
+        "rewards": [
+          {
+            "name": "Reward",
+            "amount": 2
+          },
+          {
+            "name": "Reward",
+            "amount": "?"
+          },
+          {
+            "name": "Raider Tokens",
+            "amount": 50
+          },
+          {
+            "name": "Reward",
+            "amount": "?"
+          }
+        ]
+      }
+    ]
+  }
+]

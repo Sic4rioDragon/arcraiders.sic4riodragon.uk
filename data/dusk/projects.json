@@ -1,0 +1,229 @@
+[
+  {
+    "id": "avian-alarm",
+    "slug": "avian-alarm",
+    "title": "Avian Alarm",
+    "description": "Bird trap and signal project around Riven Tides.",
+    "locked": false,
+    "stages": [
+      {
+        "title": "Initial Flock Intake",
+        "locked": false,
+        "requirements": [
+          {
+            "name": "Lay a bird trap next to the buoys along the Seabed in Riven Tides",
+            "current": 0,
+            "needed": 1
+          }
+        ],
+        "rewards": [
+          {
+            "name": "Reward",
+            "amount": "?"
+          }
+        ]
+      },
+      {
+        "title": "Preliminary Signal Birds",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Secondary Validation Birds",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Heightened Alert Birds",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Critical Warning Birds",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      }
+    ]
+  },
+  {
+    "id": "trophy-display",
+    "slug": "trophy-display",
+    "title": "Trophy Display",
+    "description": "Trophy and rare ARC component collection.",
+    "locked": false,
+    "stages": [
+      {
+        "title": "Roaming Threats",
+        "locked": false,
+        "requirements": [
+          {
+            "name": "Rusted Bolts",
+            "current": "?",
+            "needed": "?"
+          },
+          {
+            "name": "Pop Trigger",
+            "current": "?",
+            "needed": "?"
+          },
+          {
+            "name": "Tick Pod",
+            "current": "?",
+            "needed": "?"
+          },
+          {
+            "name": "Surveyor Vault",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Soaring Menaces",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Ferocious Foes",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Dominant Dangers",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Imposing Behemoths",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      }
+    ]
+  },
+  {
+    "id": "expedition",
+    "slug": "expedition",
+    "title": "Expedition",
+    "description": "Locked for now.",
+    "locked": true,
+    "stages": [
+      {
+        "title": "Foundation",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Core Systems",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Framework",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Outfitting",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Load Stage",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      }
+    ]
+  }
+]
