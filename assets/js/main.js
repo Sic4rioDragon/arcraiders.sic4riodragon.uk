@@ -1,3 +1,9 @@
+const ARDB = {
+  enabled: true,
+  apiBase: "https://ardb.app/api",
+  staticBase: "https://ardb.app/static"
+};
+
 const DATA_ROOT = (() => {
   const depth = location.pathname.split("/").filter(Boolean).length;
   if (depth === 0) return "";
@@ -6,10 +12,36 @@ const DATA_ROOT = (() => {
 
 const byId = (id) => document.getElementById(id);
 
+function setText(id, value) {
+  const el = byId(id);
+  if (el) el.textContent = value;
+}
+
+function setHtml(id, value) {
+  const el = byId(id);
+  if (el) el.innerHTML = value;
+}
+
 async function loadJson(path) {
   const res = await fetch(`${DATA_ROOT}${path}`);
   if (!res.ok) throw new Error(`Could not load ${path}`);
   return res.json();
+}
+
+async function fetchJson(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Could not fetch ${url}`);
+  return res.json();
+}
+
+async function fetchArdbQuest(quest) {
+  if (!ARDB.enabled || !quest.ardbId) return null;
+
+  try {
+    return await fetchJson(`${ARDB.apiBase}/quests/${quest.ardbId}`);
+  } catch {
+    return null;
+  }
 }
 
 function slugFromPath() {
@@ -37,6 +69,110 @@ function progressText(o) {
 
 function doneCount(q) {
   return (q.objectives || []).filter(o => o.done).length;
+}
+
+function normalizeImagePath(path) {
+  if (!path) return "";
+  if (path.startsWith("http")) return path;
+  return `${ARDB.staticBase}${path.startsWith("/") ? "" : "/"}${path}`;
+}
+
+function findImage(obj) {
+  if (!obj || typeof obj !== "object") return "";
+
+  return obj.image
+    || obj.icon
+    || obj.iconPath
+    || obj.imagePath
+    || obj.img
+    || obj.thumbnail
+    || "";
+}
+
+function normalizeArdbItem(raw) {
+  if (!raw || typeof raw !== "object") return null;
+
+  const item = raw.item && typeof raw.item === "object" ? raw.item : raw;
+
+  return {
+    name: item.name || raw.name || raw.title || "Unknown item",
+    amount: raw.amount || raw.quantity || raw.count || raw.qty || item.amount || item.quantity || "",
+    image: normalizeImagePath(findImage(item) || findImage(raw)),
+    id: item.id || raw.id || raw.itemId || ""
+  };
+}
+
+function pickArdbArray(obj, names) {
+  if (!obj || typeof obj !== "object") return [];
+
+  for (const name of names) {
+    if (Array.isArray(obj[name])) return obj[name];
+  }
+
+  return [];
+}
+
+function ardbRewards(ardbQuest) {
+  return pickArdbArray(ardbQuest, [
+    "rewards",
+    "rewardItems",
+    "questRewards",
+    "reward_items"
+  ]).map(normalizeArdbItem).filter(Boolean);
+}
+
+function ardbGrantedItems(ardbQuest) {
+  return pickArdbArray(ardbQuest, [
+    "granted",
+    "grantedItems",
+    "providedItems",
+    "granted_items",
+    "requiredItems"
+  ]).map(normalizeArdbItem).filter(Boolean);
+}
+
+function ardbObjectives(ardbQuest) {
+  const objectives = pickArdbArray(ardbQuest, [
+    "objectives",
+    "tasks",
+    "requirements",
+    "steps"
+  ]);
+
+  return objectives.map((o) => {
+    if (typeof o === "string") return { text: o, done: false };
+
+    return {
+      text: o.text || o.name || o.description || o.objective || "Unknown objective",
+      done: false,
+      progress: o.progress || null
+    };
+  });
+}
+
+function mergeArdbQuest(localQuest, ardbQuest) {
+  if (!ardbQuest) return localQuest;
+
+  const objectives = ardbObjectives(ardbQuest);
+  const rewards = ardbRewards(ardbQuest);
+  const grantedItems = ardbGrantedItems(ardbQuest);
+
+  return {
+    ...localQuest,
+    title: ardbQuest.title || ardbQuest.name || localQuest.title,
+    area: Array.isArray(ardbQuest.maps)
+      ? ardbQuest.maps.join(", ")
+      : localQuest.area,
+    description: ardbQuest.description || localQuest.description,
+    objectives: objectives.length ? objectives.map((obj, index) => ({
+      ...obj,
+      done: localQuest.objectives?.[index]?.done || false,
+      progress: localQuest.objectives?.[index]?.progress || obj.progress || null
+    })) : localQuest.objectives,
+    rewards: rewards.length ? rewards : localQuest.rewards,
+    grantedItems: grantedItems.length ? grantedItems : localQuest.grantedItems,
+    ardbUrl: `https://ardb.app/db/quests/${localQuest.ardbId}`
+  };
 }
 
 function questCard(q) {
@@ -103,11 +239,15 @@ function miniQuest(q, expanded = false) {
 }
 
 function itemCard(item) {
+  const icon = item.icon || item.image || "";
+
   return `
     <div class="item-card">
+      ${icon ? `<img class="item-icon" src="${icon}" alt="">` : ""}
       <div>
         <strong>${item.name}</strong>
         ${item.amount ? `<small>x${item.amount}</small>` : ""}
+        ${item.type ? `<small>${item.type}</small>` : ""}
       </div>
     </div>
   `;
@@ -146,29 +286,46 @@ function stationCard(station) {
   `;
 }
 
-async function homePage() {
+async function loadQuestsWithArdb() {
   const quests = await loadJson("data/quests.json");
+
+  if (!ARDB.enabled) return quests;
+
+  const enriched = await Promise.all(
+    quests.map(async (quest) => {
+      const ardbQuest = await fetchArdbQuest(quest);
+      return mergeArdbQuest(quest, ardbQuest);
+    })
+  );
+
+  return enriched;
+}
+
+async function homePage() {
+  const quests = await loadQuestsWithArdb();
   const achievements = await loadJson("data/achievements.json");
   const logbook = await loadJson("data/logbook.json");
 
   const active = quests.filter(q => q.status === "active").length;
   const completed = quests.filter(q => q.status === "completed").length;
 
-  byId("stat-active").textContent = active;
-  byId("stat-completed").textContent = completed;
-  byId("stat-achievements").textContent = `${achievements.summary.percent}%`;
+  setText("stat-active", active);
+  setText("stat-completed", completed);
+  setText("stat-achievements", `${achievements.summary.percent}%`);
 
-  byId("home-quests").innerHTML = quests.slice(0, 6).map(q => miniQuest(q)).join("");
-  byId("home-resources").innerHTML = (logbook.resources || []).slice(0, 6).map(resourceRow).join("");
+  setHtml("home-quests", quests.slice(0, 6).map(q => miniQuest(q)).join(""));
+  setHtml("home-resources", (logbook.resources || []).slice(0, 6).map(resourceRow).join(""));
 }
 
 async function questsPage() {
-  const quests = await loadJson("data/quests.json");
+  const quests = await loadQuestsWithArdb();
 
   const grid = byId("quest-grid");
   const search = byId("quest-search");
   const areaFilter = byId("quest-filter");
   const statusFilter = byId("status-filter");
+
+  if (!grid || !search || !areaFilter || !statusFilter) return;
 
   const areas = [...new Set(quests.map(q => q.area))].sort();
   areaFilter.innerHTML += areas.map(a => `<option value="${a}">${a}</option>`).join("");
@@ -202,23 +359,23 @@ async function questsPage() {
 }
 
 async function questDetailPage() {
-  const quests = await loadJson("data/quests.json");
+  const quests = await loadQuestsWithArdb();
   const slug = slugFromPath();
   const q = quests.find(item => item.slug === slug);
 
   if (!q) {
-    byId("quest-detail").innerHTML = `
+    setHtml("quest-detail", `
       <div class="quest-main">
         <h1>Quest not found</h1>
         <p>This quest folder does not match a slug in data/quests.json.</p>
       </div>
-    `;
+    `);
     return;
   }
 
   document.title = `${q.title} | ARC Raiders`;
 
-  byId("quest-detail").innerHTML = `
+  setHtml("quest-detail", `
     <div class="quest-main">
       <div class="meta">
         <span class="badge">${q.area}</span>
@@ -240,6 +397,7 @@ async function questDetailPage() {
       </ul>
 
       ${q.notes ? `<h2 style="margin-top:24px">Notes</h2><p>${q.notes}</p>` : ""}
+      ${q.ardbUrl ? `<p class="data-credit"><a href="${q.ardbUrl}" target="_blank" rel="noreferrer">Quest data provided by ardb.app</a></p>` : ""}
     </div>
 
     <aside class="quest-side">
@@ -257,22 +415,26 @@ async function questDetailPage() {
           : `<div class="item-card"><small>none listed</small></div>`}
       </div>
     </aside>
-  `;
+  `);
 }
 
 async function logbookPage() {
-  const quests = await loadJson("data/quests.json");
-  const logbook = await loadJson("data/logbook.json");
+  const logbookName = document.body.dataset.logbook === "second"
+    ? "data/logbook-second.json"
+    : "data/logbook.json";
+
+  const quests = await loadQuestsWithArdb();
+  const logbook = await loadJson(logbookName);
 
   const active = quests.filter(q => q.status === "active");
 
-  byId("logbook-quest-count").textContent = `${active.length} active`;
-  byId("logbook-quests").innerHTML = active.map(q => miniQuest(q, true)).join("");
+  setText("logbook-quest-count", `${active.length} active`);
+  setHtml("logbook-quests", active.map(q => miniQuest(q, true)).join(""));
 
-  byId("logbook-resources").innerHTML = `
+  setHtml("logbook-resources", `
     ${(logbook.resources || []).map(resourceRow).join("")}
     ${(logbook.stations || []).map(stationCard).join("")}
-  `;
+  `);
 }
 
 async function achievementsPage() {
@@ -282,9 +444,13 @@ async function achievementsPage() {
   const search = byId("achievement-search");
   const filter = byId("achievement-filter");
 
-  byId("ach-summary-title").textContent = `${data.summary.earned} / ${data.summary.total}`;
-  byId("ach-summary-text").textContent = `${data.summary.percent}% achievements earned`;
-  byId("ach-progress").style.width = `${data.summary.percent}%`;
+  if (!list || !search || !filter) return;
+
+  setText("ach-summary-title", `${data.summary.earned} / ${data.summary.total}`);
+  setText("ach-summary-text", `${data.summary.percent}% achievements earned`);
+
+  const progress = byId("ach-progress");
+  if (progress) progress.style.width = `${data.summary.percent}%`;
 
   const achievements = [
     ...(data.earnedAchievements || []),
@@ -312,7 +478,6 @@ async function achievementsPage() {
           <div>
             <div class="meta">
               <span class="badge ${a.status}">${a.status}</span>
-              ${a.hidden ? `<span class="badge">hidden shown</span>` : ""}
             </div>
 
             <h3>${a.title}</h3>

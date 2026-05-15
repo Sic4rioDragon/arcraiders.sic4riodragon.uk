@@ -1,27 +1,3319 @@
 [
   {
-    "id": "a-first-foothold",
-    "title": "A First Foothold",
-    "area": "The Blue Gate",
-    "slug": "a-first-foothold",
-    "image": "assets/quests/a-first-foothold.webp",
-    "description": "We’ve only just finished expanding the Tube network towards the Blue Gate, and we’re still laboring away at the rest.",
+    "id": "a-dead-end",
+    "slug": "a-dead-end",
+    "ardbId": "a_dead_end",
+    "title": "A Dead End",
+    "trader": "Shani",
+    "area": "Blue Gate",
+    "description": "I... I don't get it. One day they were trying to stave off the Collapse, and then, suddenly... Nothing.  \n\nThat earthquake-resistant housing project was shut down by a group named MANTIKOR. Think you could find out more?",
     "objectives": [
-      { "text": "Stabilize the observation deck near the Ridgeline", "done": false },
-      { "text": "Enable the comms terminal near the Olive Grove", "done": false },
-      { "text": "Rotate the satellite dishes on the church roof, north of the Data Vault", "done": false },
-      { "text": "Nail down the roof plates on the Raider structure near Trapper's Glade", "done": false }
+      {
+        "text": "Find MANTIKOR's underground facilities",
+        "done": false
+      },
+      {
+        "text": "Find a way into the locked room in the Security Wing",
+        "done": false
+      },
+      {
+        "text": "Search the locked room for any records on Project Heartwood",
+        "done": false
+      },
+      {
+        "text": "Find the Dusty Film Reel",
+        "done": false
+      },
+      {
+        "text": "Deliver the Dusty Film Reel to Shani",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_dead_end"
+  },
+  {
+    "id": "a-first-foothold",
+    "slug": "a-first-foothold",
+    "ardbId": "a_first_foothold",
+    "title": "A First Foothold",
+    "trader": "Apollo",
+    "area": "Blue Gate",
+    "description": "We've only just finished expanding the Tube network towards the Blue Gate, and we're still laboring away at the rest. \n\nMy crew's been building new infrastructure around the valley to safeguard our Raiders, but the constant ARC threat has made it difficult to get anything done.",
+    "objectives": [
+      {
+        "text": "Stabilize the observation deck near the Ridgeline",
+        "done": false
+      },
+      {
+        "text": "Enable the comms terminal near the Olive Grove",
+        "done": false
+      },
+      {
+        "text": "Rotate the satellite dishes on the church roof, north of the Data Vault.",
+        "done": false
+      },
+      {
+        "text": "Nail down the roof plates on the Raider structure near Trapper's Glade",
+        "done": false
+      }
     ],
     "grantedItems": [
-      { "name": "Granted item", "amount": 2 }
+      {
+        "name": "Granted item",
+        "amount": 2
+      }
     ],
     "rewards": [
-      { "name": "Reward", "amount": 3 },
-      { "name": "Reward", "amount": 3 },
-      { "name": "Reward", "amount": 3 }
+      {
+        "name": "Shrapnel Grenade",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/shrapnel_grenade.webp",
+        "value": 800,
+        "type": "quick use"
+      },
+      {
+        "name": "Snap Blast Grenade",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/snap_blast_grenade.webp",
+        "value": 800,
+        "type": "quick use"
+      },
+      {
+        "name": "Heavy Fuze Grenade",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/heavy_fuze_grenade.webp",
+        "value": 1600,
+        "type": "quick use"
+      }
     ],
     "status": "active",
-    "notes": ""
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_first_foothold"
+  },
+  {
+    "id": "a-primse-specimen",
+    "slug": "a-primse-specimen",
+    "ardbId": "a_prime_specimen",
+    "title": "A Primse Specimen",
+    "trader": "Shani",
+    "area": "Blue Gate",
+    "description": "That Deforester by the Blue Gate may have caused some real devastation, but a pristine husk like that is also an invaluable sample for our research.",
+    "objectives": [
+      {
+        "text": "Obtain 2 ARC Powercells",
+        "done": false
+      },
+      {
+        "text": "Interact with any ARC Deforester",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Patrol Car Key",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/patrol_car_key.webp",
+        "value": 100,
+        "type": "key"
+      },
+      {
+        "name": "Door Blocker",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/door_blocker.webp",
+        "value": 270,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_prime_specimen"
+  },
+  {
+    "id": "armored-transports",
+    "slug": "armored-transports",
+    "ardbId": "armored_transports",
+    "title": "Armored Transports",
+    "trader": "Tian Wen",
+    "area": "Blue Gate",
+    "description": "Ever since we expanded the tunnels to the Blue Gate, some rare pieces have started appearing on the black market. \n\nMeanwhile, I'm stuck here peddling battered old Rattlers. If I don't find new supply lines, I'll be left in the dust.",
+    "objectives": [
+      {
+        "text": "Reach the Checkpoint",
+        "done": false
+      },
+      {
+        "text": "Search the Guard huts for a Armored Patrol Key Card",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Smoke Grenade",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/smoke_grenade.webp",
+        "value": 1000,
+        "type": "quick use"
+      },
+      {
+        "name": "Defibrillator",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/defibrillator.webp",
+        "value": 1000,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/armored_transports"
+  },
+  {
+    "id": "bees",
+    "slug": "bees",
+    "ardbId": "bees",
+    "title": "Bees!",
+    "trader": "Celeste",
+    "area": "Blue Gate",
+    "description": "Bees! There are still bees around! While I'm no expert, our greenhouse crew desperately wants some.",
+    "objectives": [
+      {
+        "text": "Reach the Olive Grove in Blue Gate",
+        "done": false
+      },
+      {
+        "text": "Search for bee hives around the Olive Grove",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Advanced Electrical Components",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/advanced_electrical_components.webp",
+        "value": 1750,
+        "type": "refined material"
+      },
+      {
+        "name": "Sensors",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/sensors.webp",
+        "value": 500,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/bees"
+  },
+  {
+    "id": "clamoring-for-attention",
+    "slug": "clamoring-for-attention",
+    "ardbId": "clamoring_for_attention",
+    "title": "Clamoring For Attention",
+    "trader": "Shani",
+    "area": "Blue Gate",
+    "description": "I think I've found something we might exploit. When bigger ARC machines are just far enough from each other, a well-timed distraction could pull one out of position. You want to test that idea?",
+    "objectives": [
+      {
+        "text": "Use 3 Wires to repair and sound the emergency siren by the Warehouse Complex",
+        "done": false
+      },
+      {
+        "text": "Sound any bus horn by the Checkpoint",
+        "done": false
+      },
+      {
+        "text": "Use a Battery to start the boom box in the Village",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Lure Grenade",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/lure_grenade.webp",
+        "value": 1000,
+        "type": "quick use"
+      },
+      {
+        "name": "Noisemaker",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/noisemaker.webp",
+        "value": 640,
+        "type": "quick use"
+      },
+      {
+        "name": "Tagging Grenade",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/tagging_grenade.webp",
+        "value": 1000,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/clamoring_for_attention"
+  },
+  {
+    "id": "groundbreaking",
+    "slug": "groundbreaking",
+    "ardbId": "groundbreaking",
+    "title": "Groundbreaking",
+    "trader": "Apollo",
+    "area": "Blue Gate",
+    "description": "Data or no data: we'll learn how to make this place earthquake-proof. With a research this in-depth, there's bound to be a paper trail somewhere.",
+    "objectives": [
+      {
+        "text": "Enter the locked room at Pilgrim's Peak",
+        "done": false
+      },
+      {
+        "text": "Search the room for any construction research",
+        "done": false
+      },
+      {
+        "text": "Find the building pictured on the whiteboard",
+        "done": false
+      },
+      {
+        "text": "Photograph the abandoned housing project",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Power Rod",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/power_rod.webp",
+        "value": 5500,
+        "type": "refined material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/groundbreaking"
+  },
+  {
+    "id": "keeping-an-eye-out",
+    "slug": "keeping-an-eye-out",
+    "ardbId": "keeping_an_eye_out",
+    "title": "Keeping An Eye Out",
+    "trader": "Celeste",
+    "area": "Blue Gate",
+    "description": "I'm looking for someone. Bilguun. You might've seen him around, but chances are you haven't. He's... not the most sociable person around, you see. He spends a lot of time Topside, but usually returns to Speranza regularly to check in.",
+    "objectives": [
+      {
+        "text": "Locate the collapsed highway by the southern edge of the Barren Clearing",
+        "done": false
+      },
+      {
+        "text": "Find Bilguun's shelter, and search for any clues of his presence",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Pulse Mine Blueprint",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/recipe.webp",
+        "value": 5000,
+        "type": "blueprint"
+      },
+      {
+        "name": "Flame Spray",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/flame_spray.webp",
+        "value": 2000,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/keeping_an_eye_out"
+  },
+  {
+    "id": "outstanding-balance",
+    "slug": "outstanding-balance",
+    "ardbId": "outstanding_balance",
+    "title": "Outstanding Balance",
+    "trader": "Tian Wen",
+    "area": "Blue Gate",
+    "description": "I had a deal for a Bastion Cell lined up with a Raider called Doddger, but he's gone quiet. \n\nI need someone to track down his stash before some scavenger stumbles into it. Interested?",
+    "objectives": [
+      {
+        "text": "Search for Dodger's stash inside the Traffic Tunnel",
+        "done": false
+      },
+      {
+        "text": "Search Dodger's deal spot by the Pilgrim's Peak antenna",
+        "done": false
+      },
+      {
+        "text": "Deliver Dodger's Note to Tian Wen",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Extended Medium Mag III",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/extended_medium_mag_t3.webp",
+        "value": 5000,
+        "type": "modification"
+      },
+      {
+        "name": "Silencer II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/silencer_t2.webp",
+        "value": 5000,
+        "type": "modification"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/outstanding_balance"
+  },
+  {
+    "id": "reduced-to-rubble",
+    "slug": "reduced-to-rubble",
+    "ardbId": "reduced_to_rubble",
+    "title": "Reduced To Rubble",
+    "trader": "Shani",
+    "area": "Blue Gate",
+    "description": "That collapsed highway worries me; it looks to be recent. Much of Topside may be in ruins, but most of it is from ages ago.",
+    "objectives": [
+      {
+        "text": "Take a photo of the Collapsed Highway",
+        "done": false
+      },
+      {
+        "text": "Go to the Broken Earth",
+        "done": false
+      },
+      {
+        "text": "Follow the trail of destruction through the Broken Earth",
+        "done": false
+      },
+      {
+        "text": "Investigate the unknown ARC machines",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Zipline",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/zipline.webp",
+        "value": 1000,
+        "type": "quick use"
+      },
+      {
+        "name": "Barricade Kit",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/barricade_kit.webp",
+        "value": 640,
+        "type": "quick use"
+      },
+      {
+        "name": "Door Blocker",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/door_blocker.webp",
+        "value": 270,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/reduced_to_rubble"
+  },
+  {
+    "id": "with-a-trace",
+    "slug": "with-a-trace",
+    "ardbId": "with_a_trace",
+    "title": "With A Trace",
+    "trader": "Shani",
+    "area": "Blue Gate",
+    "description": "That downed machine... We weren't the ones who did that. We know that there are stray survivors out there, but this? This goes far beyond a single person.",
+    "objectives": [
+      {
+        "text": "Reach the Barren Clearing",
+        "done": false
+      },
+      {
+        "text": "Find signs of who brought down the ARC machines",
+        "done": false
+      },
+      {
+        "text": "Inspect the Adorned Wreckage",
+        "done": false
+      },
+      {
+        "text": "Inspect the communications device",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Looting Mk. 2",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/looting_mk2.webp",
+        "value": 2000,
+        "type": "augment"
+      },
+      {
+        "name": "Medium Shield",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/medium_shield.webp",
+        "value": 2000,
+        "type": "shield"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/with_a_trace"
+  },
+  {
+    "id": "back-on-top",
+    "slug": "back-on-top",
+    "ardbId": "back_on_top",
+    "title": "Back On Top",
+    "trader": "Tian Wen",
+    "area": "Blue Gate, Buried City, Dam Battlegrounds, The Spaceport",
+    "description": "Guess what? Shani asked me to help out with something, and for once, I'm actually glad she did. We're setting up new outposts topside! Or, planning to, at least. Can you believe it?",
+    "objectives": [
+      {
+        "text": "On Dam Battlegrounds, mark the Pattern House",
+        "done": false
+      },
+      {
+        "text": "On The Blue Gate, mark the white lookout tower south of the Warehouse Complex",
+        "done": false
+      },
+      {
+        "text": "On Spaceport, mark the South Trench Tower",
+        "done": false
+      },
+      {
+        "text": "On Buried City, mark the building with the mural in the Buried Properties",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Medium Ammo",
+        "amount": 80,
+        "icon": "https://ardb.app/static/items/icons/medium_ammo.webp",
+        "value": 6,
+        "type": "ammunition"
+      },
+      {
+        "name": "Renegade I",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/renegade_t3.webp",
+        "value": 7000,
+        "type": "battle rifle"
+      },
+      {
+        "name": "Stable Stock III",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/stable_stock_t3.webp",
+        "value": 5000,
+        "type": "modification"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/back_on_top"
+  },
+  {
+    "id": "hatch-repairs",
+    "slug": "hatch-repairs",
+    "ardbId": "hatch_repairs",
+    "title": "Hatch Repairs",
+    "trader": "Shani",
+    "area": "Blue Gate, Buried City, Dam Battlegrounds, The Spaceport",
+    "description": "Our scours have reported several Raider Hatches with leaking hydraulic pipes. They still work, but not for long. Mind patching one up, next time you're out there?",
+    "objectives": [
+      {
+        "text": "Repair the leaking hydraulic pipes near a Raider Hatch",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Raider Hatch Key",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/raider_hatch_key.webp",
+        "value": 2000,
+        "type": "key"
+      },
+      {
+        "name": "Binoculars",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/binoculars.webp",
+        "value": 640,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/hatch_repairs"
+  },
+  {
+    "id": "into-the-fray",
+    "slug": "into-the-fray",
+    "ardbId": "into_the_fray",
+    "title": "Into The Fray",
+    "trader": "Shani",
+    "area": "Blue Gate, Buried City, Dam Battlegrounds, The Spaceport",
+    "description": "It used to be their world, up there. Nobody to challenge their claim. \n\nYet here we are. More outposts. More intel. More firepower. If I didn't know better, I'd say we've got quite a bit of fight left in us.",
+    "objectives": [
+      {
+        "text": "Destroy a Leaper",
+        "done": false
+      },
+      {
+        "text": "Obtain a Leaper Pulse Unit",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Shotgun Ammo",
+        "amount": 40,
+        "icon": "https://ardb.app/static/items/icons/shotgun_ammo.webp",
+        "value": 20,
+        "type": "ammunition"
+      },
+      {
+        "name": "Vulcano III",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/vulcano.webp",
+        "value": 17000,
+        "type": "shotgun"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/into_the_fray"
+  },
+  {
+    "id": "mixed-signals",
+    "slug": "mixed-signals",
+    "ardbId": "mixed_signals",
+    "title": "Mixed Signals",
+    "trader": "Shani",
+    "area": "Blue Gate, Buried City, Dam Battlegrounds, The Spaceport",
+    "description": "Have you spotted any Surveyors; the big round ones? \n\nThey seem to be transmitting data back into orbit, and I can't help but think it's tied to that signal we picked up. Will you break one open, so we can try to decipher the data?",
+    "objectives": [
+      {
+        "text": "Destroy an ARC Surveyor",
+        "done": false
+      },
+      {
+        "text": "Obtain 1 Surveyor Vault",
+        "done": false
+      }
+    ],
+    "grantedItems": [
+      {
+        "name": "Granted item",
+        "amount": 3
+      },
+      {
+        "name": "Granted item",
+        "amount": 2
+      }
+    ],
+    "rewards": [
+      {
+        "name": "Raider Hatch Key",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/raider_hatch_key.webp",
+        "value": 2000,
+        "type": "key"
+      },
+      {
+        "name": "Photoelectric Cloak",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/photoelectric_cloak.webp",
+        "value": 5000,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/mixed_signals"
+  },
+  {
+    "id": "out-of-the-shadows",
+    "slug": "out-of-the-shadows",
+    "ardbId": "out_of_the_shadows",
+    "title": "Out Of The Shadows",
+    "trader": "Shani",
+    "area": "Blue Gate, Buried City, Dam Battlegrounds, The Spaceport",
+    "description": "Did you see the flags? The time for cowering is over. You've been more than battle-tested, from what I hear; think you can take on a Rocketeer?",
+    "objectives": [
+      {
+        "text": "Destroy a Rocketeer",
+        "done": false
+      },
+      {
+        "text": "Obtain a Rocketeer Driver",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Surge Shield Recharger",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/surge_shield_recharger.webp",
+        "value": 1200,
+        "type": "quick use"
+      },
+      {
+        "name": "Wolfpack",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/wolfpack.webp",
+        "value": 5000,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/out_of_the_shadows"
+  },
+  {
+    "id": "sparks-fly",
+    "slug": "sparks-fly",
+    "ardbId": "sparks_fly",
+    "title": "Sparks Fly",
+    "trader": "Apollo",
+    "area": "Blue Gate, Buried City, Dam Battlegrounds, The Spaceport",
+    "description": "Those Hornet stings can really mess you up, if you're unlucky. And even if you destroy one, you're still wasting a ton of ammo. \n\n I've been working on a more elegant way to bring them down. Care to make some sparks fly?",
+    "objectives": [
+      {
+        "text": "Destroy a Hornet with a Trigger 'Nade or Snap Blast",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Trigger Nade Blueprint",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/recipe.webp",
+        "value": 5000,
+        "type": "blueprint"
+      },
+      {
+        "name": "Crude Explosives",
+        "amount": 4,
+        "icon": "https://ardb.app/static/items/icons/crude_explosives.webp",
+        "value": 270,
+        "type": "refined material"
+      },
+      {
+        "name": "Processor",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/processor.webp",
+        "value": 500,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/sparks_fly"
+  },
+  {
+    "id": "a-reveal-in-ruins",
+    "slug": "a-reveal-in-ruins",
+    "ardbId": "a_reveal_in_ruins",
+    "title": "A Reveal In Ruins",
+    "trader": "Lance",
+    "area": "Buried City",
+    "description": "I got my hands on a fancy new ESR analyzer; had a whole big reveal planned. One minute it's here, next minute—poof. Please help?",
+    "objectives": [
+      {
+        "text": "Search for an ESR Analyzer inside any pharmacy in Buried City",
+        "done": false
+      },
+      {
+        "text": "Deliver the ESR Analyzer to Lance",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Tactical Mk. 3 (Healing)",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/tactical_mk3_healing.webp",
+        "value": 5000,
+        "type": "augment"
+      },
+      {
+        "name": "Surge Shield Recharger",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/surge_shield_recharger.webp",
+        "value": 1200,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_reveal_in_ruins"
+  },
+  {
+    "id": "a-warm-place-to-rest",
+    "slug": "a-warm-place-to-rest",
+    "ardbId": "a_warm_place_to_rest",
+    "title": "A Warm Place To Rest",
+    "trader": "Apollo",
+    "area": "Buried City",
+    "description": "A customer of mine saw a family taking cover in an old encampment in Buried City. I'll pay anyone who manages to find them and escort them back to safety.",
+    "objectives": [
+      {
+        "text": "Locate the Abandoned Highway Camp",
+        "done": false
+      },
+      {
+        "text": "Search for any signs of survivors",
+        "done": false
+      },
+      {
+        "text": "Follow the red markers",
+        "done": false
+      },
+      {
+        "text": "Inspect the grave",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Noisemaker",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/noisemaker.webp",
+        "value": 640,
+        "type": "quick use"
+      },
+      {
+        "name": "Blue Light Stick",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/blue_light_stick.webp",
+        "value": 150,
+        "type": "quick use"
+      },
+      {
+        "name": "Rosary",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/rosary.webp",
+        "value": 2000,
+        "type": "trinket"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_warm_place_to_rest"
+  },
+  {
+    "id": "after-rain-comes",
+    "slug": "after-rain-comes",
+    "ardbId": "after_rain_comes",
+    "title": "After Rain Comes",
+    "trader": "Celeste",
+    "area": "Buried City",
+    "description": "I know, I know! The power's down in sector—Oh, hey. A flash flood took out some of our solar panels in Buried City, and the generators only hold on for so long. \n\nDo us all a solid when you're up there, OK?",
+    "objectives": [
+      {
+        "text": "Find the flooded solar panels nearby the Grandioso Apartments",
+        "done": false
+      },
+      {
+        "text": "Repair the solar panels using 5 Wires and 2 Batteries",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Blue Light Stick",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/blue_light_stick.webp",
+        "value": 150,
+        "type": "quick use"
+      },
+      {
+        "name": "Antiseptic",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/antiseptic.webp",
+        "value": 1000,
+        "type": "refined material"
+      },
+      {
+        "name": "Durable Cloth",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/durable_cloth.webp",
+        "value": 640,
+        "type": "refined material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/after_rain_comes"
+  },
+  {
+    "id": "building-a-library",
+    "slug": "building-a-library",
+    "ardbId": "building_a_library",
+    "title": "Building A Library",
+    "trader": "Apollo",
+    "area": "Buried City",
+    "description": "Our library selection has grown pretty stale. Could you head out to Buried City, and find something more for us to read? Make sure you bring a wide variety of genres.",
+    "objectives": [
+      {
+        "text": "Locate the library in the City Center",
+        "done": false
+      },
+      {
+        "text": "Find 1 Romance book",
+        "done": false
+      },
+      {
+        "text": "Find 1 detective book",
+        "done": false
+      },
+      {
+        "text": "Find 1 adventure book",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Jolt Mine",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/jolt_mine.webp",
+        "value": 850,
+        "type": "quick use"
+      },
+      {
+        "name": "Explosive Mine",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/jump_mine.webp",
+        "value": 1500,
+        "type": "quick use"
+      },
+      {
+        "name": "Heavy Fuze Grenade",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/heavy_fuze_grenade.webp",
+        "value": 1600,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/building_a_library"
+  },
+  {
+    "id": "combat-recon",
+    "slug": "combat-recon",
+    "ardbId": "combat_recon",
+    "title": "Combat Recon",
+    "trader": "Shani",
+    "area": "Buried City",
+    "description": "With those Bombardiers roaming around, ARC has found an entirely new way to flush Raiders out of cover. \n\nIf you're hoping to take one down, you'll need to sharpen your skills and your strategy.",
+    "objectives": [
+      {
+        "text": "Scope out a cover spot in the Parking Garage staircases",
+        "done": false
+      },
+      {
+        "text": "Scope out a cover spot in the buses near Marano Park",
+        "done": false
+      },
+      {
+        "text": "Scope out a cover spot in the attics around Main Street",
+        "done": false
+      },
+      {
+        "text": "Destroy 2 Spotters",
+        "done": false
+      },
+      {
+        "text": "Deliver a spotter relay to Shani",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Firecracker",
+        "amount": 5,
+        "icon": "",
+        "value": 270,
+        "type": "quick use"
+      },
+      {
+        "name": "Fireworks Box",
+        "amount": 1,
+        "icon": "",
+        "value": 2000,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/combat_recon"
+  },
+  {
+    "id": "communication-hideout",
+    "slug": "communication-hideout",
+    "ardbId": "communication_hideout",
+    "title": "Communication Hideout",
+    "trader": "Shani",
+    "area": "Buried City",
+    "description": "We've been losing signals in some areas of Buried City—my guess is that our equipment is acting up. You're quite skilled with repairs, aren't you? Could you check it out?",
+    "objectives": [
+      {
+        "text": "Reach the Red Tower in Old Town",
+        "done": false
+      },
+      {
+        "text": "Find missing battery cell",
+        "done": false
+      },
+      {
+        "text": "Install the battery cell in the Generator",
+        "done": false
+      },
+      {
+        "text": "Enable the power on the Generator",
+        "done": false
+      },
+      {
+        "text": "Boot the antenna terminal near the Red Tower",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Heavy Ammo",
+        "amount": 40,
+        "icon": "https://ardb.app/static/items/icons/heavy_ammo.webp",
+        "value": 12,
+        "type": "ammunition"
+      },
+      {
+        "name": "Anvil III",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/anvil_t1.webp",
+        "value": 10000,
+        "type": "hand cannon"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/communication_hideout"
+  },
+  {
+    "id": "digging-up-dirt",
+    "slug": "digging-up-dirt",
+    "ardbId": "digging_up_dirt",
+    "title": "Digging Up Dirt",
+    "trader": "Celeste",
+    "area": "Buried City",
+    "description": "We caught a break. One of our scouts saw a member of the Official Toledo Tubes Management make a dead drop inside of the Santa Maria Houses in Old Town, in the Buried City. This might be our chance to dig up some dirt on them for a change. You in?",
+    "objectives": [
+      {
+        "text": "Locate the Santa Maria Houses in Old Town",
+        "done": false
+      },
+      {
+        "text": "Locate the Dead Drop inside the Santa Maria Houses in Old Town",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Advanced Electrical Components",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/advanced_electrical_components.webp",
+        "value": 1750,
+        "type": "refined material"
+      },
+      {
+        "name": "Speaker Component",
+        "amount": 4,
+        "icon": "https://ardb.app/static/items/icons/speaker_component.webp",
+        "value": 500,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/digging_up_dirt"
+  },
+  {
+    "id": "espresso",
+    "slug": "espresso",
+    "ardbId": "espresso",
+    "title": "Espresso",
+    "trader": "Apollo",
+    "area": "Buried City",
+    "description": "A Raider came into my shop earlier, to trade some grenades for a machine she found in Buried City. \n\nShe said it makes coffee, but it seems to be missing a few parts. Up for a job?",
+    "objectives": [
+      {
+        "text": "Find an espresso machine to salvage for spare parts",
+        "done": false
+      },
+      {
+        "text": "Get the Espresso Machine Parts for Apollo",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Adrenaline Shot",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/adrenaline_shot.webp",
+        "value": 300,
+        "type": "quick use"
+      },
+      {
+        "name": "Coffee Pot",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/coffee_pot.webp",
+        "value": 1000,
+        "type": "trinket"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/espresso"
+  },
+  {
+    "id": "eyes-on-the-prize",
+    "slug": "eyes-on-the-prize",
+    "ardbId": "eyes_on_the_prize",
+    "title": "Eyes On The Prize",
+    "trader": "Shani",
+    "area": "Buried City",
+    "description": "Everything's been calm around my drop-offs since you helped out. But that doesn't mean it'll stay that way for long. I've set up surveillance at one of my most used spots in Buried City, to prevent future tampering. Only problem is, it needs power to go live.",
+    "objectives": [
+      {
+        "text": "Find the secluded roof terrace south-west of the Southern Station, look for blue tarps.",
+        "done": false
+      },
+      {
+        "text": "Rewire the solar panel using 3 Wires",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Extended Shotgun Mag II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/extended_shotgun_mag_t2.webp",
+        "value": 2000,
+        "type": "modification"
+      },
+      {
+        "name": "Extended Medium Mag II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/extended_medium_mag_t2.webp",
+        "value": 2000,
+        "type": "modification"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/eyes_on_the_prize"
+  },
+  {
+    "id": "industrial-espionage",
+    "slug": "industrial-espionage",
+    "ardbId": "industrial_espionage",
+    "title": "Industrial Espionage",
+    "trader": "Tian Wen",
+    "area": "Buried City",
+    "description": "With my own stashes secured, I think it might be time to keep a closer eye on the competition so this doesn't happen again.",
+    "objectives": [
+      {
+        "text": "Find Tian Wen's weapon cache near the Gas Station in the Outskirts",
+        "done": false
+      },
+      {
+        "text": "Deliver the Burletta to the rival weapon cache",
+        "done": false
+      },
+      {
+        "text": "Plant a bug on the weapon cache",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Burletta Blueprint",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/recipe.webp",
+        "value": 5000,
+        "type": "blueprint"
+      },
+      {
+        "name": "Mechanical Components",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/mechanical_components.webp",
+        "value": 640,
+        "type": "refined material"
+      },
+      {
+        "name": "Simple Gun Parts",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/simple_gun_parts.webp",
+        "value": 330,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/industrial_espionage"
+  },
+  {
+    "id": "life-of-a-pharmacist",
+    "slug": "life-of-a-pharmacist",
+    "ardbId": "life_of_a_pharmacist",
+    "title": "Life of a Pharmacist",
+    "trader": "Lance",
+    "area": "Buried City",
+    "description": "This place could use a makeover, but I don't want it looking like your raggedy Raider Dens. See if you can find out how my fellow medical greats used to live.",
+    "objectives": [
+      {
+        "text": "Find the Arbusto Farmacia then search the apartment above",
+        "done": false
+      },
+      {
+        "text": "Document the pharmacist's hobbies",
+        "done": false
+      },
+      {
+        "text": "Document the pharmacist's family",
+        "done": false
+      },
+      {
+        "text": "Document the pharmacist's taste",
+        "done": false
+      },
+      {
+        "text": "Document the pharmacist's skills",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Defibrillator",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/defibrillator.webp",
+        "value": 1000,
+        "type": "quick use"
+      },
+      {
+        "name": "Surge Shield Recharger",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/surge_shield_recharger.webp",
+        "value": 1200,
+        "type": "quick use"
+      },
+      {
+        "name": "Sterilized Bandage",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/sterilized_bandage.webp",
+        "value": 2000,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/life_of_a_pharmacist"
+  },
+  {
+    "id": "line-in-the-sand",
+    "slug": "line-in-the-sand",
+    "ardbId": "line_in_the_sand",
+    "title": "Line In The Sand",
+    "trader": "Celeste",
+    "area": "Buried City",
+    "description": "That Stella Montis hard drive contained more than just the shutdown documentation - it also had the transport schedules of some pretty critical Exodus components.",
+    "objectives": [
+      {
+        "text": "Find out why the train never reached Marano Station",
+        "done": false
+      },
+      {
+        "text": "Find out who orchestrated the robbery",
+        "done": false
+      },
+      {
+        "text": "Find out where the thruster valves were stashed",
+        "done": false
+      },
+      {
+        "text": "Search the basement of the merchant's nearby apartment",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Magnetron",
+        "amount": 2,
+        "icon": "",
+        "value": 6000,
+        "type": "recyclable"
+      },
+      {
+        "name": "Magnetic Accelerator",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/magnetic_accelerator.webp",
+        "value": 5500,
+        "type": "refined material"
+      },
+      {
+        "name": "Exodus Modules",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/exodus_modules.webp",
+        "value": 2750,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/line_in_the_sand"
+  },
+  {
+    "id": "marked-for-death",
+    "slug": "marked-for-death",
+    "ardbId": "marked_for_death",
+    "title": "Marked For Death",
+    "trader": "Tian Wen",
+    "area": "Buried City",
+    "description": "Someone has been lifting supplies from my drop-off point in Buried City. I've set up a trap, but I need someone to check it for me.",
+    "objectives": [
+      {
+        "text": "Reach the Su Durante Warehouse in the Outskirts in Buried City",
+        "done": false
+      },
+      {
+        "text": "Search for Tian Wen's cache near the Warehouses",
+        "done": false
+      },
+      {
+        "text": "Follow the clues",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Shotgun Choke II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/shotgun_choke_t2.webp",
+        "value": 2000,
+        "type": "modification"
+      },
+      {
+        "name": "Angled Grip II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/angled_grip_t2.webp",
+        "value": 2000,
+        "type": "modification"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/marked_for_death"
+  },
+  {
+    "id": "market-correction",
+    "slug": "market-correction",
+    "ardbId": "market_correction",
+    "title": "Market Correction",
+    "trader": "Tian Wen",
+    "area": "Buried City",
+    "description": "That theft before? Doesn't look like a coincidence anymore. Some of the competition from Toledo is setting up shop where they don't belong. I want their cache sabotaged, preferably before they get too comfortable.",
+    "objectives": [
+      {
+        "text": "Locate the cache near Marano Station",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Silencer II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/silencer_t2.webp",
+        "value": 5000,
+        "type": "modification"
+      },
+      {
+        "name": "Extended Light Mag I",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/extended_light_mag_t1.webp",
+        "value": 640,
+        "type": "modification"
+      },
+      {
+        "name": "Compensator I",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/compensator_t1.webp",
+        "value": 640,
+        "type": "modification"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/market_correction"
+  },
+  {
+    "id": "settled-in-full",
+    "slug": "settled-in-full",
+    "ardbId": "settled_in_full",
+    "title": "Settled In Full",
+    "trader": "Tian Wen",
+    "area": "Buried City",
+    "description": "Lucky for you, Dodger's debt can still be settled. Bring me a Bastion Cell. A real one, pulled from a real Bastion. Consider what Dodger owed me transferred credit for you. Okay?",
+    "objectives": [
+      {
+        "text": "Destroy a Bastion",
+        "done": false
+      },
+      {
+        "text": "Deliver a Bastion Cell to Tian Wen",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/settled_in_full"
+  },
+  {
+    "id": "the-root-of-the-matter",
+    "slug": "the-root-of-the-matter",
+    "ardbId": "the_root_of_the_matter",
+    "title": "The Root of the Matter",
+    "trader": "Celeste",
+    "area": "Buried City",
+    "description": "We're in luck. The notes you found last time were written by the lead researcher. When the project went under, it seems she took some of the seed samples and sealed them away in a secure location.",
+    "objectives": [
+      {
+        "text": "Go to the Research Building",
+        "done": false
+      },
+      {
+        "text": "Search for the seed vault in the \"room with a great view\"",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/the_root_of_the_matter"
+  },
+  {
+    "id": "unexpected-initiative",
+    "slug": "unexpected-initiative",
+    "ardbId": "unexpected_initiative",
+    "title": "Unexpected Initiative",
+    "trader": "Tian Wen",
+    "area": "Buried City",
+    "description": "I'm setting up a greenhouse, to help boost our food production. I'm doing Celeste a solid, alright? That's all. But enough about that. I've got all the details worked out, but I'll need supplies, and I'm not hauling them alone.",
+    "objectives": [
+      {
+        "text": "Reach the Grandioso Apartments in Buried City",
+        "done": false
+      },
+      {
+        "text": "Search for Fertilizer on the rooftop of the Grandioso Apartments",
+        "done": false
+      },
+      {
+        "text": "Reach Piazza Roma in Buried City",
+        "done": false
+      },
+      {
+        "text": "Search for a Water Pump in the broken rooftop gardens at Piazza Roma",
+        "done": false
+      },
+      {
+        "text": "Deliver a Water Pump to Tian Wen",
+        "done": false
+      },
+      {
+        "text": "Deliver Fertilizer to Tian Wen",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Shotgun Ammo",
+        "amount": 40,
+        "icon": "https://ardb.app/static/items/icons/shotgun_ammo.webp",
+        "value": 20,
+        "type": "ammunition"
+      },
+      {
+        "name": "Shotgun Choke II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/shotgun_choke_t2.webp",
+        "value": 2000,
+        "type": "modification"
+      },
+      {
+        "name": "Il Toro I",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/il_toro.webp",
+        "value": 2900,
+        "type": "shotgun"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/unexpected_initiative"
+  },
+  {
+    "id": "a-rising-tide",
+    "slug": "a-rising-tide",
+    "ardbId": "a_rising_tide",
+    "title": "A Rising Tide",
+    "trader": "Celeste",
+    "area": "Buried City, Dam Battlegrounds",
+    "description": "Says here there was a foreman at The Dam, who got recruited right after they canceled Project Heartwood. Got put in charge of some big reconstruction project.",
+    "objectives": [
+      {
+        "text": "On Buried City, find the foreman's barricaded apartment south of Piazza Roma",
+        "done": false
+      },
+      {
+        "text": "Access the foreman's digital logbook",
+        "done": false
+      },
+      {
+        "text": "On Dam Battlegrounds, reach the Power Generation Complex",
+        "done": false
+      },
+      {
+        "text": "Find a way into the Controlled Access Zone",
+        "done": false
+      },
+      {
+        "text": "Search the Controlled Access Zone for any clues about the foreman's reconstruction project",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Heavy Ammo",
+        "amount": 40,
+        "icon": "https://ardb.app/static/items/icons/heavy_ammo.webp",
+        "value": 12,
+        "type": "ammunition"
+      },
+      {
+        "name": "Anvil II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/anvil_t1.webp",
+        "value": 7000,
+        "type": "hand cannon"
+      },
+      {
+        "name": "Anvil Splitter",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/anvil_splitter.webp",
+        "value": 7000,
+        "type": "modification"
+      },
+      {
+        "name": "Extended Barrel",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/extended_barrel.webp",
+        "value": 5000,
+        "type": "modification"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_rising_tide"
+  },
+  {
+    "id": "down-to-earth",
+    "slug": "down-to-earth",
+    "ardbId": "down_to_earth",
+    "title": "Down To Earth",
+    "trader": "Shani",
+    "area": "Buried City, Dam Battlegrounds, The Spaceport",
+    "description": "Raiders have long reported peculiar-looking crates dropping down from malfunctioning ARC Probes. \n\nIf we can figure out a way to crack them open, we might get a better understanding of what it is they're after.",
+    "objectives": [
+      {
+        "text": "Visit a Field Depot",
+        "done": false
+      },
+      {
+        "text": "Deliver a Field Crate to a Supply Station",
+        "done": false
+      },
+      {
+        "text": "Collect the reward",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Combat Mk. 1",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/combat_mk1.webp",
+        "value": 640,
+        "type": "augment"
+      },
+      {
+        "name": "Medium Shield",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/medium_shield.webp",
+        "value": 2000,
+        "type": "shield"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/down_to_earth"
+  },
+  {
+    "id": "eyes-in-the-sky",
+    "slug": "eyes-in-the-sky",
+    "ardbId": "eyes_in_the_sky",
+    "title": "Eyes In The Sky",
+    "trader": "Shani",
+    "area": "Buried City, Dam Battlegrounds, The Spaceport",
+    "description": "Those LiDAR scanners you found work best when put in high locations. I've identified a few good spots around the Rust Belt; hope you're surefooted.",
+    "objectives": [
+      {
+        "text": "On Dam Battlegrounds, install a LiDAR Scanner at the top of the Control Tower",
+        "done": false
+      },
+      {
+        "text": "On Spaceport, install a LiDAR Scanner at the Communications Tower",
+        "done": false
+      },
+      {
+        "text": "On Buried City, install a LiDAR Scanner on top of the Galleria sign",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Tagging Grenade",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/tagging_grenade.webp",
+        "value": 1000,
+        "type": "quick use"
+      },
+      {
+        "name": "Vita Spray",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/vita_spray.webp",
+        "value": 3400,
+        "type": "quick use"
+      },
+      {
+        "name": "Red Light Stick",
+        "amount": 5,
+        "icon": "",
+        "value": 150,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/eyes_in_the_sky"
+  },
+  {
+    "id": "greasing-her-palms",
+    "slug": "greasing-her-palms",
+    "ardbId": "greasing_her_palms",
+    "title": "Greasing Her Palms",
+    "trader": "Celeste",
+    "area": "Buried City, Dam Battlegrounds, The Spaceport",
+    "description": "Recently, I've been trying and failing to get Tian Wen to join our community projects. I may have to sweeten the deal. She's been complaining about quality of salvage found on the market; think we could do her a solid?",
+    "objectives": [
+      {
+        "text": "On Dam Battlegrounds, visit the Locked Room in the Water Treatment Control building",
+        "done": false
+      },
+      {
+        "text": "On Spaceport, scope out the rocket thrusters outside the Rocket Assembly",
+        "done": false
+      },
+      {
+        "text": "On Buried City, visit the barricaded area on floor 6 of the Space Travel Building",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Lure Grenade Blueprint",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/recipe.webp",
+        "value": 5000,
+        "type": "blueprint"
+      },
+      {
+        "name": "Electrical Components",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/electrical_components.webp",
+        "value": 640,
+        "type": "refined material"
+      },
+      {
+        "name": "Speaker Component",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/speaker_component.webp",
+        "value": 500,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/greasing_her_palms"
+  },
+  {
+    "id": "medical-merchandise",
+    "slug": "medical-merchandise",
+    "ardbId": "medical_merchandise",
+    "title": "Medical Merchandise",
+    "trader": "Lance",
+    "area": "Buried City, Dam Battlegrounds, The Spaceport",
+    "description": "I've become quite crafty at weaving bandages from Fabric, but to my shame, I haven't quite mastered weaving an x-ray machine or pulse oximiter.",
+    "objectives": [
+      {
+        "text": "On Spaceport, search 2 containers in the Departure Building's exam rooms",
+        "done": false,
+        "progress": {
+          "current": 0,
+          "total": 2
+        }
+      },
+      {
+        "text": "Search 3 containers in the Hospital in Buried City",
+        "done": false,
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      {
+        "text": "On Dam Battlegrounds, search 2 containers in the Research & Administration building's medical room",
+        "done": false,
+        "progress": {
+          "current": 0,
+          "total": 2
+        }
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Defibrillator",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/defibrillator.webp",
+        "value": 1000,
+        "type": "quick use"
+      },
+      {
+        "name": "Vita Shot",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/vita_shot.webp",
+        "value": 2200,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/medical_merchandise"
+  },
+  {
+    "id": "what-we-left-behind",
+    "slug": "what-we-left-behind",
+    "ardbId": "what_we_left_behind",
+    "title": "What We Left Behind",
+    "trader": "Tian Wen",
+    "area": "Buried City, Dam Battlegrounds, The Spaceport",
+    "description": "Celeste told me you're the one who helped her hound me about pitching in more. I'll say this once: I don't appreciate the meddling, and I have my own reasons for refusing. I do, however, appreciate the scrap. Since you're apparently good at tracking it down, I may have a task for you.",
+    "objectives": [
+      {
+        "text": "On Buried City, search 2 containers in the Raider Camp beneath the Parking Garage",
+        "done": false,
+        "progress": {
+          "current": 0,
+          "total": 2
+        }
+      },
+      {
+        "text": "On Dam Battlegrounds, search for anything significant in the South Swamp Outpost",
+        "done": false
+      },
+      {
+        "text": "On Spaceport, search for anything significant in Bilguun's Hideout, next to the Container Storage",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Muzzle Brake II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/muzzle_brake_t2.webp",
+        "value": 2000,
+        "type": "modification"
+      },
+      {
+        "name": "Vertical Grip II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/vertical_grip_t2.webp",
+        "value": 2000,
+        "type": "modification"
+      },
+      {
+        "name": "Stable Stock II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/stable_stock_t2.webp",
+        "value": 2000,
+        "type": "modification"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/what_we_left_behind"
+  },
+  {
+    "id": "a-bad-feeling",
+    "slug": "a-bad-feeling",
+    "ardbId": "a_bad_feeling",
+    "title": "A Bad Feeling",
+    "trader": "Celeste",
+    "area": "Buried City, Dam Battlegrounds, The Spaceport, Blue Gate",
+    "description": "Even the slightest change in ARC's behavior could spell disaster. \n\nAnd that signal you heard? It's like nothing we've ever picked up. If they're up to something, we need to find out whatever we can.",
+    "objectives": [
+      {
+        "text": "Find and search any ARC Probe or ARC Courier",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Metal Parts",
+        "amount": 10,
+        "icon": "https://ardb.app/static/items/icons/metal_parts.webp",
+        "value": 75,
+        "type": "basic material"
+      },
+      {
+        "name": "Steel Spring",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/steel_spring.webp",
+        "value": 300,
+        "type": "topside material"
+      },
+      {
+        "name": "Duct Tape",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/duct_tape.webp",
+        "value": 300,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_bad_feeling"
+  },
+  {
+    "id": "a-better-use",
+    "slug": "a-better-use",
+    "ardbId": "a_better_use",
+    "title": "A Better Use",
+    "trader": "Tian Wen",
+    "area": "Buried City, Dam Battlegrounds, The Spaceport, Blue Gate",
+    "description": "We're short on everything but mouths to feed, yet Celeste's launching precious supplies into the air for Raiders to claw over. I'm done letting the good stuff go to waste.",
+    "objectives": [
+      {
+        "text": "Request a Supply Drop from a Call Station",
+        "done": false
+      },
+      {
+        "text": "Loot a Supply Drop",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Extended Light Mag I",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/extended_light_mag_t1.webp",
+        "value": 640,
+        "type": "modification"
+      },
+      {
+        "name": "Muzzle Brake II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/muzzle_brake_t2.webp",
+        "value": 2000,
+        "type": "modification"
+      },
+      {
+        "name": "Stable Stock I",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/stable_stock_t1.webp",
+        "value": 640,
+        "type": "modification"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_better_use"
+  },
+  {
+    "id": "the-trifecta",
+    "slug": "the-trifecta",
+    "ardbId": "the_trifecta",
+    "title": "The Trifecta",
+    "trader": "Shani",
+    "area": "Buried City, Dam Battlegrounds, The Spaceport, Blue Gate",
+    "description": "Intel's all well and good, but it only gets us so far. If ARC's truly closing in, I need every Raider to prove they can handle their drones in a fight.",
+    "objectives": [
+      {
+        "text": "Destroy a Wasp",
+        "done": false
+      },
+      {
+        "text": "Destroy a Hornet",
+        "done": false
+      },
+      {
+        "text": "Get a Hornet Driver for Shani",
+        "done": false
+      },
+      {
+        "text": "Destroy a Snitch",
+        "done": false
+      },
+      {
+        "text": "Get a Snitch Scanner for Shani",
+        "done": false
+      },
+      {
+        "text": "Get a Wasp Driver for Shani",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Raider Hatch Key",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/raider_hatch_key.webp",
+        "value": 2000,
+        "type": "key"
+      },
+      {
+        "name": "Dam Control Tower Key",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/key.webp",
+        "value": 100,
+        "type": "key"
+      },
+      {
+        "name": "Defibrillator",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/defibrillator.webp",
+        "value": 1000,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/the_trifecta"
+  },
+  {
+    "id": "off-the-radar",
+    "slug": "off-the-radar",
+    "ardbId": "off_the_radar",
+    "title": "Off The Radar",
+    "trader": "Shani",
+    "area": "Buried City, The Spaceport, Dam Battlegrounds",
+    "description": "The damage down here was pretty bad, but our Topside infrastructure was hit even harder. I still have several antennas that stopped working after the storm.",
+    "objectives": [
+      {
+        "text": "Visit a Field Depot",
+        "done": false
+      },
+      {
+        "text": "Repair the antenna on the roof of the Field Depot",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Defibrillator",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/defibrillator.webp",
+        "value": 1000,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/off_the_radar"
+  },
+  {
+    "id": "a-balanced-harvest",
+    "slug": "a-balanced-harvest",
+    "ardbId": "a_balanced_harvest",
+    "title": "A Balanced Harvest",
+    "trader": "Celeste",
+    "area": "Dam Battlegrounds",
+    "description": "Our food production is finally enough to meet our basic needs, but what we really need now is variety. I have a lead on some agricultural research from before the First Wave. Are you in?",
+    "objectives": [
+      {
+        "text": "Go to the Research & Administration building",
+        "done": false
+      },
+      {
+        "text": "Locate Lab 1 on the upper floor above the reception",
+        "done": false
+      },
+      {
+        "text": "Search for any traces of the agricultural research project",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Advanced Mechanical Components",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/advanced_mechanical_components.webp",
+        "value": 1750,
+        "type": "refined material"
+      },
+      {
+        "name": "Medium Gun Parts",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/medium_gun_parts.webp",
+        "value": 700,
+        "type": "topside material"
+      },
+      {
+        "name": "Steel Spring",
+        "amount": 10,
+        "icon": "https://ardb.app/static/items/icons/steel_spring.webp",
+        "value": 300,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_balanced_harvest"
+  },
+  {
+    "id": "a-new-type-of-plant",
+    "slug": "a-new-type-of-plant",
+    "ardbId": "a_new_type_of_plant",
+    "title": "A New Type Of Plant",
+    "trader": "Lance",
+    "area": "Dam Battlegrounds",
+    "description": "Some scouts have been bringing back reports of these weird plants spreading into the area. Now, this makes your old pal Lance think it may have some interesting uses.",
+    "objectives": [
+      {
+        "text": "Search for the new plant near the Baron Husk in the Old Battleground",
+        "done": false
+      },
+      {
+        "text": "Deliver the Possibly Toxic Plant to Lance",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Vita Shot",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/vita_shot.webp",
+        "value": 2200,
+        "type": "quick use"
+      },
+      {
+        "name": "Antiseptic",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/antiseptic.webp",
+        "value": 1000,
+        "type": "refined material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_new_type_of_plant"
+  },
+  {
+    "id": "a-symbol-of-unification",
+    "slug": "a-symbol-of-unification",
+    "ardbId": "a_symbol_of_unification",
+    "title": "A Symbol Of Unification",
+    "trader": "Celeste",
+    "area": "Dam Battlegrounds",
+    "description": "Y'know, back in the day we actually used to have a flag — well, a scrap of cloth more than anything. Still, seeing it meant you knew you had allies nearby, that you were on your home turf. So I was thinking...",
+    "objectives": [
+      {
+        "text": "Reach the Formicai Outpost in Dam Battlegrounds",
+        "done": false
+      },
+      {
+        "text": "Locate the flag at the Formicai Outpost",
+        "done": false
+      },
+      {
+        "text": "Hoist the flag on the small platform overlooking the Red Lake",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Mod Components",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/mod_components.webp",
+        "value": 1750,
+        "type": "refined material"
+      },
+      {
+        "name": "Duct Tape",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/duct_tape.webp",
+        "value": 300,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_symbol_of_unification"
+  },
+  {
+    "id": "a-toxic-trail",
+    "slug": "a-toxic-trail",
+    "ardbId": "a_toxic_trail",
+    "title": "A Toxic Trail",
+    "trader": "Shani",
+    "area": "Dam Battlegrounds",
+    "description": "We've got clean water again, but we can't risk people falling ill if the saboteurs return. We need to root them out once and for all.",
+    "objectives": [
+      {
+        "text": "Return to the water intake below the Water Treatment Control building",
+        "done": false
+      },
+      {
+        "text": "Search the swamp for traces of the barrel's origins",
+        "done": false
+      },
+      {
+        "text": "Take a pgoto of the barrel truck",
+        "done": false
+      },
+      {
+        "text": "Search the truck for clues about the saboteur's identity",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Tactical Mk. 2",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/tactical_mk2.webp",
+        "value": 2000,
+        "type": "augment"
+      },
+      {
+        "name": "Pulse Mine Blueprint",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/recipe.webp",
+        "value": 5000,
+        "type": "blueprint"
+      },
+      {
+        "name": "Zipline",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/zipline.webp",
+        "value": 1000,
+        "type": "quick use"
+      },
+      {
+        "name": "Gas Mine",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/gas_mine.webp",
+        "value": 270,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_toxic_trail"
+  },
+  {
+    "id": "broken-monument",
+    "slug": "broken-monument",
+    "ardbId": "broken_monument",
+    "title": "Broken Monument",
+    "trader": "Tian Wen",
+    "area": "Dam Battlegrounds",
+    "description": "I have another special site I need you to search for me. An old battlegrounds, from the First Wave. Raiders nowadays usually pick places like that clean, despite the significance they once held. People forget quickly. Quicker than they should.",
+    "objectives": [
+      {
+        "text": "Reach the hallowed grounds by the Scrap Yard",
+        "done": false
+      },
+      {
+        "text": "Search for a compass near the broken-down vehicles",
+        "done": false
+      },
+      {
+        "text": "Search for the video tape near the cylindrical containers",
+        "done": false
+      },
+      {
+        "text": "Search for the old field rations in the Raider camp",
+        "done": false
+      },
+      {
+        "text": "Deliver the First Wave Tape to Tian Wen",
+        "done": false
+      },
+      {
+        "text": "Deliver the First Wave Compass to Tian Wen",
+        "done": false
+      },
+      {
+        "text": "Deliver First Wave Rations to Tian Wen",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Medium Ammo",
+        "amount": 80,
+        "icon": "https://ardb.app/static/items/icons/medium_ammo.webp",
+        "value": 6,
+        "type": "ammunition"
+      },
+      {
+        "name": "Arpeggio I",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/arpeggio.webp",
+        "value": 5500,
+        "type": "assault rifle"
+      },
+      {
+        "name": "Compensator II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/compensator_t2.webp",
+        "value": 2000,
+        "type": "modification"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/broken_monument"
+  },
+  {
+    "id": "celeste-s-journals",
+    "slug": "celeste-s-journals",
+    "ardbId": "celestes_journals",
+    "title": "Celeste's Journals",
+    "trader": "Celeste",
+    "area": "Dam Battlegrounds",
+    "description": "Okay, so this is awkward... I lost two of my journals during some outpost inspections last time I went topside. Could you head out there and try to find them back before someone else stumbles on them?",
+    "objectives": [
+      {
+        "text": "Retreive Celeste's Journals from the South Swamp Outpost",
+        "done": false
+      },
+      {
+        "text": "Retrieve Celeste's Journals from the northern outpost overlooking the Red Lakes",
+        "done": false
+      },
+      {
+        "text": "Deliver 2 Journals to Celeste",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Magnetic Accelerator",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/magnetic_accelerator.webp",
+        "value": 5500,
+        "type": "refined material"
+      },
+      {
+        "name": "Medium Gun Parts",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/medium_gun_parts.webp",
+        "value": 700,
+        "type": "topside material"
+      },
+      {
+        "name": "Exodus Modules",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/exodus_modules.webp",
+        "value": 2750,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/celestes_journals"
+  },
+  {
+    "id": "echoes-of-victory-ridge",
+    "slug": "echoes-of-victory-ridge",
+    "ardbId": "echoes_of_victory_ridge",
+    "title": "Echoes Of Victory Ridge",
+    "trader": "Celeste",
+    "area": "Dam Battlegrounds",
+    "description": "Did you feel any tremors last night? Me neither. But apparently the ground shifted at some point, and in the process it unearthed an old First Wave outpost that'd been blocked by debris. I'd like you to get in there quick, before anyone else does.",
+    "objectives": [
+      {
+        "text": "Reach Victory Ridge",
+        "done": false
+      },
+      {
+        "text": "Retrieve the battle plans from the hideout under the broken highway",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Crude Explosives",
+        "amount": 6,
+        "icon": "https://ardb.app/static/items/icons/crude_explosives.webp",
+        "value": 270,
+        "type": "refined material"
+      },
+      {
+        "name": "Processor",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/processor.webp",
+        "value": 500,
+        "type": "topside material"
+      },
+      {
+        "name": "Music Box",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/music_box.webp",
+        "value": 5000,
+        "type": "trinket"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/echoes_of_victory_ridge"
+  },
+  {
+    "id": "flickering-threat",
+    "slug": "flickering-threat",
+    "ardbId": "flickering_threat",
+    "title": "Flickering Threat",
+    "trader": "Celeste",
+    "area": "Dam Battlegrounds",
+    "description": "My usual engineer is still healing from his wounds, and has been loopy for days. We can't afford to be at half-grid until he heals: I need someone to pick up his wrench in the mean time.",
+    "objectives": [
+      {
+        "text": "Find the Generator Room",
+        "done": false
+      },
+      {
+        "text": "Repair the Generator",
+        "done": false
+      },
+      {
+        "text": "Find the Ventilation Shaft",
+        "done": false
+      },
+      {
+        "text": "Enable the power via the power switch underneath the stairs.",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Advanced Mechanical Components",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/advanced_mechanical_components.webp",
+        "value": 1750,
+        "type": "refined material"
+      },
+      {
+        "name": "Medium Gun Parts",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/medium_gun_parts.webp",
+        "value": 700,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/flickering_threat"
+  },
+  {
+    "id": "keeping-the-memory",
+    "slug": "keeping-the-memory",
+    "ardbId": "keeping_the_memory",
+    "title": "Keeping The Memory",
+    "trader": "Celeste",
+    "area": "Dam Battlegrounds",
+    "description": "I lost my cool a bit when I sent you after that trap. I don't usually lose my temper, but the First Wave... We went through a lot, back then. Lost a lot of people. It's still a bit of a raw wound for me, but I want you to understand.",
+    "objectives": [
+      {
+        "text": "Reach the wreckage in the Formicai Hills",
+        "done": false
+      },
+      {
+        "text": "Search for the missing helmet",
+        "done": false
+      },
+      {
+        "text": "Return the helmet to the memorial",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Simple Gun Parts",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/simple_gun_parts.webp",
+        "value": 330,
+        "type": "topside material"
+      },
+      {
+        "name": "Duct Tape",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/duct_tape.webp",
+        "value": 300,
+        "type": "topside material"
+      },
+      {
+        "name": "Magnet",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/magnet.webp",
+        "value": 300,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/keeping_the_memory"
+  },
+  {
+    "id": "our-presence-up-there",
+    "slug": "our-presence-up-there",
+    "ardbId": "our_presence_up_there",
+    "title": "Our Presence Up there",
+    "trader": "Shani",
+    "area": "Dam Battlegrounds",
+    "description": "ARC may be changing, but we're finally changing with it. Let's finish up those outposts and revolutionize the way we track them, flank them, and smash them to bits.",
+    "objectives": [
+      {
+        "text": "Visit the Pattern House in The Dam",
+        "done": false
+      },
+      {
+        "text": "Find and flip the Power Switch",
+        "done": false
+      },
+      {
+        "text": "Complete the antenna installation on the roof",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Buried City Town Hall Key",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/key.webp",
+        "value": 100,
+        "type": "key"
+      },
+      {
+        "name": "Raider Hatch Key",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/raider_hatch_key.webp",
+        "value": 2000,
+        "type": "key"
+      },
+      {
+        "name": "Jolt Mine",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/jolt_mine.webp",
+        "value": 850,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/our_presence_up_there"
+  },
+  {
+    "id": "source-of-contamination",
+    "slug": "source-of-contamination",
+    "ardbId": "source_of_contamination",
+    "title": "Source of Contamination",
+    "trader": "Celeste",
+    "area": "Dam Battlegrounds",
+    "description": "I'm not saying our water's been tampered with, but based on your samples, I can't rule out the possibility either. Would you return to the Dam and see what's wrong?",
+    "objectives": [
+      {
+        "text": "Reach the Water Treatment Building in The Dam",
+        "done": false
+      },
+      {
+        "text": "Search for the Flood Spill Intake near the Swamp",
+        "done": false
+      },
+      {
+        "text": "Investigate any suspicious objects",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Mod Components",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/mod_components.webp",
+        "value": 1750,
+        "type": "refined material"
+      },
+      {
+        "name": "Steel Spring",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/steel_spring.webp",
+        "value": 300,
+        "type": "topside material"
+      },
+      {
+        "name": "Duct Tape",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/duct_tape.webp",
+        "value": 300,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/source_of_contamination"
+  },
+  {
+    "id": "straight-record",
+    "slug": "straight-record",
+    "ardbId": "straight_record",
+    "title": "Straight Record",
+    "trader": "Celeste",
+    "area": "Dam Battlegrounds",
+    "description": "Back during the First Wave, my squad and I built a trap out by the Dam. Overloaded a generator, turned it into a makeshift ARC trap. Now I hear Raiders are using it to cut comms and spring ambushes on each other. I need you to end it.",
+    "objectives": [
+      {
+        "text": "Reach Victory Ridge",
+        "done": false
+      },
+      {
+        "text": "Find the old EMP trap",
+        "done": false
+      },
+      {
+        "text": "Disable the first power switch",
+        "done": false
+      },
+      {
+        "text": "Disable the second power switch",
+        "done": false
+      },
+      {
+        "text": "Disable the third power switch",
+        "done": false
+      },
+      {
+        "text": "Shut down the EMP trap",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Advanced Mechanical Components",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/advanced_mechanical_components.webp",
+        "value": 1750,
+        "type": "refined material"
+      },
+      {
+        "name": "Medium Gun Parts",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/medium_gun_parts.webp",
+        "value": 700,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/straight_record"
+  },
+  {
+    "id": "the-league",
+    "slug": "the-league",
+    "ardbId": "the_league",
+    "title": "The League",
+    "trader": "Apollo",
+    "area": "Dam Battlegrounds",
+    "description": "Kids around here have been kicking empty grenade casings around. It's only a matter of time before they're not so empty. So here's the plan. You help me with some prep work, and I'll set up an actual football team for the young ones.",
+    "objectives": [
+      {
+        "text": "Deliver a Deflated Football to Apollo",
+        "done": false
+      },
+      {
+        "text": "Deliver a Bicycle Pump to Apollo",
+        "done": false
+      },
+      {
+        "text": "On Dam Battlegrounds, photograph the goal by the Water Towers",
+        "done": false
+      },
+      {
+        "text": "On Buried City, photograph the football magazines in any kiosk",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Tagging Grenade",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/tagging_grenade.webp",
+        "value": 1000,
+        "type": "quick use"
+      },
+      {
+        "name": "Firecracker",
+        "amount": 5,
+        "icon": "",
+        "value": 270,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/the_league"
+  },
+  {
+    "id": "the-majors-footlocker",
+    "slug": "the-majors-footlocker",
+    "ardbId": "the_majors_footlocker",
+    "title": "The Majors Footlocker",
+    "trader": "Tian Wen",
+    "area": "Dam Battlegrounds",
+    "description": "I have another job. It's... about my mom. \n\nThose First Wave sites I sent you to before? I actually hoped you'd find something of my mother's. She fought in the Raider resistance. It was a long shot: but now I've got an actual lead.",
+    "objectives": [
+      {
+        "text": "Search for Major Aiva's mementos in the apartments northwest of The Dam.",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/the_majors_footlocker"
+  },
+  {
+    "id": "untended-garden",
+    "slug": "untended-garden",
+    "ardbId": "untended_garden",
+    "title": "Untended Garden",
+    "trader": "Celeste",
+    "area": "Dam Battlegrounds",
+    "description": "According to the files you found in the lab, the cultivation researchers were actually the ones who set up the hydroponic domes out in the swamp. Sounds like the most obvious place to search next, don't you think?",
+    "objectives": [
+      {
+        "text": "Go to the Hydroponic Dome Complex",
+        "done": false
+      },
+      {
+        "text": "Access the data archive in one of the domes",
+        "done": false
+      },
+      {
+        "text": "Upload the data to the computer terminal in any Field Depot",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Advanced Mechanical Components",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/advanced_mechanical_components.webp",
+        "value": 1750,
+        "type": "refined material"
+      },
+      {
+        "name": "Medium Gun Parts",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/medium_gun_parts.webp",
+        "value": 700,
+        "type": "topside material"
+      },
+      {
+        "name": "Canister",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/canister.webp",
+        "value": 300,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/untended_garden"
+  },
+  {
+    "id": "water-troubles",
+    "slug": "water-troubles",
+    "ardbId": "water_troubles",
+    "title": "Water Troubles",
+    "trader": "Celeste",
+    "area": "Dam Battlegrounds",
+    "description": "If you're here to complain about the water, join the club. I've been fielding complaints all day. Something is definitely up with it, and I need some help to sort it out.",
+    "objectives": [
+      {
+        "text": "Locate the Flood Access Tunnel under the Red Lake Balcony",
+        "done": false
+      },
+      {
+        "text": "Find the intake to District's Water Supply",
+        "done": false
+      },
+      {
+        "text": "Sample the water",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Mechanical Components",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/mechanical_components.webp",
+        "value": 640,
+        "type": "refined material"
+      },
+      {
+        "name": "Simple Gun Parts",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/simple_gun_parts.webp",
+        "value": 330,
+        "type": "topside material"
+      },
+      {
+        "name": "Steel Spring",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/steel_spring.webp",
+        "value": 300,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/water_troubles"
+  },
+  {
+    "id": "paving-the-way",
+    "slug": "paving-the-way",
+    "ardbId": "paving_the_way",
+    "title": "Paving The Way",
+    "trader": "Apollo",
+    "area": "Dam Battlegrounds, Blue Gate, Buried City",
+    "description": "For an entire sector to collapse like that... No wonder people are scared. We need to reinforce beyond anything we've done before, and we can't do it alone.",
+    "objectives": [
+      {
+        "text": "Go to any ENELICA building",
+        "done": false
+      },
+      {
+        "text": "Search for a notice board with a note from the researcher",
+        "done": false
+      },
+      {
+        "text": "On Buried City, reach the top floor above the Convinio in Piazza Roma",
+        "done": false
+      },
+      {
+        "text": "Find the researcher's flat and search for any research data",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Raider Hatch Key",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/raider_hatch_key.webp",
+        "value": 2000,
+        "type": "key"
+      },
+      {
+        "name": "Seeker Grenade",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/seeker_grenade.webp",
+        "value": 640,
+        "type": "quick use"
+      },
+      {
+        "name": "Electrical Components",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/electrical_components.webp",
+        "value": 640,
+        "type": "refined material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/paving_the_way"
+  },
+  {
+    "id": "bombing-run",
+    "slug": "bombing-run",
+    "ardbId": "bombing_run",
+    "title": "Bombing Run",
+    "trader": "Shani",
+    "area": "Dam Battlegrounds, The Spaceport, Buried City, Blue Gate, Stella Montis, Riven Tides",
+    "description": "Now, time to see if that recon paid off. If we can teach Raiders to effectively counter Bombardiers up there, we'd be a lot safer down here.",
+    "objectives": [
+      {
+        "text": "Destroy a Bombardier",
+        "done": false
+      },
+      {
+        "text": "Deliver a Bombardier Cell to Shani",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/bombing_run"
+  },
+  {
+    "id": "clearer-skies",
+    "slug": "clearer-skies",
+    "ardbId": "clearer_skies",
+    "title": "Clearer Skies",
+    "trader": "Shani",
+    "area": "Dam Battlegrounds, The Spaceport, Buried City, Blue Gate, Stella Montis, Riven Tides",
+    "description": "A swarm of disoriented Wasps crashed near one of our skylights. \n\nI need you to help thin ARC's ranks before any more accidents happen, and gather some extra sturdy materials to fix the damage.",
+    "objectives": [
+      {
+        "text": "Destroy 3 ARC enemies",
+        "done": false
+      },
+      {
+        "text": "Get 3 ARC Alloy for Shani",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Sterilized Bandage",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/sterilized_bandage.webp",
+        "value": 2000,
+        "type": "quick use"
+      },
+      {
+        "name": "Light Shield",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/light_shield.webp",
+        "value": 640,
+        "type": "shield"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/clearer_skies"
+  },
+  {
+    "id": "collision-course",
+    "slug": "collision-course",
+    "ardbId": "collision_course",
+    "title": "Collision Course",
+    "trader": "Tian Wen",
+    "area": "Dam Battlegrounds, The Spaceport, Buried City, Blue Gate, Stella Montis, Riven Tides",
+    "description": "Many Raiders have learned how to dodge a Comet, but far too few know how to bring them down and get at their inner parts.",
+    "objectives": [
+      {
+        "text": "Destroy a Comet",
+        "done": false
+      },
+      {
+        "text": "Deliver a Comet Igniter to Tian Wen",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Extended Medium Mag III",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/extended_medium_mag_t3.webp",
+        "value": 5000,
+        "type": "modification"
+      },
+      {
+        "name": "Muzzle Brake II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/muzzle_brake_t2.webp",
+        "value": 2000,
+        "type": "modification"
+      },
+      {
+        "name": "Canto I",
+        "amount": 1,
+        "icon": "",
+        "value": 7000,
+        "type": "SMG"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/collision_course"
+  },
+  {
+    "id": "doctor-s-orders",
+    "slug": "doctor-s-orders",
+    "ardbId": "doctors_orders",
+    "title": "Doctor's Orders",
+    "trader": "Lance",
+    "area": "Dam Battlegrounds, The Spaceport, Buried City, Blue Gate, Stella Montis, Riven Tides",
+    "description": "Say, newbie: if you want me to treat you, you better prove that those precious limbs of yours are worth bandaging.",
+    "objectives": [
+      {
+        "text": "Obtain 1 Syringe",
+        "done": false
+      },
+      {
+        "text": "Obtain 2 Antiseptic",
+        "done": false
+      },
+      {
+        "text": "Obtain 1 Durable Cloth",
+        "done": false
+      },
+      {
+        "text": "Obtain 1 Great Mullein",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Adrenaline Shot",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/adrenaline_shot.webp",
+        "value": 300,
+        "type": "quick use"
+      },
+      {
+        "name": "Sterilized Bandage",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/sterilized_bandage.webp",
+        "value": 2000,
+        "type": "quick use"
+      },
+      {
+        "name": "Surge Shield Recharger",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/surge_shield_recharger.webp",
+        "value": 1200,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/doctors_orders"
+  },
+  {
+    "id": "picking-up-the-pieces",
+    "slug": "picking-up-the-pieces",
+    "ardbId": "picking_up_the_pieces",
+    "title": "Picking Up The Pieces",
+    "trader": "Shani",
+    "area": "Dam Battlegrounds, The Spaceport, Buried City, Blue Gate, Stella Montis, Riven Tides",
+    "description": "The storm has mostly settled, but much of our infrastructure has taken a proper beating. If you're hoping to with us, I'll need you to pull your weight in the repair efforts.",
+    "objectives": [
+      {
+        "text": "Visit any area on your map with a loot category icon",
+        "done": false
+      },
+      {
+        "text": "Loot 3 containers",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Medium Ammo",
+        "amount": 80,
+        "icon": "https://ardb.app/static/items/icons/medium_ammo.webp",
+        "value": 6,
+        "type": "ammunition"
+      },
+      {
+        "name": "Rattler III",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/rattler.webp",
+        "value": 5000,
+        "type": "assault rifle"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/picking_up_the_pieces"
+  },
+  {
+    "id": "safe-passage",
+    "slug": "safe-passage",
+    "ardbId": "safe_passage",
+    "title": "Safe Passage",
+    "trader": "Apollo",
+    "area": "Dam Battlegrounds, The Spaceport, Buried City, Blue Gate, Stella Montis, Riven Tides",
+    "description": "I heard rumors about some signal Shani picked up. ARC is constantly adapting, and I'm sure this won't be their last warning sign. \n\nWell, if it's an arms race they want, they can get one.",
+    "objectives": [
+      {
+        "text": "Destroy 2 ARC enemies using any explosive grenade",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Shrapnel Grenade",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/shrapnel_grenade.webp",
+        "value": 800,
+        "type": "quick use"
+      },
+      {
+        "name": "Li'l Smoke Grenade",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/lil_smoke_grenade.webp",
+        "value": 300,
+        "type": "quick use"
+      },
+      {
+        "name": "Barricade Kit",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/barricade_kit.webp",
+        "value": 640,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/safe_passage"
+  },
+  {
+    "id": "test-case",
+    "slug": "test-case",
+    "ardbId": "test_case",
+    "title": "Test Case",
+    "trader": "Apollo",
+    "area": "Dam Battlegrounds, The Spaceport, Buried City, Blue Gate, Stella Montis, Riven Tides",
+    "description": "Hey, question for you. What do you get if you cross a Hornet and Fireball? If your answer is 'a Firefly', then we're on the same page.",
+    "objectives": [
+      {
+        "text": "Deliver a Hornet Driver to Apollo",
+        "done": false
+      },
+      {
+        "text": "Deliver a Fireball Burner to Apollo",
+        "done": false
+      },
+      {
+        "text": "Destroy a Firefly",
+        "done": false
+      },
+      {
+        "text": "Deliver a Firefly Burner to Apollo",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/test_case"
+  },
+  {
+    "id": "the-right-tool",
+    "slug": "the-right-tool",
+    "ardbId": "the_right_tool",
+    "title": "The Right Tool",
+    "trader": "Tian Wen",
+    "area": "Dam Battlegrounds, The Spaceport, Buried City, Blue Gate, Stella Montis, Riven Tides",
+    "description": "You're one of the new arrivals, right? I need a volunteer to test out this upgraded Ferro; should cut through ARC plating like butter. Go put holes in some machines, and report back to me.",
+    "objectives": [
+      {
+        "text": "Destroy a Fireball",
+        "done": false
+      },
+      {
+        "text": "Destroy a Hornet",
+        "done": false
+      },
+      {
+        "text": "Destroy a Turret",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Extended Light Mag I",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/extended_light_mag_t1.webp",
+        "value": 640,
+        "type": "modification"
+      },
+      {
+        "name": "Stitcher II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/stitcher.webp",
+        "value": 2000,
+        "type": "SMG"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/the_right_tool"
+  },
+  {
+    "id": "trash-into-treasure",
+    "slug": "trash-into-treasure",
+    "ardbId": "trash_into_treasure",
+    "title": "Trash Into Treasure",
+    "trader": "Shani",
+    "area": "Dam Battlegrounds, The Spaceport, Buried City, Blue Gate, Stella Montis, Riven Tides",
+    "description": "There's no such thing as junk, to a Raider; just valuable materials waiting to be recycled. \n\nIf you're going to amount to anything around here, you can't just wait for things to be served on a silver platter.",
+    "objectives": [
+      {
+        "text": "Obtain 6 Wires",
+        "done": false
+      },
+      {
+        "text": "Obtain 1 Battery",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Tactical Mk. 1",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/tactical_mk1.webp",
+        "value": 640,
+        "type": "augment"
+      },
+      {
+        "name": "Adrenaline Shot",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/adrenaline_shot.webp",
+        "value": 300,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/trash_into_treasure"
+  },
+  {
+    "id": "tribute-to-toledo",
+    "slug": "tribute-to-toledo",
+    "ardbId": "tribute_to_toledo",
+    "title": "Tribute to Toledo",
+    "trader": "Celeste",
+    "area": "Dam Battlegrounds, The Spaceport, Buried City, Blue Gate, Stella Montis, Riven Tides",
+    "description": "The Official Toledo Tubes Management is demanding one of our Power Rods for usage of \"their\" Slingshot tubes. Don't let the name fool you, they're in no way official; just thugs with lots of power. Could you help me with this?",
+    "objectives": [
+      {
+        "text": "Get a Power Rod for Celeste",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Advanced Mechanical Components",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/advanced_mechanical_components.webp",
+        "value": 1750,
+        "type": "refined material"
+      },
+      {
+        "name": "Magnet",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/magnet.webp",
+        "value": 300,
+        "type": "topside material"
+      },
+      {
+        "name": "Synthesized Fuel",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/synthesized_fuel.webp",
+        "value": 700,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/tribute_to_toledo"
+  },
+  {
+    "id": "what-goes-around",
+    "slug": "what-goes-around",
+    "ardbId": "what_goes_around",
+    "title": "What Goes Around",
+    "trader": "Apollo",
+    "area": "Dam Battlegrounds, The Spaceport, Buried City, Blue Gate, Stella Montis, Riven Tides",
+    "description": "We can't build ARC tech from scratch, but there's plenty I can tinker from pieces you salvage. \nI'm currently trying to repurpose different ARC parts. Would you mind running some experiments for me?",
+    "objectives": [
+      {
+        "text": "Destroy any ARC enemy using a Fireball Burner",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Blaze Grenade",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/blaze_grenade.webp",
+        "value": 1600,
+        "type": "quick use"
+      },
+      {
+        "name": "Noisemaker",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/noisemaker.webp",
+        "value": 640,
+        "type": "quick use"
+      },
+      {
+        "name": "Blue Light Stick",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/blue_light_stick.webp",
+        "value": 150,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/what_goes_around"
+  },
+  {
+    "id": "battening-down",
+    "slug": "battening-down",
+    "ardbId": "battening_down",
+    "title": "Battening Down",
+    "trader": "Apollo",
+    "area": "Riven Tides",
+    "description": "We'd hoped the seawalls at Riven Tides might offer us some protection from the elements, but it seems the hurricanes were not kind to this place, either.",
+    "objectives": [
+      {
+        "text": "Photograph the cracks forming in the seawall",
+        "done": false
+      },
+      {
+        "text": "Sample the shoreline near the hotel beach",
+        "done": false
+      },
+      {
+        "text": "Fix the leaking oil pipe in the northeast",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Smoke Grenade Trap",
+        "amount": 3,
+        "icon": "",
+        "value": 640,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/battening_down"
   },
   {
     "id": "battering-down",
@@ -31,17 +3323,153 @@
     "image": "assets/quests/battering-down.webp",
     "description": "The seawalls at Riven Tides were supposed to protect the coast, but the place still needs work.",
     "objectives": [
-      { "text": "Photograph the cracks forming in the seawall", "done": false },
-      { "text": "Sample the shoreline near the hotel beach", "done": false },
-      { "text": "Fix the leaking oil pipe in the northeast", "done": false }
+      {
+        "text": "Photograph the cracks forming in the seawall",
+        "done": false
+      },
+      {
+        "text": "Sample the shoreline near the hotel beach",
+        "done": false
+      },
+      {
+        "text": "Fix the leaking oil pipe in the northeast",
+        "done": false
+      }
     ],
     "grantedItems": [],
     "rewards": [
-      { "name": "Reward", "amount": 1 },
-      { "name": "Reward", "amount": 3 }
+      {
+        "name": "Reward",
+        "amount": 1
+      },
+      {
+        "name": "Reward",
+        "amount": 3
+      }
     ],
     "status": "active",
     "notes": ""
+  },
+  {
+    "id": "safe-harbor",
+    "slug": "safe-harbor",
+    "ardbId": "safe_harbor",
+    "title": "Safe Harbor",
+    "trader": "Tian Wen",
+    "area": "Riven Tides",
+    "description": "Seems like news of the train derailment spread fast... And drove many workers to stash some very tasty technology away from prying eyes.",
+    "objectives": [
+      {
+        "text": "Find the clue left by the restaurant kitchen staff",
+        "done": false
+      },
+      {
+        "text": "Find the area portrayed in the sketch",
+        "done": false
+      },
+      {
+        "text": "Dig up the buried part",
+        "done": false
+      },
+      {
+        "text": "Deliver the Precision Gimbal to Tian Wen",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Horizontal Grip",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/horizontal_grip.webp",
+        "value": 7000,
+        "type": "modification"
+      },
+      {
+        "name": "Surge Coil",
+        "amount": 1,
+        "icon": "",
+        "value": 2100,
+        "type": "quick use"
+      },
+      {
+        "name": "Heavy Gun Parts",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/heavy_gun_parts.webp",
+        "value": 700,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/safe_harbor"
+  },
+  {
+    "id": "shoring-up-defenses",
+    "slug": "shoring-up-defenses",
+    "ardbId": "shoring_up_defenses",
+    "title": "Shoring Up Defenses",
+    "trader": "Apollo",
+    "area": "Riven Tides",
+    "description": "The wide-open coastline used to mean danger, but now it's the only place we can spot new threats moving into the Rust Belt.\n\nSo we'll have to make our own cover, and reinforce what few defenses we can find.",
+    "objectives": [
+      {
+        "text": "Destroy 5 Wasps",
+        "done": false,
+        "progress": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      {
+        "text": "Destroy 3 Fireflies",
+        "done": false,
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      {
+        "text": "Use 1 ARC Alloy to reinforce the Raider structure on top of any Stacking Yard crane",
+        "done": false
+      },
+      {
+        "text": "Board up shuttered windows in the hotel",
+        "done": false
+      }
+    ],
+    "grantedItems": [
+      {
+        "name": "Granted item",
+        "amount": 1
+      }
+    ],
+    "rewards": [
+      {
+        "name": "Barricade Kit",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/barricade_kit.webp",
+        "value": 640,
+        "type": "quick use"
+      },
+      {
+        "name": "Lure Grenade Trap",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/lure_grenade_trap.webp",
+        "value": 1000,
+        "type": "quick use"
+      },
+      {
+        "name": "Seeker Grenade",
+        "amount": 6,
+        "icon": "https://ardb.app/static/items/icons/seeker_grenade.webp",
+        "value": 640,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/shoring_up_defenses"
   },
   {
     "id": "wakening-the-grid",
@@ -51,142 +3479,1080 @@
     "image": "assets/quests/wakening-the-grid.webp",
     "description": "There's a problem with the sensor coverage at the Spaceport. The security grid is old, but getting it running again would help.",
     "objectives": [
-      { "text": "Activate the security sensors in one of the Guard Towers", "done": false }
+      {
+        "text": "Activate the security sensors in one of the Guard Towers",
+        "done": false
+      }
     ],
     "grantedItems": [],
     "rewards": [
-      { "name": "Reward", "amount": 1 },
-      { "name": "Reward", "amount": 3 },
-      { "name": "Reward", "amount": 5 }
-    ],
-    "status": "active",
-    "notes": ""
-  },
-  {
-    "id": "shoring-up-defenses",
-    "title": "Shoring Up Defenses",
-    "area": "Riven Tides",
-    "slug": "shoring-up-defenses",
-    "image": "assets/quests/shoring-up-defenses.webp",
-    "description": "The coastline is wide open, so cover and old defenses need to be reinforced.",
-    "objectives": [
-      { "text": "Destroy 5 Wasps", "done": false, "progress": { "current": 0, "total": 5 } },
-      { "text": "Destroy 3 Fireflies", "done": false, "progress": { "current": 0, "total": 3 } },
-      { "text": "Use 1 ARC Alloy to reinforce the Raider structure on top of any Stacking Yard crane", "done": false },
-      { "text": "Board up shuttered windows in the hotel", "done": false }
-    ],
-    "grantedItems": [
-      { "name": "Granted item", "amount": 1 }
-    ],
-    "rewards": [
-      { "name": "Reward", "amount": 3 },
-      { "name": "Reward", "amount": 3 },
-      { "name": "Reward", "amount": 6 }
+      {
+        "name": "Reward",
+        "amount": 1
+      },
+      {
+        "name": "Reward",
+        "amount": 3
+      },
+      {
+        "name": "Reward",
+        "amount": 5
+      }
     ],
     "status": "active",
     "notes": ""
   },
   {
     "id": "cold-storage",
-    "title": "Cold Storage",
-    "area": "Stella Montis",
     "slug": "cold-storage",
-    "image": "assets/quests/cold-storage.webp",
-    "description": "Reports about Stella Montis keep coming in. There may be records or relics from the past in there.",
+    "ardbId": "cold_storage",
+    "title": "Cold Storage",
+    "trader": "Shani",
+    "area": "Stella Montis",
+    "description": "Reports about Stella Montis keep coming in, and it's unlikely anything we've seen before. There may be records of relics from the past in there, and if so, I want them.",
     "objectives": [
-      { "text": "In one round: Search any J Kozma Ventures container", "done": false }
+      {
+        "text": "Search any J Kozma Ventures container",
+        "done": false
+      },
+      {
+        "text": "Deliver the Rare Books to Shani",
+        "done": false
+      }
     ],
     "grantedItems": [],
     "rewards": [
-      { "name": "Reward", "amount": 3 },
-      { "name": "Reward", "amount": 1 }
+      {
+        "name": "Raider Hatch Key",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/raider_hatch_key.webp",
+        "value": 2000,
+        "type": "key"
+      },
+      {
+        "name": "Gas Mine",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/gas_mine.webp",
+        "value": 270,
+        "type": "quick use"
+      }
     ],
     "status": "active",
-    "notes": ""
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/cold_storage"
   },
   {
-    "id": "medical-merchandise",
-    "title": "Medical Merchandise",
-    "area": "Multiple Destinations",
-    "slug": "medical-merchandise",
-    "image": "assets/quests/medical-merchandise.webp",
-    "description": "Medical goods are needed, and the best places to search are exam rooms and medical rooms across several maps.",
+    "id": "fragmented-logs",
+    "slug": "fragmented-logs",
+    "ardbId": "fragmented_logs",
+    "title": "Fragmented Logs",
+    "trader": "Shani",
+    "area": "Stella Montis",
+    "description": "Now that we've found our footing on Stella Montis, several parties are interested in digging a bit deeper and seeing what we can find out about the past of this place. To do so, however, we'll need to power up some of these old machines so we can start to sift through the data.",
     "objectives": [
-      { "text": "On Spaceport, search 2 containers in the Departure Building's exam rooms", "done": false, "progress": { "current": 0, "total": 2 } },
-      { "text": "Search 3 containers in the Hospital in Buried City", "done": false, "progress": { "current": 0, "total": 3 } },
-      { "text": "On Dam Battlegrounds, search 2 containers in the Research & Administration building's medical room", "done": false, "progress": { "current": 0, "total": 2 } }
+      {
+        "text": "In either of the Robotic Sandbox control rooms, repair the out-of-service terminal with 1 Electrical Component",
+        "done": false
+      },
+      {
+        "text": "Enable the power in any of the conduit backrooms near the Robotic Sandboxes",
+        "done": false
+      },
+      {
+        "text": "Boot the main frame data terminal in the Cultural Archives service backrooms",
+        "done": false
+      }
     ],
     "grantedItems": [],
     "rewards": [
-      { "name": "Reward", "amount": 1 },
-      { "name": "Reward", "amount": 3 },
-      { "name": "Reward", "amount": 2 }
+      {
+        "name": "Showstopper",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/showstopper.webp",
+        "value": 2100,
+        "type": "quick use"
+      },
+      {
+        "name": "Trailblazer",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/trailblazer.webp",
+        "value": 2200,
+        "type": "quick use"
+      }
     ],
     "status": "active",
-    "notes": ""
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/fragmented_logs"
   },
   {
-    "id": "clamoring-for-attention",
-    "title": "Clamoring For Attention",
-    "area": "The Blue Gate",
-    "slug": "clamoring-for-attention",
-    "image": "assets/quests/clamoring-for-attention.webp",
-    "description": "Use distractions and noise around the Blue Gate to pull ARC machines out of position.",
+    "id": "in-my-image",
+    "slug": "in-my-image",
+    "ardbId": "in_my_image",
+    "title": "In My Image",
+    "trader": "Lance",
+    "area": "Stella Montis",
+    "description": "I just treated one of the first Raiders who visited Stella Montis, and she said that she saw... others. Androids, very much like me.",
     "objectives": [
-      { "text": "Use 3 Wires to repair and sound the emergency siren by the Warehouse Complex", "done": false },
-      { "text": "Use a Battery to start the boom box in the Village", "done": false },
-      { "text": "Sound any bus horn by the Checkpoint", "done": false }
+      {
+        "text": "Deploy into Stella Montis",
+        "done": false
+      },
+      {
+        "text": "Find and search 3 Androids",
+        "done": false
+      }
     ],
     "grantedItems": [],
     "rewards": [
-      { "name": "Reward", "amount": 5 },
-      { "name": "Reward", "amount": 5 },
-      { "name": "Reward", "amount": 3 }
+      {
+        "name": "Looting Mk. 2",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/looting_mk2.webp",
+        "value": 2000,
+        "type": "augment"
+      },
+      {
+        "name": "Green Light Stick",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/green_light_stick.webp",
+        "value": 150,
+        "type": "quick use"
+      }
     ],
     "status": "active",
-    "notes": ""
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/in_my_image"
   },
   {
-    "id": "mixed-signals",
-    "title": "Mixed Signals",
-    "area": "Multiple Destinations",
-    "slug": "mixed-signals",
-    "image": "assets/quests/mixed-signals.webp",
-    "description": "Surveyors seem to be transmitting data back into orbit. Break one open and recover the vault.",
+    "id": "last-entry",
+    "slug": "last-entry",
+    "ardbId": "last_entry",
+    "title": "Last Entry",
+    "trader": "Shani",
+    "area": "Stella Montis",
+    "description": "More mentions of Mantikor, and more clear signs of dissent among the researchers. I suspect tensions eventually escalated.",
     "objectives": [
-      { "text": "Destroy an ARC Surveyor", "done": false },
-      { "text": "Obtain 1 Surveyor Vault", "done": false }
-    ],
-    "grantedItems": [
-      { "name": "Granted item", "amount": 3 },
-      { "name": "Granted item", "amount": 2 }
-    ],
-    "rewards": [
-      { "name": "Reward", "amount": 1 },
-      { "name": "Reward", "amount": 1 }
-    ],
-    "status": "active",
-    "notes": ""
-  },
-  {
-    "id": "what-we-left-behind",
-    "title": "What We Left Behind",
-    "area": "Multiple Destinations",
-    "slug": "what-we-left-behind",
-    "image": "assets/quests/what-we-left-behind.webp",
-    "description": "Track down old scrap and records from Raider camps and hideouts across several locations.",
-    "objectives": [
-      { "text": "On Buried City, search 2 containers in the Raider Camp beneath the Parking Garage", "done": false, "progress": { "current": 0, "total": 2 } },
-      { "text": "On Dam Battlegrounds, search for anything significant in the South Swamp Outpost", "done": false },
-      { "text": "On Spaceport, search for anything significant in Bilguun's Hideout, next to the Container Storage", "done": false }
+      {
+        "text": "Find and access the right work station in the Seed Vault for clues",
+        "done": false
+      },
+      {
+        "text": "Search for the hidden key in the adjacent room",
+        "done": false
+      },
+      {
+        "text": "Search the Seed Vault and unblock the seed deposit box",
+        "done": false
+      },
+      {
+        "text": "Search the seed deposit box",
+        "done": false
+      },
+      {
+        "text": "Bring the Official Shutdown Document to Shani",
+        "done": false
+      }
     ],
     "grantedItems": [],
     "rewards": [
-      { "name": "Reward", "amount": 1 },
-      { "name": "Reward", "amount": 1 },
-      { "name": "Reward", "amount": 1 }
+      {
+        "name": "Green Light Stick Blueprint",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/recipe.webp",
+        "value": 5000,
+        "type": "blueprint"
+      }
     ],
     "status": "active",
-    "notes": ""
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/last_entry"
+  },
+  {
+    "id": "on-deaf-ears",
+    "slug": "on-deaf-ears",
+    "ardbId": "on_deaf_ears",
+    "title": "On Deaf Ears",
+    "trader": "Lance",
+    "area": "Stella Montis",
+    "description": "Seems like every other Raider here has some serious hearing damage. I heard rumors they developed some extra advanced hearing aids at Stella Montis. If you can track them down, we might all be able to use our indoor voices, for once.",
+    "objectives": [
+      {
+        "text": "Find the researcher's guest logs on the reception computers",
+        "done": false
+      },
+      {
+        "text": "Find where the researcher held their lecture, and access their notes",
+        "done": false
+      },
+      {
+        "text": "Find information about the prototypes on the Medical Research computers",
+        "done": false
+      },
+      {
+        "text": "Find the printed shipping logs in the Assembly Workshops",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Lure Grenade",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/lure_grenade.webp",
+        "value": 1000,
+        "type": "quick use"
+      },
+      {
+        "name": "Noisemaker",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/noisemaker.webp",
+        "value": 640,
+        "type": "quick use"
+      },
+      {
+        "name": "Shaker",
+        "amount": 1,
+        "icon": "",
+        "value": 1000,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/on_deaf_ears"
+  },
+  {
+    "id": "snap-and-salvage",
+    "slug": "snap-and-salvage",
+    "ardbId": "snap_and_salvage",
+    "title": "Snap And Salvage",
+    "trader": "Tian Wen",
+    "area": "Stella Montis",
+    "description": "All of Speranza is buzzing about Stella Montis right now, and I admit it's caught my attention. Let the others sort out the whats and hows; I'm interested in the tech inside.",
+    "objectives": [
+      {
+        "text": "Take a Photo of any of the Rovers in the Sandbox",
+        "done": false
+      },
+      {
+        "text": "Search the papers in the Security Checkpoint room by the Lobby",
+        "done": false
+      },
+      {
+        "text": "Deliver a Magnetron to Tian Wen",
+        "done": false
+      },
+      {
+        "text": "Deliver a Flow Controller to Tian Wen",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Light Ammo",
+        "amount": 100,
+        "icon": "https://ardb.app/static/items/icons/light_ammo.webp",
+        "value": 4,
+        "type": "ammunition"
+      },
+      {
+        "name": "Silencer II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/silencer_t2.webp",
+        "value": 5000,
+        "type": "modification"
+      },
+      {
+        "name": "Extended Light Mag II",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/extended_light_mag_t1.webp",
+        "value": 2000,
+        "type": "modification"
+      },
+      {
+        "name": "Burletta III",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/burletta.webp",
+        "value": 7000,
+        "type": "pistol"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/snap_and_salvage"
+  },
+  {
+    "id": "stable-housing",
+    "slug": "stable-housing",
+    "ardbId": "stable_housing",
+    "title": "Stable Housing",
+    "trader": "Tian Wen",
+    "area": "Stella Montis",
+    "description": "You like a certain amount of uncertainty, right? A client wants the contents of a locked safe in Stella Montis. It's intact, so whatever's inside has been there since before the Exodus. Interested?",
+    "objectives": [
+      {
+        "text": "Go to the Security Bridge",
+        "done": false
+      },
+      {
+        "text": "Search for the safe in the side room by the third-floor staircases",
+        "done": false
+      },
+      {
+        "text": "Head upstairs to the fourth-floor control room",
+        "done": false
+      },
+      {
+        "text": "Use the Access Card Printer to print a key to use the safe",
+        "done": false
+      },
+      {
+        "text": "Search for alternate ways into the safe",
+        "done": false
+      },
+      {
+        "text": "Retreive the contents of the safe",
+        "done": false
+      },
+      {
+        "text": "Deliver the Project Heartwood Blueprints to Tian Wen",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Seeker Grenade",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/seeker_grenade.webp",
+        "value": 640,
+        "type": "quick use"
+      },
+      {
+        "name": "Lure Grenade",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/lure_grenade.webp",
+        "value": 1000,
+        "type": "quick use"
+      },
+      {
+        "name": "Snap Hook",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/snap_hook.webp",
+        "value": 14000,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/stable_housing"
+  },
+  {
+    "id": "with-a-view",
+    "slug": "with-a-view",
+    "ardbId": "with_a_view",
+    "title": "With A View",
+    "trader": "Shani",
+    "area": "Stella Montis",
+    "description": "Have you ever noticed those streaks of light darting across the skies? \n\nI've seen too much to believe they're natural, but it'll take more than a hunch to convince Celeste.",
+    "objectives": [
+      {
+        "text": "Obtain a Rotary Encoder",
+        "done": false
+      },
+      {
+        "text": "Visit any of the Control Rooms near the Assembly Line",
+        "done": false
+      },
+      {
+        "text": "Use the Rotary Encoder to activate the server switch",
+        "done": false
+      },
+      {
+        "text": "Interact with a nearby computer to help identify the correct parts",
+        "done": false
+      },
+      {
+        "text": "Deliver an Ion Sputter to Shani",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Tactical Mk. 2",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/tactical_mk2.webp",
+        "value": 2000,
+        "type": "augment"
+      },
+      {
+        "name": "Steel Spring",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/steel_spring.webp",
+        "value": 300,
+        "type": "topside material"
+      },
+      {
+        "name": "Wires",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/wires.webp",
+        "value": 200,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/with_a_view"
+  },
+  {
+    "id": "a-lay-of-the-land",
+    "slug": "a-lay-of-the-land",
+    "ardbId": "a_lay_of_the_land",
+    "title": "A Lay Of The Land",
+    "trader": "Shani",
+    "area": "The Spaceport",
+    "description": "Those distant rumbles are getting less distant with each passing day. \n\nI have a lead on some LiDAR scanners that may help us monitor the tremors. You do want to keep a roof over your head, don't you?",
+    "objectives": [
+      {
+        "text": "Reach the Jiangsu Warehouse",
+        "done": false
+      },
+      {
+        "text": "Find the shipping notes in the foreman's office",
+        "done": false
+      },
+      {
+        "text": "Locate the scanners on the upper floor of Control Tower A6",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Dam Testing Annex Key",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/key.webp",
+        "value": 100,
+        "type": "key"
+      },
+      {
+        "name": "Zipline",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/zipline.webp",
+        "value": 1000,
+        "type": "quick use"
+      },
+      {
+        "name": "Smoke Grenade",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/smoke_grenade.webp",
+        "value": 1000,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_lay_of_the_land"
+  },
+  {
+    "id": "a-wrench-in-the-works",
+    "slug": "a-wrench-in-the-works",
+    "ardbId": "a_wrench_in_the_works",
+    "title": "A Wrench In The Works",
+    "trader": "Celeste",
+    "area": "The Spaceport",
+    "description": "Looks like the resentment ended up reaching the ground staff of the Spaceport itself. A mutiny brewing, right in the heart of the Exodus.",
+    "objectives": [
+      {
+        "text": "Search the buses near the western gate",
+        "done": false
+      },
+      {
+        "text": "Locate the stash of sabotage supplies hidden at the Water Towers",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Mechanical Components",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/mechanical_components.webp",
+        "value": 640,
+        "type": "refined material"
+      },
+      {
+        "name": "Mod Components",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/mod_components.webp",
+        "value": 1750,
+        "type": "refined material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/a_wrench_in_the_works"
+  },
+  {
+    "id": "deciphering-the-data",
+    "slug": "deciphering-the-data",
+    "ardbId": "deciphering_the_data",
+    "title": "Deciphering The Data",
+    "trader": "Shani",
+    "area": "The Spaceport",
+    "description": "If the data you found can keep the ceiling from collapsing, we have no time to spare. \n\nI know of a few magnetic decryptors around Acerra Spaceport, from back during the Exodus. They might still be working.",
+    "objectives": [
+      {
+        "text": "Use the Magnetic Decryptor in the Fuel Control Building",
+        "done": false
+      },
+      {
+        "text": "Reach the Arrival Building in Spaceport",
+        "done": false
+      },
+      {
+        "text": "Use the Magnetic Decryptor on the top floor of the Arrival Building",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Defibrillator",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/defibrillator.webp",
+        "value": 1000,
+        "type": "quick use"
+      },
+      {
+        "name": "Trailblazer",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/trailblazer.webp",
+        "value": 2200,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/deciphering_the_data"
+  },
+  {
+    "id": "dust-on-the-wires",
+    "slug": "dust-on-the-wires",
+    "ardbId": "dust_on_the_wires",
+    "title": "Dust On The Wires",
+    "trader": "Shani",
+    "area": "The Spaceport",
+    "description": "I sent a scout team to the Spaceport a while ago. Routine work — cataloging security, see if there's anything we could re-purpose. But I've heard nothing for two days.",
+    "objectives": [
+      {
+        "text": "Visit any Field Depot on the eastern side of the Spaceport",
+        "done": false
+      },
+      {
+        "text": "Use the Field Radio to transmit the scout group's last log to Shani",
+        "done": false
+      },
+      {
+        "text": "Interact with the terminal in the old Raider Tower north of the Maintenance Hangar",
+        "done": false
+      },
+      {
+        "text": "Find traces of the scout patrol near the Maintenance Hangar",
+        "done": false
+      },
+      {
+        "text": "Search the remains left by the scouts",
+        "done": false
+      },
+      {
+        "text": "Deliver the Scout Patrol Note to Shani",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/dust_on_the_wires"
+  },
+  {
+    "id": "lost-in-transmission",
+    "slug": "lost-in-transmission",
+    "ardbId": "lost_in_transmission",
+    "title": "Lost In Transmission",
+    "trader": "Shani",
+    "area": "The Spaceport",
+    "description": "I have equipment set up at the Spaceport, to monitor ARC's movements. My connection broke down just now — I need you to head to the Control Towers and help me retrieve my logs.",
+    "objectives": [
+      {
+        "text": "Visit Control Tower A6",
+        "done": false
+      },
+      {
+        "text": "Reach the top of Control Tower A6",
+        "done": false
+      },
+      {
+        "text": "Establish a connection from the terminal",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Snap Hook",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/snap_hook.webp",
+        "value": 14000,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/lost_in_transmission"
+  },
+  {
+    "id": "on-the-map",
+    "slug": "on-the-map",
+    "ardbId": "on_the_map",
+    "title": "On The Map",
+    "trader": "Lance",
+    "area": "The Spaceport",
+    "description": "We know the coordinates for those hearing aids, but I'll have to cross-reference them with a paper map of the Spaceport. Those legs of ours aren't too tired, are they?",
+    "objectives": [
+      {
+        "text": "Head to where the Fuel Lines snapped, and transmit your location",
+        "done": false
+      },
+      {
+        "text": "Head to the antenna near the Fuel Control, and transmit your location",
+        "done": false
+      },
+      {
+        "text": "Head to the cactus patch in the wall breach, and transmit your location",
+        "done": false
+      },
+      {
+        "text": "Transmit your location from the roof of the Container Storage building",
+        "done": false
+      },
+      {
+        "text": "Find the container covered in tarp, and mark it",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Tactical Mk. 3 (Healing)",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/tactical_mk3_healing.webp",
+        "value": 5000,
+        "type": "augment"
+      },
+      {
+        "name": "Sterilized Bandage",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/sterilized_bandage.webp",
+        "value": 2000,
+        "type": "quick use"
+      },
+      {
+        "name": "Surge Shield Recharger",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/surge_shield_recharger.webp",
+        "value": 1200,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/on_the_map"
+  },
+  {
+    "id": "power-out",
+    "slug": "power-out",
+    "ardbId": "power_out",
+    "title": "Power Out",
+    "trader": "Celeste",
+    "area": "The Spaceport",
+    "description": "This goes beyond bad luck. Something—or someone—has knocked out some of our electrical substations. The engineer I sent out to fix it hasn't returned, so I need all available Raiders to look into it. That includes you.",
+    "objectives": [
+      {
+        "text": "Find the Electrical Substation south of the Spaceport",
+        "done": false
+      },
+      {
+        "text": "Find any sign of the missing engineer",
+        "done": false
+      },
+      {
+        "text": "Install the fuse",
+        "done": false
+      },
+      {
+        "text": "Restore the power",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Explosive Compound",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/explosive_compound.webp",
+        "value": 1000,
+        "type": "refined material"
+      },
+      {
+        "name": "Wires",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/wires.webp",
+        "value": 200,
+        "type": "topside material"
+      },
+      {
+        "name": "Oil",
+        "amount": 5,
+        "icon": "https://ardb.app/static/items/icons/oil.webp",
+        "value": 300,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/power_out"
+  },
+  {
+    "id": "prescriptions-of-the-past",
+    "slug": "prescriptions-of-the-past",
+    "ardbId": "prescriptions_of_the_past",
+    "title": "Prescriptions of the Past",
+    "trader": "Lance",
+    "area": "The Spaceport",
+    "description": "I've been curious about the medical area in the Spaceport for a while now. Something tells me it's got just what I need to become the undeniable champion of this place.",
+    "objectives": [
+      {
+        "text": "Visit the Departure Building in Spaceport",
+        "done": false
+      },
+      {
+        "text": "Find the Medical Exam Room inside the Departure Building",
+        "done": false
+      },
+      {
+        "text": "Search for the records",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/prescriptions_of_the_past"
+  },
+  {
+    "id": "switching-the-supply",
+    "slug": "switching-the-supply",
+    "ardbId": "switching_the_supply",
+    "title": "Switching The Supply",
+    "trader": "Celeste",
+    "area": "The Spaceport",
+    "description": "There is a reservoir beneath the Spaceport; if we manage to rout that water here, that should buy us time to deal with the contamination.",
+    "objectives": [
+      {
+        "text": "Find the tunnels under the Spaceport",
+        "done": false
+      },
+      {
+        "text": "Find and turn the valve in the tunnels under Spaceport",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Spaceport Warehouse Key",
+        "amount": 1,
+        "icon": "",
+        "value": 100,
+        "type": "key"
+      },
+      {
+        "name": "Synthesized Fuel",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/synthesized_fuel.webp",
+        "value": 700,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/switching_the_supply"
+  },
+  {
+    "id": "the-stench-of-corruption",
+    "slug": "the-stench-of-corruption",
+    "ardbId": "the_stench_of_corruption",
+    "title": "The Stench Of Corruption",
+    "trader": "Shani",
+    "area": "The Spaceport",
+    "description": "That key you found in the barrel truck... I won't jump to accusations just yet, but this certainly reeks of an inside job. Could you investigate a hunch I have?",
+    "objectives": [
+      {
+        "text": "Reach the southwest lobby of the Departure Building",
+        "done": false
+      },
+      {
+        "text": "Find the staff locker room",
+        "done": false
+      },
+      {
+        "text": "Search the room for any clues of the saboteur's identity",
+        "done": false
+      },
+      {
+        "text": "Reach the tunnels below the Spaceport",
+        "done": false
+      },
+      {
+        "text": "Use the key on any Flushing Terminal to override the bypass protocol",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Spaceport Warehouse Key",
+        "amount": 1,
+        "icon": "",
+        "value": 100,
+        "type": "key"
+      },
+      {
+        "name": "Noisemaker",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/noisemaker.webp",
+        "value": 640,
+        "type": "quick use"
+      },
+      {
+        "name": "Air Freshener",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/air_freshener.webp",
+        "value": 2000,
+        "type": "trinket"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/the_stench_of_corruption"
+  },
+  {
+    "id": "turnabout",
+    "slug": "turnabout",
+    "ardbId": "turnabout",
+    "title": "Turnabout",
+    "trader": "Celeste",
+    "area": "The Spaceport",
+    "description": "I got a plan. If we recover the evidence against the OTTM before they get to it, we might get them off our backs once and for all.",
+    "objectives": [
+      {
+        "text": "Go to the North Trench Tower",
+        "done": false
+      },
+      {
+        "text": "Locate and upload the Blackmail Files to Celeste",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Medium Gun Parts",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/medium_gun_parts.webp",
+        "value": 700,
+        "type": "topside material"
+      },
+      {
+        "name": "Heavy Gun Parts",
+        "amount": 2,
+        "icon": "https://ardb.app/static/items/icons/heavy_gun_parts.webp",
+        "value": 700,
+        "type": "topside material"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/turnabout"
+  },
+  {
+    "id": "waking-the-grid",
+    "slug": "waking-the-grid",
+    "ardbId": "waking_the_grid",
+    "title": "Waking The Grid",
+    "trader": "Shani",
+    "area": "The Spaceport",
+    "description": "There's a problem with our sensor coverage at the Spaceport. The security grid is old, so maybe it's just acting up. If you could get it running again, it'd save me a lot of sleepless nights.",
+    "objectives": [
+      {
+        "text": "Activate the security sensors in one of the Guard Towers",
+        "done": false
+      },
+      {
+        "text": "Start the Security Control Center in the Departure Building",
+        "done": false
+      },
+      {
+        "text": "Search for any traces of a security breach in the Arrival Building Data Office",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/waking_the_grid"
+  },
+  {
+    "id": "worth-your-salt",
+    "slug": "worth-your-salt",
+    "ardbId": "worth_your_salt",
+    "title": "Worth Your Salt",
+    "trader": "Celeste",
+    "area": "The Spaceport",
+    "description": "I found notes that some electrical engineers at the Spaceport were working on advanced, salt-based batteries. If we can get our hands on one, perhaps it'll prevent full-scale power outages next time a ceiling comes crashing down.",
+    "objectives": [
+      {
+        "text": "Go to the Rocket Assembly",
+        "done": false
+      },
+      {
+        "text": "Search for the hidden Battery Prototype in a high place",
+        "done": false
+      },
+      {
+        "text": "Bring the Battery Prototype to the Industrial Recharger",
+        "done": false
+      },
+      {
+        "text": "Use the machinery to charge the battery",
+        "done": false
+      },
+      {
+        "text": "Deliver the Charged Battery to the drop-off point in the corner",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Vita Spray Blueprint",
+        "amount": 1,
+        "icon": "https://ardb.app/static/items/icons/recipe.webp",
+        "value": 5000,
+        "type": "blueprint"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/worth_your_salt"
+  },
+  {
+    "id": "the-clean-dream",
+    "slug": "the-clean-dream",
+    "ardbId": "the_clean_dream",
+    "title": "The Clean Dream",
+    "trader": "Apollo",
+    "area": "The Spaceport, Blue Gate",
+    "description": "You know what I've been dreaming of lately? A talking water distiller! Crazy, huh? But seriously, with purer compounds I could make explosives with more oumph! Would be something, right?",
+    "objectives": [
+      {
+        "text": "On Spaceport, search 4 containers in the underground tunnels",
+        "done": false
+      },
+      {
+        "text": "Find and monitor any Filtration System in the tunnels",
+        "done": false
+      },
+      {
+        "text": "On The Blue Gate, visit the Maintenance Bunker",
+        "done": false
+      },
+      {
+        "text": "Monitor the Purification System in the bunker",
+        "done": false
+      },
+      {
+        "text": "Find and photograph the blueprints in the bunker",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Deadline",
+        "amount": 1,
+        "icon": "",
+        "value": 6000,
+        "type": "quick use"
+      },
+      {
+        "name": "Showstopper",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/showstopper.webp",
+        "value": 2100,
+        "type": "quick use"
+      },
+      {
+        "name": "Heavy Fuze Grenade",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/heavy_fuze_grenade.webp",
+        "value": 1600,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/the_clean_dream"
+  },
+  {
+    "id": "dormant-barons",
+    "slug": "dormant-barons",
+    "ardbId": "dormant_barons",
+    "title": "Dormant Barons",
+    "trader": "Shani",
+    "area": "The Spaceport, Dam Battlegrounds, Buried City, Blue Gate",
+    "description": "During the First Wave, the Barons did more damage than all the other machines combined. Now they're mere husks; fixed in place where they once fell... \n\nStill, their internals might hold the answer to keeping ARC at bay. So open one up, and bring me whatever is inside.",
+    "objectives": [
+      {
+        "text": "Loot a Baron Husk",
+        "done": false
+      }
+    ],
+    "grantedItems": [],
+    "rewards": [
+      {
+        "name": "Door Blocker",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/door_blocker.webp",
+        "value": 270,
+        "type": "quick use"
+      },
+      {
+        "name": "Li'l Smoke Grenade",
+        "amount": 3,
+        "icon": "https://ardb.app/static/items/icons/lil_smoke_grenade.webp",
+        "value": 300,
+        "type": "quick use"
+      }
+    ],
+    "status": "active",
+    "notes": "",
+    "sourceUrl": "https://ardb.app/db/quests/dormant_barons"
   }
 ]

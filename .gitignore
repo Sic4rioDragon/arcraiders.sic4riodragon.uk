@@ -1,1 +1,4 @@
 *.zip
+/clone
+/tools
+data/quests.backup.json

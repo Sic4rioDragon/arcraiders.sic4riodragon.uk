@@ -37,7 +37,7 @@ body {
   inset: 0;
   background:
     linear-gradient(90deg, rgba(6, 8, 15, 0.92), rgba(6, 8, 15, 0.77)),
-    url("https://sic4riodragon.uk/assets/general.png") center / cover no-repeat;
+    url("https://sic4riodragon.uk/assets/background.png") center / cover no-repeat;
   z-index: -2;
 }
 
@@ -76,16 +76,14 @@ a {
   gap: 12px;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
+.brand-logo {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
   border: 1px solid var(--line);
   border-radius: 50%;
-  font-weight: 900;
-  font-size: 12px;
   background: rgba(255, 255, 255, 0.06);
+  padding: 6px;
 }
 
 .brand strong {
@@ -530,12 +528,47 @@ select {
   color: var(--muted);
 }
 
+.item-card {
+  min-height: 96px;
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 10px;
+  place-items: center;
+  text-align: left;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+}
+
+.item-card:has(:only-child) {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.item-icon {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
 .achievement-summary {
   display: grid;
   grid-template-columns: 260px 1fr;
   gap: 18px;
   align-items: center;
   margin-bottom: 18px;
+}
+
+.data-credit {
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.data-credit a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .progress-shell {
@@ -643,4 +676,33 @@ select {
     width: 56px;
     height: 56px;
   }
+}
+.item-card {
+  min-height: 96px;
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+}
+
+.item-card:not(:has(img)) {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.item-icon {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.item-card small {
+  display: block;
+  color: var(--muted);
+  margin-top: 3px;
 }

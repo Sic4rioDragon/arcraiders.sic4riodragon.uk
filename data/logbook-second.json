@@ -1,0 +1,142 @@
+{
+  "resources": [],
+  "stations": [
+    {
+      "name": "Explosives Station II",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Synthesized Fuel",
+          "current": 0,
+          "needed": 3
+        },
+        {
+          "name": "Crude Explosives",
+          "current": 12,
+          "needed": 5
+        },
+        {
+          "name": "Pop Trigger",
+          "current": 1,
+          "needed": 5
+        }
+      ]
+    },
+    {
+      "name": "Gear Bench II",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Power Cable",
+          "current": 1,
+          "needed": 3
+        },
+        {
+          "name": "Electrical Components",
+          "current": 1,
+          "needed": 5
+        },
+        {
+          "name": "Hornet Driver",
+          "current": 0,
+          "needed": 5
+        }
+      ]
+    },
+    {
+      "name": "Refiner II",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Toaster",
+          "current": 0,
+          "needed": 3
+        },
+        {
+          "name": "ARC Motion Core",
+          "current": 0,
+          "needed": 5
+        },
+        {
+          "name": "Fireball Burner",
+          "current": 0,
+          "needed": 8
+        }
+      ]
+    },
+    {
+      "name": "Medical Lab I",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Fabric",
+          "current": 13,
+          "needed": 50
+        },
+        {
+          "name": "ARC Alloy",
+          "current": 5,
+          "needed": 6
+        }
+      ]
+    },
+    {
+      "name": "Utility Station I",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Plastic Parts",
+          "current": 32,
+          "needed": 50
+        },
+        {
+          "name": "ARC Alloy",
+          "current": 5,
+          "needed": 6
+        }
+      ]
+    },
+    {
+      "name": "Gunsmith II",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Rusted Tools",
+          "current": 2,
+          "needed": 3
+        },
+        {
+          "name": "Mechanical Components",
+          "current": 13,
+          "needed": 5
+        },
+        {
+          "name": "Wasp Driver",
+          "current": 3,
+          "needed": 8
+        }
+      ]
+    },
+    {
+      "name": "Scrappy IV",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Prickly Pear",
+          "current": 0,
+          "needed": 6
+        },
+        {
+          "name": "Olives",
+          "current": 0,
+          "needed": 6
+        },
+        {
+          "name": "Cat Bed",
+          "current": 0,
+          "needed": 1
+        }
+      ]
+    }
+  ]
+}

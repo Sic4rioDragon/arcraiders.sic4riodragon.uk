@@ -249,15 +249,13 @@
       "title": "A Vendetta Is Born",
       "description": "Get downed and knocked out while inside a return point.",
       "status": "locked",
-      "rarity": "54.5%",
-      "hidden": true
+      "rarity": "54.5%"
     },
     {
       "title": "Top of the World",
       "description": "Reach the top of the Launch Towers in Spaceport.",
       "status": "locked",
-      "rarity": "44.3%",
-      "hidden": true
+      "rarity": "44.3%"
     },
     {
       "title": "Same Song, Same Verse",
@@ -331,15 +329,13 @@
       "title": "Death From Above",
       "description": "Deal 50 damage to any enemy while atop a Rocketeer.",
       "status": "locked",
-      "rarity": "4.7%",
-      "hidden": true
+      "rarity": "4.7%"
     },
     {
       "title": "Just Dropping In",
       "description": "Get hit by a Supply Drop.",
       "status": "locked",
-      "rarity": "3.4%",
-      "hidden": true
+      "rarity": "3.4%"
     },
     {
       "title": "For Science!",
@@ -351,8 +347,7 @@
       "title": "Enemy of My Enemy",
       "description": "Get an encountered Raider downed by ARC enemies summoned with a Snitch Scanner.",
       "status": "locked",
-      "rarity": "0.7%",
-      "hidden": true
+      "rarity": "0.7%"
     }
   ]
 }
