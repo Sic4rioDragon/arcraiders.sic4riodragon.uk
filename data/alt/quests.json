@@ -1,17 +1,9 @@
 {
   "quests": [
     {
-      "id": "the-clean-dream",
+      "id": "sparks-fly",
       "status": "active",
       "objectives": [
-        {
-          "done": true,
-          "progress": {
-            "current": 4,
-            "total": 4
-          }
-        },
-        true,
         false
       ],
       "notes": ""
@@ -40,6 +32,21 @@
       "notes": ""
     },
     {
+      "id": "a-prime-specimen",
+      "status": "active",
+      "objectives": [
+        {
+          "done": true,
+          "progress": {
+            "current": 38,
+            "total": 2
+          }
+        },
+        false
+      ],
+      "notes": ""
+    },
+    {
       "id": "doctors-orders",
       "status": "active",
       "objectives": [
@@ -51,7 +58,15 @@
             "total": 2
           }
         },
-        false,
+        true,
+        true
+      ],
+      "notes": ""
+    },
+    {
+      "id": "keeping-an-eye-out",
+      "status": "active",
+      "objectives": [
         false
       ],
       "notes": ""
@@ -79,6 +94,14 @@
       "status": "active",
       "objectives": [
         false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "outstanding-balance",
+      "status": "active",
+      "objectives": [
         false
       ],
       "notes": ""
