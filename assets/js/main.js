@@ -1,16 +1,38 @@
 const byId = (id) => document.getElementById(id);
 
 const DATA_ROOT = (() => {
+  const explicitRoot = document.body.dataset.dataRoot;
+  if (explicitRoot !== undefined) return explicitRoot;
+
   const depth = location.pathname.split("/").filter(Boolean).length;
   if (depth === 0) return "";
   return "../".repeat(depth);
 })();
+
+const CORE_ROOT = (() => {
+  const fromBody = document.body.dataset.coreRoot;
+  if (fromBody) return fromBody.replace(/\/$/, "") + "/";
+
+  if (window.ARC_CORE_ROOT) {
+    return String(window.ARC_CORE_ROOT).replace(/\/$/, "") + "/";
+  }
+
+  return DATA_ROOT;
+})();
+
+function joinRoot(root, path) {
+  if (/^https?:\/\//i.test(path)) return path;
+  return `${root}${path.replace(/^\//, "")}`;
+}
 
 function accountId() {
   return document.body.dataset.account || "main";
 }
 
 function accountBase(account = accountId()) {
+  const explicitBase = document.body.dataset.basePath;
+  if (explicitBase !== undefined) return explicitBase.replace(/\/$/, "");
+
   if (account === "main") return "";
   return `/${account}`;
 }
@@ -19,9 +41,9 @@ function dataFile(name, account = accountId()) {
   return `data/${account}/${name}.json`;
 }
 
-async function loadJson(path, fallback = null) {
+async function loadJson(path, fallback = null, root = DATA_ROOT) {
   try {
-    const res = await fetch(`${DATA_ROOT}${path}`);
+    const res = await fetch(joinRoot(root, path));
     if (!res.ok) throw new Error(`Could not load ${path}`);
     return await res.json();
   } catch (err) {
@@ -183,9 +205,9 @@ function mergeQuest(coreQuest, progressQuest) {
 }
 
 async function loadAccountQuests() {
-  const coreQuests = await loadJson("data/quests_core.json", []);
+  const coreQuests = await loadJson("data/quests_core.json", [], CORE_ROOT);
   const accountQuestFile = normaliseAccountQuestFile(
-    await loadJson(dataFile("quests"), { quests: [] })
+    await loadJson(dataFile("quests"), { quests: [] }, DATA_ROOT)
   );
 
   const coreById = new Map();
@@ -417,7 +439,7 @@ async function homePage() {
   const logbook = await loadJson(dataFile("logbook"), { resources: [], stations: [] });
   const projects = await loadJson(dataFile("projects"), []);
 
-  document.title = `${profile.title || "ARC Raiders"} | Sic4rioDragon`;
+  document.title = `${profile.title || "ARC Raiders"} | ${profile.owner || "Sic4rioDragon"}`;
 
   setText("home-eyebrow", profile.subtitle || profile.label || "ARC Raiders");
   setText("home-title", profile.title || "ARC Raiders Tracker");
