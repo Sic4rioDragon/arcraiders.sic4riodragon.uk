@@ -32,13 +32,13 @@
       "notes": ""
     },
     {
-      "id": "a-prime-specimen",
+      "id": "a-primse-specimen",
       "status": "active",
       "objectives": [
         {
           "done": true,
           "progress": {
-            "current": 42,
+            "current": 38,
             "total": 2
           }
         },
@@ -47,10 +47,10 @@
       "notes": ""
     },
     {
-      "id": "doctors-orders",
+      "id": "doctor-s-orders",
       "status": "active",
       "objectives": [
-        false,
+        true,
         {
           "done": false,
           "progress": {
@@ -64,9 +64,41 @@
       "notes": ""
     },
     {
+      "id": "settled-in-full",
+      "status": "active",
+      "objectives": [
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "keeping-an-eye-out",
+      "status": "active",
+      "objectives": [
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "clamoring-for-attention",
+      "status": "active",
+      "objectives": [
+        false,
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
       "id": "dust-on-the-wires",
       "status": "active",
       "objectives": [
+        false,
+        false,
+        false,
+        false,
+        false,
         false
       ],
       "notes": ""
@@ -75,6 +107,16 @@
       "id": "in-my-image",
       "status": "active",
       "objectives": [
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "outstanding-balance",
+      "status": "active",
+      "objectives": [
+        false,
         false,
         false
       ],
@@ -100,6 +142,20 @@
             "total": 2
           }
         },
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "broken-monument",
+      "status": "active",
+      "objectives": [
+        false,
+        false,
+        false,
+        false,
+        false,
         false,
         false
       ],

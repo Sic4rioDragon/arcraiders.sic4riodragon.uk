@@ -1,53 +1,31 @@
 {
   "quests": [
     {
-      "id": "a-first-foothold",
-      "status": "active",
-      "objectives": [false, false, false, false],
-      "notes": ""
-    },
-    {
-      "id": "battening-down",
-      "status": "active",
-      "objectives": [false, false, false],
-      "notes": ""
-    },
-    {
       "id": "wakening-the-grid",
       "status": "active",
-      "objectives": [false],
+      "objectives": [
+        false
+      ],
       "notes": ""
     },
     {
-      "id": "shoring-up-defenses",
+      "id": "reduced-to-rubble",
       "status": "active",
       "objectives": [
-        {
-          "done": true,
-          "progress": {
-            "current": 5,
-            "total": 5
-          }
-        },
-        {
-          "done": true,
-          "progress": {
-            "current": 3,
-            "total": 3
-          }
-        },
         false,
-        true
+        false,
+        false,
+        false
       ],
       "notes": ""
     },
     {
       "id": "cold-storage",
       "status": "active",
-      "objectivesText": [
-        "Search any J Kozma Ventures container"
+      "objectives": [
+        false,
+        false
       ],
-      "objectives": [false],
       "notes": ""
     },
     {
@@ -55,9 +33,9 @@
       "status": "active",
       "objectives": [
         {
-          "done": false,
+          "done": true,
           "progress": {
-            "current": 0,
+            "current": 2,
             "total": 2
           }
         },
@@ -79,18 +57,6 @@
       "notes": ""
     },
     {
-      "id": "clamoring-for-attention",
-      "status": "active",
-      "objectives": [false, false, false],
-      "notes": ""
-    },
-    {
-      "id": "mixed-signals",
-      "status": "active",
-      "objectives": [false, false],
-      "notes": ""
-    },
-    {
       "id": "what-we-left-behind",
       "status": "active",
       "objectives": [
@@ -102,7 +68,7 @@
           }
         },
         false,
-        false
+        true
       ],
       "notes": ""
     }

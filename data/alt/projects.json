@@ -1,1 +1,232 @@
-[]
+[
+  {
+    "id": "avian-alarm",
+    "slug": "avian-alarm",
+    "title": "Avian Alarm",
+    "description": "Bird trap and signal project around Riven Tides.",
+    "locked": false,
+    "stages": [
+      {
+        "title": "Initial Flock Intake",
+        "locked": false,
+        "requirements": [
+          {
+            "name": "Lay a bird trap next to the buoys along the Seabed in Riven Tides",
+            "current": 1,
+            "needed": 1
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Preliminary Signal Birds",
+        "locked": false,
+        "requirements": [
+          {
+            "name": "Tick Pod",
+            "current": 0,
+            "needed": 7
+          },
+          {
+            "name": "Canister",
+            "current": 0,
+            "needed": 20
+          },
+          {
+            "name": "Moss",
+            "current": 0,
+            "needed": 12
+          },
+          {
+            "name": "\"Twilight Compass\" Ship Model",
+            "current": 0,
+            "needed": 5
+          }
+        ],
+        "rewards": [
+          {
+            "name": "Reward",
+            "amount": "?"
+          },
+          {
+            "name": "Reward",
+            "amount": 3
+          },
+          {
+            "name": "Raider Tokens",
+            "amount": 25
+          }
+        ]
+      },
+      {
+        "title": "Secondary Validation Birds",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Heightened Alert Birds",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Critical Warning Birds",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      }
+    ]
+  },
+  {
+    "id": "trophy-display",
+    "slug": "trophy-display",
+    "title": "Trophy Display",
+    "description": "Trophy and rare ARC component collection.",
+    "locked": false,
+    "stages": [
+      {
+        "title": "Roaming Threats",
+        "locked": false,
+        "requirements": [
+          {
+            "name": "Rusted Bolts",
+            "current": 0,
+            "needed": 3
+          },
+          {
+            "name": "Pop Trigger",
+            "current": 0,
+            "needed": 15
+          },
+          {
+            "name": "Tick Pod",
+            "current": 0,
+            "needed": 15
+          },
+          {
+            "name": "Surveyor Vault",
+            "current": 0,
+            "needed": 5
+          }
+        ],
+        "rewards": [
+          {
+            "name": "Reward",
+            "amount": 10
+          },
+          {
+            "name": "Reward",
+            "amount": 3
+          },
+          {
+            "name": "Raider Tokens",
+            "amount": 10
+          },
+          {
+            "name": "Reward",
+            "amount": "?"
+          }
+        ]
+      },
+      {
+        "title": "Soaring Menaces",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "Spotter Relay",
+            "current": 0,
+            "needed": 10
+          },
+          {
+            "name": "Expired Respirator",
+            "current": 0,
+            "needed": 3
+          },
+          {
+            "name": "Wasp Driver",
+            "current": 0,
+            "needed": 20
+          },
+          {
+            "name": "Hornet Driver",
+            "current": 0,
+            "needed": 15
+          }
+        ],
+        "rewards": [
+          {
+            "name": "Reward",
+            "amount": 3
+          },
+          {
+            "name": "Reward",
+            "amount": 3
+          },
+          {
+            "name": "Raider Tokens",
+            "amount": 20
+          },
+          {
+            "name": "Reward",
+            "amount": "?"
+          }
+        ]
+      },
+      {
+        "title": "Ferocious Foes",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Dominant Dangers",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Imposing Behemoths",
+        "locked": true,
+        "requirements": [
+          {
+            "name": "?",
+            "current": "?",
+            "needed": "?"
+          }
+        ],
+        "rewards": []
+      }
+    ]
+  }
+]

@@ -7,17 +7,17 @@
       "resources": [
         {
           "name": "Synthesized Fuel",
-          "current": 0,
+          "current": 1,
           "needed": 3
         },
         {
           "name": "Crude Explosives",
-          "current": 12,
+          "current": 55,
           "needed": 5
         },
         {
           "name": "Pop Trigger",
-          "current": 1,
+          "current": 0,
           "needed": 5
         }
       ]
@@ -28,17 +28,17 @@
       "resources": [
         {
           "name": "Power Cable",
-          "current": 1,
+          "current": 7,
           "needed": 3
         },
         {
           "name": "Electrical Components",
-          "current": 1,
+          "current": 9,
           "needed": 5
         },
         {
           "name": "Hornet Driver",
-          "current": 0,
+          "current": 4,
           "needed": 5
         }
       ]
@@ -49,71 +49,81 @@
       "resources": [
         {
           "name": "Toaster",
-          "current": 0,
-          "needed": 3
-        },
-        {
-          "name": "ARC Motion Core",
-          "current": 0,
-          "needed": 5
-        },
-        {
-          "name": "Fireball Burner",
-          "current": 0,
-          "needed": 8
-        }
-      ]
-    },
-    {
-      "name": "Medical Lab I",
-      "status": "upgrade",
-      "resources": [
-        {
-          "name": "Fabric",
-          "current": 13,
-          "needed": 50
-        },
-        {
-          "name": "ARC Alloy",
-          "current": 5,
-          "needed": 6
-        }
-      ]
-    },
-    {
-      "name": "Utility Station I",
-      "status": "upgrade",
-      "resources": [
-        {
-          "name": "Plastic Parts",
-          "current": 32,
-          "needed": 50
-        },
-        {
-          "name": "ARC Alloy",
-          "current": 5,
-          "needed": 6
-        }
-      ]
-    },
-    {
-      "name": "Gunsmith II",
-      "status": "upgrade",
-      "resources": [
-        {
-          "name": "Rusted Tools",
           "current": 2,
           "needed": 3
         },
         {
-          "name": "Mechanical Components",
-          "current": 13,
+          "name": "ARC Motion Core",
+          "current": 7,
           "needed": 5
         },
         {
-          "name": "Wasp Driver",
+          "name": "Fireball Burner",
           "current": 3,
           "needed": 8
+        }
+      ]
+    },
+    {
+      "name": "Utility Station II",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Damaged Heat Sink",
+          "current": 0,
+          "needed": 2
+        },
+        {
+          "name": "Electrical Components",
+          "current": 9,
+          "needed": 5
+        },
+        {
+          "name": "Snitch Scanner",
+          "current": 1,
+          "needed": 6
+        }
+      ]
+    },
+    {
+      "name": "Medical Lab II",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Cracked Bioscanner",
+          "current": 0,
+          "needed": 2
+        },
+        {
+          "name": "Durable Cloth",
+          "current": 4,
+          "needed": 5
+        },
+        {
+          "name": "Tick Pod",
+          "current": 0,
+          "needed": 8
+        }
+      ]
+    },
+    {
+      "name": "Gunsmith III",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Rusted Gear",
+          "current": 1,
+          "needed": 3
+        },
+        {
+          "name": "Advanced Mechanical Components",
+          "current": 5,
+          "needed": 5
+        },
+        {
+          "name": "Sentinel Firing Core",
+          "current": 0,
+          "needed": 4
         }
       ]
     },
@@ -123,7 +133,7 @@
       "resources": [
         {
           "name": "Prickly Pear",
-          "current": 0,
+          "current": 3,
           "needed": 6
         },
         {

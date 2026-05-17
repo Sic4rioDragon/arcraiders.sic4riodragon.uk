@@ -1,22 +1,69 @@
 {
-  "resources": [
-    {
-      "name": "Industrial Battery",
-      "current": 0,
-      "needed": 3
-    },
-    {
-      "name": "Advanced Electrical Components",
-      "current": 5,
-      "needed": 5
-    },
-    {
-      "name": "Bastion Cell",
-      "current": 4,
-      "needed": 6
-    }
-  ],
+  "resources": [],
   "stations": [
+    {
+      "name": "Scrappy IV",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Prickly Pear",
+          "current": 5,
+          "needed": 6
+        },
+        {
+          "name": "Olives",
+          "current": 0,
+          "needed": 6
+        },
+        {
+          "name": "Cat Bed",
+          "current": 1,
+          "needed": 1
+        }
+      ]
+    },
+    {
+      "name": "Gunsmith III",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Rusted Gear",
+          "current": 0,
+          "needed": 3
+        },
+        {
+          "name": "Advanced Mechanical Components",
+          "current": 6,
+          "needed": 5
+        },
+        {
+          "name": "Sentinel Firing Core",
+          "current": 4,
+          "needed": 4
+        }
+      ]
+    },
+    {
+      "name": "Gear Bench III",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Industrial Battery",
+          "current": 0,
+          "needed": 3
+        },
+        {
+          "name": "Advanced Electrical Components",
+          "current": 5,
+          "needed": 5
+        },
+        {
+          "name": "Bastion Cell",
+          "current": 4,
+          "needed": 6
+        }
+      ]
+    },
     {
       "name": "Explosives Station III",
       "status": "upgrade",
@@ -33,7 +80,7 @@
         },
         {
           "name": "Rocketeer Driver",
-          "current": 2,
+          "current": 3,
           "needed": 3
         }
       ]
