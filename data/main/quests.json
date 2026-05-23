@@ -1,20 +1,22 @@
 {
   "quests": [
     {
-      "id": "wakening-the-grid",
+      "id": "a-primse-specimen",
+      "title": "A Prime Specimen",
+      "area": "The Blue Gate",
       "status": "active",
-      "objectives": [
-        false
+      "objectivesText": [
+        "(Optional) Obtain 2 ARC Powercells",
+        "Interact with any ARC Deforester"
       ],
-      "notes": ""
-    },
-    {
-      "id": "reduced-to-rubble",
-      "status": "active",
       "objectives": [
-        false,
-        false,
-        false,
+        {
+          "done": true,
+          "progress": {
+            "current": 9,
+            "total": 2
+          }
+        },
         false
       ],
       "notes": ""
@@ -23,29 +25,23 @@
       "id": "cold-storage",
       "status": "active",
       "objectives": [
-        false,
         false
       ],
       "notes": ""
     },
     {
-      "id": "medical-merchandise",
+      "id": "celeste-s-journals",
+      "title": "Celeste's Journals",
+      "area": "Dam Battlegrounds",
       "status": "active",
+      "objectivesText": [
+        "Retrieve Celeste's Journals from the South Swamp Outpost",
+        "Retrieve Celeste's Journals from Raider Outpost East",
+        "Deliver 2 Journals to Celeste"
+      ],
       "objectives": [
-        {
-          "done": true,
-          "progress": {
-            "current": 2,
-            "total": 2
-          }
-        },
-        {
-          "done": false,
-          "progress": {
-            "current": 0,
-            "total": 3
-          }
-        },
+        false,
+        false,
         {
           "done": false,
           "progress": {
@@ -57,18 +53,59 @@
       "notes": ""
     },
     {
-      "id": "what-we-left-behind",
+      "id": "keeping-an-eye-out",
       "status": "active",
       "objectives": [
-        {
-          "done": false,
-          "progress": {
-            "current": 0,
-            "total": 2
-          }
-        },
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "after-rain-comes",
+      "title": "After Rain Comes",
+      "area": "Buried City",
+      "status": "active",
+      "objectivesText": [
+        "Find the flooded solar panels nearby the Grandioso Apartments"
+      ],
+      "objectives": [
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "the-major-s-footlocker",
+      "title": "The Major's Footlocker",
+      "area": "Dam Battlegrounds",
+      "status": "active",
+      "objectivesText": [
+        "Search for Major Aiva's mementos in the apartments northwest of The Dam"
+      ],
+      "objectives": [
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "outstanding-balance",
+      "status": "active",
+      "objectives": [
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "untended-garden",
+      "title": "Untended Garden",
+      "area": "Dam Battlegrounds",
+      "status": "active",
+      "objectivesText": [
+        "Go to the Hydroponic Dome Complex",
+        "Access the data archive in one of the domes"
+      ],
+      "objectives": [
         false,
-        true
+        false
       ],
       "notes": ""
     }

@@ -2,38 +2,17 @@
   "resources": [],
   "stations": [
     {
-      "name": "Scrappy IV",
-      "status": "upgrade",
-      "resources": [
-        {
-          "name": "Prickly Pear",
-          "current": 5,
-          "needed": 6
-        },
-        {
-          "name": "Olives",
-          "current": 0,
-          "needed": 6
-        },
-        {
-          "name": "Cat Bed",
-          "current": 1,
-          "needed": 1
-        }
-      ]
-    },
-    {
       "name": "Gunsmith III",
       "status": "upgrade",
       "resources": [
         {
           "name": "Rusted Gear",
-          "current": 0,
+          "current": 1,
           "needed": 3
         },
         {
           "name": "Advanced Mechanical Components",
-          "current": 6,
+          "current": 21,
           "needed": 5
         },
         {
@@ -44,65 +23,71 @@
       ]
     },
     {
-      "name": "Gear Bench III",
-      "status": "upgrade",
-      "resources": [
-        {
-          "name": "Industrial Battery",
-          "current": 0,
-          "needed": 3
-        },
-        {
-          "name": "Advanced Electrical Components",
-          "current": 5,
-          "needed": 5
-        },
-        {
-          "name": "Bastion Cell",
-          "current": 4,
-          "needed": 6
-        }
-      ]
-    },
-    {
-      "name": "Explosives Station III",
-      "status": "upgrade",
-      "resources": [
-        {
-          "name": "Laboratory Reagents",
-          "current": 0,
-          "needed": 3
-        },
-        {
-          "name": "Explosive Compound",
-          "current": 9,
-          "needed": 5
-        },
-        {
-          "name": "Rocketeer Driver",
-          "current": 3,
-          "needed": 3
-        }
-      ]
-    },
-    {
       "name": "Refiner III",
       "status": "upgrade",
       "resources": [
         {
           "name": "Motor",
-          "current": 1,
+          "current": 3,
           "needed": 3
         },
         {
           "name": "ARC Circuitry",
-          "current": 10,
+          "current": 24,
           "needed": 10
         },
         {
           "name": "Bombardier Cell",
           "current": 2,
           "needed": 6
+        }
+      ]
+    },
+    {
+      "name": "Medical Lab III",
+      "status": "upgrade",
+      "resources": [
+        {
+          "name": "Rusted Shut Medical Kit",
+          "current": 2,
+          "needed": 3
+        },
+        {
+          "name": "Antiseptic",
+          "current": 14,
+          "needed": 8
+        },
+        {
+          "name": "Surveyor Vault",
+          "current": 5,
+          "needed": 5
+        }
+      ]
+    },
+    {
+      "name": "Avian Alarm",
+      "status": "project",
+      "resources": [
+        {
+          "name": "Rusted Tools",
+          "current": 0,
+          "needed": 3
+        }
+      ]
+    },
+    {
+      "name": "Trophy Display",
+      "status": "project",
+      "resources": [
+        {
+          "name": "Spotter Relay",
+          "current": 0,
+          "needed": 10
+        },
+        {
+          "name": "Expired Respirator",
+          "current": 0,
+          "needed": 3
         }
       ]
     }

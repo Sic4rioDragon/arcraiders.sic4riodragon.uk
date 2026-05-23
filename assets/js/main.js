@@ -337,12 +337,16 @@ function renderQuestDetail(q) {
 }
 
 function projectCard(project) {
+  const totalStages = (project.stages || []).length;
+  const completedStages = (project.stages || []).filter(stage => stage.completed).length;
+  const progressLabel = project.progressLabel || `${completedStages}/${totalStages}`;
+
   return `
     <a class="project-card ${project.locked ? "locked" : ""}" href="${projectUrl(project)}">
       <div>
         <div class="meta">
           <span class="badge">${project.locked ? "locked" : "active"}</span>
-          <span class="badge">${(project.stages || []).length} stages</span>
+          <span class="badge">${progressLabel}</span>
         </div>
         <h3>${project.title}</h3>
         <p>${project.description || ""}</p>
@@ -356,9 +360,11 @@ function projectStageTabs(project, activeStage) {
     <div class="stage-tabs">
       ${(project.stages || []).map((stage, index) => {
         const stageNumber = index + 1;
+        const label = stage.completed ? "✓" : stage.locked ? "🔒" : stageNumber;
+
         return `
           <a class="${stageNumber === activeStage ? "active" : ""}" href="${projectUrl(project, stageNumber)}">
-            ${stage.locked ? "🔒" : stageNumber}
+            ${label}
           </a>
         `;
       }).join("")}

@@ -5,10 +5,12 @@
     "title": "Avian Alarm",
     "description": "Bird trap and signal project around Riven Tides.",
     "locked": false,
+    "progressLabel": "3/5",
     "stages": [
       {
         "title": "Initial Flock Intake",
         "locked": false,
+        "completed": true,
         "requirements": [
           {
             "name": "Lay a bird trap next to the buoys along the Seabed in Riven Tides",
@@ -30,6 +32,7 @@
       {
         "title": "Preliminary Signal Birds",
         "locked": false,
+        "completed": true,
         "requirements": [
           {
             "name": "Tick Pod",
@@ -69,26 +72,27 @@
       },
       {
         "title": "Secondary Validation Birds",
-        "locked": true,
+        "locked": false,
+        "completed": false,
         "requirements": [
           {
             "name": "Comet Igniter",
-            "current": 0,
+            "current": 3,
             "needed": 3
           },
           {
             "name": "Fertilizer",
-            "current": 0,
+            "current": 10,
             "needed": 10
           },
           {
             "name": "Rusted Tools",
-            "current": 0,
+            "current": 5,
             "needed": 8
           },
           {
             "name": "\"Velocity\" Ship Model",
-            "current": 0,
+            "current": 5,
             "needed": 5
           }
         ],
@@ -197,12 +201,14 @@
     "id": "expedition",
     "slug": "expedition",
     "title": "Expedition",
-    "description": "Preparation project for expedition progress.",
+    "description": "Your caravan is stocked and ready. When the departure window opens, you can earn additional bonuses and sign your Raider up to leave the Rust Belt for good.",
     "locked": false,
+    "progressLabel": "6/6",
     "stages": [
       {
         "title": "Foundation",
         "locked": false,
+        "completed": true,
         "requirements": [
           {
             "name": "Metal Parts",
@@ -221,7 +227,7 @@
           },
           {
             "name": "Steel Spring",
-            "current": 13,
+            "current": 15,
             "needed": 15
           }
         ],
@@ -229,26 +235,27 @@
       },
       {
         "title": "Core Systems",
-        "locked": true,
+        "locked": false,
+        "completed": true,
         "requirements": [
           {
             "name": "Durable Cloth",
-            "current": 0,
+            "current": 35,
             "needed": 35
           },
           {
             "name": "Wires",
-            "current": 0,
+            "current": 30,
             "needed": 30
           },
           {
             "name": "Electrical Components",
-            "current": 0,
+            "current": 30,
             "needed": 30
           },
           {
             "name": "Cooling Fan",
-            "current": 0,
+            "current": 5,
             "needed": 5
           }
         ],
@@ -256,26 +263,27 @@
       },
       {
         "title": "Framework",
-        "locked": true,
+        "locked": false,
+        "completed": true,
         "requirements": [
           {
             "name": "Light Bulb",
-            "current": 0,
+            "current": 5,
             "needed": 5
           },
           {
             "name": "Battery",
-            "current": 0,
+            "current": 30,
             "needed": 30
           },
           {
             "name": "Sensors",
-            "current": 0,
+            "current": 20,
             "needed": 20
           },
           {
             "name": "Exodus Modules",
-            "current": 0,
+            "current": 1,
             "needed": 1
           }
         ],
@@ -283,26 +291,27 @@
       },
       {
         "title": "Outfitting",
-        "locked": true,
+        "locked": false,
+        "completed": true,
         "requirements": [
           {
             "name": "Humidifier",
-            "current": 0,
+            "current": 5,
             "needed": 5
           },
           {
             "name": "Advanced Electrical Components",
-            "current": 0,
+            "current": 5,
             "needed": 5
           },
           {
             "name": "Magnetic Accelerator",
-            "current": 0,
+            "current": 3,
             "needed": 3
           },
           {
             "name": "Leaper Pulse Unit",
-            "current": 0,
+            "current": 3,
             "needed": 3
           }
         ],
@@ -310,27 +319,41 @@
       },
       {
         "title": "Load Stage",
-        "locked": true,
+        "locked": false,
+        "completed": true,
         "requirements": [
           {
             "name": "Combat Items",
-            "current": 0,
+            "current": 250000,
             "needed": 250000
           },
           {
             "name": "Survival Items",
-            "current": 0,
+            "current": 100000,
             "needed": 100000
           },
           {
             "name": "Provisions",
-            "current": 0,
+            "current": 180000,
             "needed": 180000
           },
           {
             "name": "Materials",
-            "current": 0,
+            "current": 300000,
             "needed": 300000
+          }
+        ],
+        "rewards": []
+      },
+      {
+        "title": "Sign Up For Departure",
+        "locked": false,
+        "completed": true,
+        "requirements": [
+          {
+            "name": "Sign up for departure",
+            "current": 1,
+            "needed": 1
           }
         ],
         "rewards": []
@@ -343,10 +366,12 @@
     "title": "Trophy Display",
     "description": "Trophy and rare ARC component collection.",
     "locked": false,
+    "progressLabel": "2/5",
     "stages": [
       {
         "title": "Roaming Threats",
         "locked": false,
+        "completed": true,
         "requirements": [
           {
             "name": "Rusted Bolts",
@@ -355,17 +380,17 @@
           },
           {
             "name": "Pop Trigger",
-            "current": 6,
+            "current": 15,
             "needed": 15
           },
           {
             "name": "Tick Pod",
-            "current": 7,
+            "current": 15,
             "needed": 15
           },
           {
             "name": "Surveyor Vault",
-            "current": 0,
+            "current": 5,
             "needed": 5
           }
         ],
@@ -390,7 +415,8 @@
       },
       {
         "title": "Soaring Menaces",
-        "locked": true,
+        "locked": false,
+        "completed": false,
         "requirements": [
           {
             "name": "Spotter Relay",
@@ -404,12 +430,12 @@
           },
           {
             "name": "Wasp Driver",
-            "current": 0,
+            "current": 20,
             "needed": 20
           },
           {
             "name": "Hornet Driver",
-            "current": 0,
+            "current": 15,
             "needed": 15
           }
         ],
