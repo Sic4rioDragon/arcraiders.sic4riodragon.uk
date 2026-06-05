@@ -65,17 +65,6 @@
       ]
     },
     {
-      "name": "Avian Alarm",
-      "status": "project",
-      "resources": [
-        {
-          "name": "Rusted Tools",
-          "current": 0,
-          "needed": 3
-        }
-      ]
-    },
-    {
       "name": "Trophy Display",
       "status": "project",
       "resources": [

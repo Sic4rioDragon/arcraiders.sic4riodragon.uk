@@ -142,6 +142,19 @@ function stationCard(station) {
   `;
 }
 
+function trackedGroupCard(group) {
+  return stationCard({
+    name: group.name,
+    status: "tracked",
+    resources: group.items || []
+  });
+}
+
+async function loadTrackedGroups() {
+  const data = await loadJson(dataFile("tracked"), { groups: [] }, DATA_ROOT);
+  return data && Array.isArray(data.groups) ? data.groups : [];
+}
+
 function normaliseAccountQuestFile(data) {
   if (Array.isArray(data)) {
     return {
@@ -189,19 +202,46 @@ function mergeObjective(coreObjective, progressObjective) {
   return merged;
 }
 
+function makeCustomQuest(progressQuest) {
+  const objectiveTexts = progressQuest.objectivesText || [];
+
+  return {
+    id: progressQuest.id,
+    slug: progressQuest.slug || progressQuest.id,
+    title: progressQuest.title || progressQuest.id,
+    trader: progressQuest.trader || "",
+    area: progressQuest.area || "Unknown",
+    description: progressQuest.description || "",
+    objectives: objectiveTexts.map((text, index) => {
+      return mergeObjective({ text }, progressQuest.objectives?.[index]);
+    }),
+    grantedItems: progressQuest.grantedItems || [],
+    rewards: progressQuest.rewards || [],
+    status: progressQuest.status || "active",
+    notes: progressQuest.notes || "",
+    sourceUrl: progressQuest.sourceUrl || ""
+  };
+}
+
 function mergeQuest(coreQuest, progressQuest) {
   if (!progressQuest) return null;
 
-  const merged = {
+  if (!coreQuest) {
+    return makeCustomQuest(progressQuest);
+  }
+
+  const coreObjectives = progressQuest.objectivesText
+    ? progressQuest.objectivesText.map(text => ({ text }))
+    : (coreQuest.objectives || []);
+
+  return {
     ...coreQuest,
     status: progressQuest.status || "active",
     notes: progressQuest.notes || "",
-    objectives: (coreQuest.objectives || []).map((objective, index) => {
+    objectives: coreObjectives.map((objective, index) => {
       return mergeObjective(objective, progressQuest.objectives?.[index]);
     })
   };
-
-  return merged;
 }
 
 async function loadAccountQuests() {
@@ -218,11 +258,8 @@ async function loadAccountQuests() {
   }
 
   return accountQuestFile.quests
-    .map((progressQuest) => {
-      const coreQuest = coreById.get(progressQuest.id);
-      return coreQuest ? mergeQuest(coreQuest, progressQuest) : null;
-    })
-    .filter(Boolean);
+  .map((progressQuest) => mergeQuest(coreById.get(progressQuest.id), progressQuest))
+  .filter(Boolean);
 }
 
 function questCard(q) {
@@ -443,6 +480,7 @@ async function homePage() {
     lockedAchievements: []
   });
   const logbook = await loadJson(dataFile("logbook"), { resources: [], stations: [] });
+  const trackedGroups = await loadTrackedGroups();
   const projects = await loadJson(dataFile("projects"), []);
 
   document.title = `${profile.title || "ARC Raiders"} | ${profile.owner || "Sic4rioDragon"}`;
@@ -459,7 +497,13 @@ async function homePage() {
   setText("stat-projects", projects.length);
 
   setHtml("home-quests", quests.slice(0, 6).map(q => miniQuest(q)).join("") || `<p>No quests listed.</p>`);
-  setHtml("home-resources", (logbook.resources || []).slice(0, 6).map(resourceRow).join("") || `<p>No tracked resources listed.</p>`);
+  const homeResources = [
+  ...(logbook.resources || []).map(resourceRow),
+  ...trackedGroups.flatMap(group => (group.items || []).map(item => resourceRow(item)))
+  ].slice(0, 12).join("");
+
+  setHtml("home-resources", homeResources || `<p>No tracked resources listed.</p>`);
+
   setHtml("home-projects", projects.slice(0, 3).map(projectCard).join("") || `<p>No projects listed.</p>`);
 }
 
@@ -516,7 +560,7 @@ async function questsPage() {
 async function logbookPage() {
   const quests = await loadAccountQuests();
   const logbook = await loadJson(dataFile("logbook"), { resources: [], stations: [] });
-
+  const trackedGroups = await loadTrackedGroups();
   const active = quests.filter(q => q.status === "active");
 
   setText("logbook-quest-count", `${active.length} active`);
@@ -524,7 +568,8 @@ async function logbookPage() {
 
   const resourceHtml = [
     ...(logbook.resources || []).map(resourceRow),
-    ...(logbook.stations || []).map(stationCard)
+    ...(logbook.stations || []).map(stationCard),
+    ...trackedGroups.map(trackedGroupCard)
   ].join("");
 
   setHtml("logbook-resources", resourceHtml || `<p>No tracked resources listed.</p>`);
