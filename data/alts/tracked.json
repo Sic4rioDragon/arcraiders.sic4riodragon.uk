@@ -1,0 +1,549 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-05T07:40:37.051752+00:00",
+  "groups": [
+    {
+      "name": "SCRAPPY IV",
+      "items": [
+        {
+          "name": "Prickly Pear",
+          "current": 0,
+          "needed": 6,
+          "done": false
+        },
+        {
+          "name": "Olives",
+          "current": 8,
+          "needed": 6,
+          "done": true
+        },
+        {
+          "name": "Cat Bed",
+          "current": 0,
+          "needed": 1,
+          "done": false
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_3.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051704+00:00"
+    },
+    {
+      "name": "EXPEDITION",
+      "items": [
+        {
+          "name": "Metal Parts",
+          "current": 130,
+          "needed": 150,
+          "done": false
+        },
+        {
+          "name": "Rubber Parts",
+          "current": 93,
+          "needed": 200,
+          "done": false
+        },
+        {
+          "name": "ARC Alloy",
+          "current": 2,
+          "needed": 80,
+          "done": false
+        },
+        {
+          "name": "Steel Spring",
+          "current": 0,
+          "needed": 15,
+          "done": false
+        }
+      ],
+      "sourceFiles": [
+        "stashalt2_tracked_1.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051576+00:00"
+    },
+    {
+      "name": "REFINER Il",
+      "items": [
+        {
+          "name": "Toaster",
+          "current": 0,
+          "needed": 3,
+          "done": false
+        }
+      ],
+      "sourceFiles": [
+        "stashalt1_tracked_1.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051585+00:00"
+    },
+    {
+      "name": "ARC Motion Core V5",
+      "items": [
+        {
+          "name": "Fireball Burner",
+          "current": 0,
+          "needed": 8,
+          "done": false
+        }
+      ],
+      "sourceFiles": [
+        "stashalt1_tracked_1.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051594+00:00"
+    },
+    {
+      "name": "4 MEDIUM SHIELD vy)",
+      "items": [
+        {
+          "name": "Battery",
+          "current": 5,
+          "needed": 4,
+          "done": true
+        },
+        {
+          "name": "ARC Circuitry",
+          "current": 21,
+          "needed": 1,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_9.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051602+00:00"
+    },
+    {
+      "name": "COMBAT MK 3 (AGGRESSIVE)",
+      "items": [
+        {
+          "name": "Advanced Electrical Components",
+          "current": 13,
+          "needed": 2,
+          "done": true
+        },
+        {
+          "name": "Processor",
+          "current": 44,
+          "needed": 3,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_9.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051609+00:00"
+    },
+    {
+      "name": "OSPREY",
+      "items": [
+        {
+          "name": "Advanced Mechanical Components",
+          "current": 8,
+          "needed": 2,
+          "done": true
+        },
+        {
+          "name": "Medium Gun Parts",
+          "current": 53,
+          "needed": 3,
+          "done": true
+        },
+        {
+          "name": "Wires",
+          "current": 20,
+          "needed": 7,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_8.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051615+00:00"
+    },
+    {
+      "name": "MOD COMPONENTS",
+      "items": [
+        {
+          "name": "Steel Spring",
+          "current": 1,
+          "needed": 2,
+          "done": false
+        },
+        {
+          "name": "Mechanical Components",
+          "current": 102,
+          "needed": 2,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_8.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051621+00:00"
+    },
+    {
+      "name": "LOOTING MK 3(SURVIVOR)",
+      "items": [
+        {
+          "name": "& Advanced Electrical Components",
+          "current": 13,
+          "needed": 2,
+          "done": true
+        },
+        {
+          "name": "Processor",
+          "current": 44,
+          "needed": 3,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_8.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051628+00:00"
+    },
+    {
+      "name": "BOBCAT",
+      "items": [
+        {
+          "name": "Light un Parts",
+          "current": 25,
+          "needed": 3,
+          "done": true
+        },
+        {
+          "name": "Exodus Modules",
+          "current": 2,
+          "needed": 2,
+          "done": true
+        },
+        {
+          "name": "Magnetic Accelerator",
+          "current": 30,
+          "needed": 1,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_7.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051634+00:00"
+    },
+    {
+      "name": "RASCALI",
+      "items": [
+        {
+          "name": "Heavy Gun Parts",
+          "current": 41,
+          "needed": 3,
+          "done": true
+        },
+        {
+          "name": "Advanced Mechanical Components",
+          "current": 8,
+          "needed": 2,
+          "done": true
+        },
+        {
+          "name": "Canister",
+          "current": 12,
+          "needed": 5,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_7.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051639+00:00"
+    },
+    {
+      "name": "Queen Reactor 1",
+      "items": [
+        {
+          "name": "Magnetic Accelerator",
+          "current": 30,
+          "needed": 3,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_5.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051675+00:00"
+    },
+    {
+      "name": "BETTINA",
+      "items": [
+        {
+          "name": "Heavy Gun Parts",
+          "current": 41,
+          "needed": 3,
+          "done": true
+        },
+        {
+          "name": "Advanced Mechanical Components",
+          "current": 8,
+          "needed": 3,
+          "done": true
+        },
+        {
+          "name": "Canister",
+          "current": 12,
+          "needed": 3,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_6.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051655+00:00"
+    },
+    {
+      "name": "POWERED DESCENDER",
+      "items": [
+        {
+          "name": "Power Rod",
+          "current": 22,
+          "needed": 1,
+          "done": true
+        },
+        {
+          "name": "Turbine Compressor",
+          "current": 3,
+          "needed": 1,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_5.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051661+00:00"
+    },
+    {
+      "name": "RAIDER HATCH KEY",
+      "items": [
+        {
+          "name": "Advanced Electrical Components",
+          "current": 13,
+          "needed": 1,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_5.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051668+00:00"
+    },
+    {
+      "name": "fore",
+      "items": [
+        {
+          "name": "Complex Gun Parts",
+          "current": 10,
+          "needed": 3,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_5.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051681+00:00"
+    },
+    {
+      "name": "Pop Trigger C4",
+      "items": [
+        {
+          "name": "Tick Pod",
+          "current": 0,
+          "needed": 15,
+          "done": false
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_4.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051687+00:00"
+    },
+    {
+      "name": "TEMPEST I",
+      "items": [
+        {
+          "name": "Exodus Modules",
+          "current": 2,
+          "needed": 2,
+          "done": true
+        },
+        {
+          "name": "Medium Gun Parts",
+          "current": 53,
+          "needed": 3,
+          "done": true
+        },
+        {
+          "name": "Magnetic Accelerator",
+          "current": 30,
+          "needed": 1,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_4.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051693+00:00"
+    },
+    {
+      "name": "COMPONENTS",
+      "items": [
+        {
+          "name": "Steel Spring",
+          "current": 1,
+          "needed": 2,
+          "done": false
+        },
+        {
+          "name": "Mechanical Components",
+          "current": 102,
+          "needed": 2,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_3.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051698+00:00"
+    },
+    {
+      "name": "PHOTOELECTRIC CLOAK",
+      "items": [
+        {
+          "name": "Speaker Component",
+          "current": 0,
+          "needed": 4,
+          "done": false
+        },
+        {
+          "name": "Advanced Electrical Components",
+          "current": 13,
+          "needed": 2,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_2.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051710+00:00"
+    },
+    {
+      "name": "SNAP HOOK",
+      "items": [
+        {
+          "name": "Exodus Modules",
+          "current": 2,
+          "needed": 1,
+          "done": true
+        },
+        {
+          "name": "Rope",
+          "current": 0,
+          "needed": 3,
+          "done": false
+        },
+        {
+          "name": "Power Rod",
+          "current": 22,
+          "needed": 2,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_2.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051716+00:00"
+    },
+    {
+      "name": "ARC MOTION CORE",
+      "items": [
+        {
+          "name": "ARC Alloy",
+          "current": 87,
+          "needed": 8,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_2.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051722+00:00"
+    },
+    {
+      "name": "HULLCRACKER",
+      "items": [
+        {
+          "name": "Heavy Gun Parts",
+          "current": 41,
+          "needed": 3,
+          "done": true
+        },
+        {
+          "name": "Exodus Modules",
+          "current": 2,
+          "needed": 1,
+          "done": true
+        },
+        {
+          "name": "Magnetic Accelerator",
+          "current": 30,
+          "needed": 1,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_1.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051728+00:00"
+    },
+    {
+      "name": "MAGNETIC ACCELERATOR",
+      "items": [
+        {
+          "name": "Advanced Mechanical Components",
+          "current": 8,
+          "needed": 2,
+          "done": true
+        },
+        {
+          "name": "ARC Motion Core",
+          "current": 13,
+          "needed": 2,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_1.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051734+00:00"
+    },
+    {
+      "name": "ZIPLINE",
+      "items": [
+        {
+          "name": "Rope",
+          "current": 0,
+          "needed": 1,
+          "done": false
+        },
+        {
+          "name": "Mechanical Components",
+          "current": 102,
+          "needed": 1,
+          "done": true
+        }
+      ],
+      "sourceFiles": [
+        "crafting_tracked_1.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.051739+00:00"
+    }
+  ]
+}

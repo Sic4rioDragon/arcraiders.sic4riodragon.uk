@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-05T07:40:37.055394+00:00",
+  "groups": [
+    {
+      "name": "TROPHY DISPLAY",
+      "items": [
+        {
+          "name": "Geiger Counter",
+          "current": 0,
+          "needed": 3,
+          "done": false
+        }
+      ],
+      "sourceFiles": [
+        "main_tracked_1.PNG"
+      ],
+      "updatedAt": "2026-06-05T07:40:37.055378+00:00"
+    }
+  ]
+}

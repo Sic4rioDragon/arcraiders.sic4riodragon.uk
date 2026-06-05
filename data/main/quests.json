@@ -108,6 +108,59 @@
         false
       ],
       "notes": ""
+    },
+    {
+      "id": "turnabout",
+      "title": "Turnabout",
+      "area": "The Spaceport",
+      "status": "active",
+      "objectivesText": [
+        "Go to the North Trench Tower",
+        "Locate and upload the Blackmail Files to Celeste"
+      ],
+      "objectives": [
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "groundbreaking",
+      "title": "Groundbreaking",
+      "area": "Blue Gate",
+      "status": "active",
+      "objectivesText": [
+        "Enter the locked room at Pilgrim's Peak",
+        "Search the room for any construction research",
+        "Find the building pictured on the whiteboard",
+        "Photograph the abandoned housing project"
+      ],
+      "objectives": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "snap-and-salvage",
+      "title": "Snap And Salvage",
+      "area": "Stella Montis",
+      "status": "active",
+      "objectivesText": [
+        "Take a Photo of any of the Rovers in the Sandbox",
+        "Search the papers in the Security Checkpoint room by the Lobby",
+        "Deliver a Magnetron to Tian Wen",
+        "Deliver a Flow Controller to Tian Wen"
+      ],
+      "objectives": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "notes": ""
     }
   ]
 }

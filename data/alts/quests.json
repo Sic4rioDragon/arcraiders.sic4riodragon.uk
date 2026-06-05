@@ -1,0 +1,223 @@
+{
+  "quests": [
+    {
+      "id": "greasing-her-palms",
+      "title": "Greasing Her Palms",
+      "area": "Buried City, Dam Battlegrounds, The Spaceport",
+      "status": "active",
+      "objectivesText": [
+        "On Dam Battlegrounds, visit the Locked Room in the Water Treatment Control building",
+        "On Spaceport, scope out the rocket thrusters outside the Rocket Assembly",
+        "On Buried City, visit the barricaded area on floor 6 of the Space Travel Building"
+      ],
+      "objectives": [
+        false,
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "collision-course",
+      "title": "Collision Course",
+      "area": "Dam Battlegrounds, The Spaceport, Buried City, Blue Gate, Stella Montis, Riven Tides",
+      "status": "active",
+      "objectivesText": [
+        "Destroy a Comet",
+        "Deliver a Comet Igniter to Tian Wen"
+      ],
+      "objectives": [
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "dust-on-the-wires",
+      "title": "Dust On The Wires",
+      "area": "The Spaceport",
+      "status": "active",
+      "objectivesText": [
+        "Visit any Field Depot on the eastern side of the Spaceport",
+        "Use the Field Radio to transmit the scout group's last log to Shani",
+        "Interact with the terminal in the old Raider Tower north of the Maintenance Hangar",
+        "Find traces of the scout patrol near the Maintenance Hangar",
+        "Search the remains left by the scouts",
+        "Deliver the Scout Patrol Note to Shani"
+      ],
+      "objectives": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "what-goes-around",
+      "title": "What Goes Around",
+      "area": "Dam Battlegrounds, The Spaceport, Buried City, Blue Gate, Stella Montis, Riven Tides",
+      "status": "active",
+      "objectivesText": [
+        "Destroy any ARC enemy using a Fireball Burner"
+      ],
+      "objectives": [
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shoring-up-defenses",
+      "title": "Shoring Up Defenses",
+      "area": "Riven Tides",
+      "status": "active",
+      "objectivesText": [
+        "Destroy 5 Wasps",
+        "Destroy 3 Fireflies",
+        "Use 1 ARC Alloy to reinforce the Raider structure on top of any Stacking Yard crane",
+        "Board up shuttered windows in the hotel"
+      ],
+      "objectives": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "a-first-foothold",
+      "title": "A First Foothold",
+      "area": "Blue Gate",
+      "status": "active",
+      "objectivesText": [
+        "Stabilize the observation deck near the Ridgeline",
+        "Enable the comms terminal near the Olive Grove",
+        "Rotate the satellite dishes on the church roof, north of the Data Vault.",
+        "Nail down the roof plates on the Raider structure near Trapper's Glade"
+      ],
+      "objectives": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "battening-down",
+      "title": "Battening Down",
+      "area": "Riven Tides",
+      "status": "active",
+      "objectivesText": [
+        "Photograph the cracks forming in the seawall",
+        "Sample the shoreline near the hotel beach",
+        "Fix the leaking oil pipe in the northeast"
+      ],
+      "objectives": [
+        false,
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "in-my-image",
+      "title": "In My Image",
+      "area": "Stella Montis",
+      "status": "active",
+      "objectivesText": [
+        "Deploy into Stella Montis",
+        "Find and search 3 Androids"
+      ],
+      "objectives": [
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "the-league",
+      "title": "The League",
+      "area": "Dam Battlegrounds",
+      "status": "active",
+      "objectivesText": [
+        "Deliver a Deflated Football to Apollo",
+        "Deliver a Bicycle Pump to Apollo",
+        "On Dam Battlegrounds, photograph the goal by the Water Towers",
+        "On Buried City, photograph the football magazines in any kiosk"
+      ],
+      "objectives": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "settled-in-full",
+      "title": "Settled In Full",
+      "area": "Buried City",
+      "status": "active",
+      "objectivesText": [
+        "Destroy a Bastion",
+        "Deliver a Bastion Cell to Tian Wen"
+      ],
+      "objectives": [
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "keeping-the-memory",
+      "title": "Keeping The Memory",
+      "area": "Dam Battlegrounds",
+      "status": "active",
+      "objectivesText": [
+        "Reach the wreckage in the Formicai Hills",
+        "Search for the missing helmet",
+        "Return the helmet to the memorial"
+      ],
+      "objectives": [
+        false,
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "a-reveal-in-ruins",
+      "title": "A Reveal In Ruins",
+      "area": "Buried City",
+      "status": "active",
+      "objectivesText": [
+        "Search for an ESR Analyzer inside any pharmacy in Buried City",
+        "Deliver the ESR Analyzer to Lance"
+      ],
+      "objectives": [
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "eyes-on-the-prize",
+      "title": "Eyes On The Prize",
+      "area": "Buried City",
+      "status": "active",
+      "objectivesText": [
+        "Find the secluded roof terrace south-west of the Southern Station, look for blue tarps.",
+        "Rewire the solar panel using 3 Wires"
+      ],
+      "objectives": [
+        false,
+        false
+      ],
+      "notes": ""
+    }
+  ]
+}

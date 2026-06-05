@@ -3,3 +3,4 @@
 /tools
 data/quests.backup.json
 data/*/quests.full-backup.json
+data/ocr-review.json
